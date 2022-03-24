@@ -1,0 +1,26 @@
+{
+  "name": "@admiral-ds/icons",
+  "version": "1.0.0",
+  "author": "AdmiralDS team",
+  "license": "See license in ./LICENSE",
+  "files": [
+    "build",
+    "metadata.json"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "build": "node scripts/formatSvg.js && node scripts/createMetadata.js"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "devDependencies": {
+    "fs-extra": "^9.0.1",
+    "svgo": "^1.3.2"
+  }
+}
