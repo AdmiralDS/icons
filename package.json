@@ -5,7 +5,8 @@
   "license": "See license in ./LICENSE",
   "files": [
     "build",
-    "metadata.json"
+    "metadata.json",
+    "flags-metadata.json"
   ],
   "engines": {
     "node": ">=12"

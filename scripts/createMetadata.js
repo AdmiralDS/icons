@@ -1,6 +1,7 @@
 const path = require('path');
 
 const fse = require('fs-extra');
+const createFlagsMeta = require('./createFlagsMetadata')
 
 const BUILD_DIR = 'build';
 const METADATA_FILE = 'metadata.json';
@@ -17,6 +18,8 @@ const METADATA_FILE = 'metadata.json';
   });
 
   fse.writeJSONSync(METADATA_FILE, metadata, { spaces: 2 });
+
+  createFlagsMeta(`${BUILD_DIR}/flags`);
 
   function createCategoryMeta(categoryName) {
     const categoryMeta = [];
