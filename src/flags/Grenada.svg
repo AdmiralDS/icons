@@ -1,7 +1,7 @@
 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect y="4" width="28" height="20" rx="2" fill="white"/>
+<rect y="4" width="28" height="20" rx="3" fill="white"/>
 <mask id="mask0_17_5610" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
-<rect y="4" width="28" height="20" rx="2" fill="white"/>
+<rect y="4" width="28" height="20" rx="3" fill="white"/>
 </mask>
 <g mask="url(#mask0_17_5610)">
 <rect y="4" width="28" height="20" fill="#E42235"/>
@@ -10,7 +10,7 @@
 <rect x="2.66667" y="6.66666" width="22.6667" height="14.6667" fill="white"/>
 </mask>
 <g mask="url(#mask1_17_5610)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M4.39317 14.1318C4.77068 14.7359 5.31265 15.1347 5.81745 15.237C6.09536 15.2934 5.58654 14.0189 5.80827 13.8803C5.99746 13.7621 6.90772 14.822 6.98743 14.6008C7.17082 14.0921 7.06264 13.3716 6.65463 12.7187C6.0693 11.7819 6.04645 12.4002 4.46406 11.7291C4.62951 12.6888 3.80784 13.1951 4.39317 14.1318Z" fill="#FFD938"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.39317 14.1318C4.77068 14.7359 5.31265 15.1347 5.81745 15.237C6.09536 15.2934 5.58654 14.0189 5.80827 13.8803C5.99746 13.7621 6.90772 14.822 6.98743 14.6008C7.17082 14.0921 7.06264 13.3716 6.65463 12.7187C6.0693 11.7819 6.04645 12.4002 4.46406 11.7291C4.62951 12.6888 3.80784 13.1951 4.39317 14.1318V14.1318Z" fill="#FFD938"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M14 14L25.3333 6.66666H2.66667L14 14ZM14 14L2.66667 21.3333H25.3333L14 14Z" fill="#FFD93B"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M14 17.3333C15.841 17.3333 17.3333 15.8409 17.3333 14C17.3333 12.159 15.841 10.6667 14 10.6667C12.1591 10.6667 10.6667 12.159 10.6667 14C10.6667 15.8409 12.1591 17.3333 14 17.3333Z" fill="url(#paint0_linear_17_5610)"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M14 15.0284L12.4326 16.1574L13.0219 14.3178L11.4639 13.1759L13.3955 13.168L14 11.3333L14.6045 13.168L16.5362 13.1759L14.9781 14.3178L15.5674 16.1574L14 15.0284Z" fill="#FFD938"/>

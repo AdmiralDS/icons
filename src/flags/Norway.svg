@@ -1,7 +1,7 @@
 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="1.75" fill="white" stroke="#F5F5F5" stroke-width="0.5"/>
+<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="#F5F5F5" stroke-width="0.5"/>
 <mask id="mask0_17_4833" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="1.75" fill="white" stroke="white" stroke-width="0.5"/>
+<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="white" stroke-width="0.5"/>
 </mask>
 <g mask="url(#mask0_17_4833)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M8 4H0V12H8V4ZM12 4V12H28V4H12ZM28 16H12V24H28V16ZM8 24V16H0V24H8Z" fill="#F14247"/>
