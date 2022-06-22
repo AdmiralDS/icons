@@ -1,5 +1,4 @@
 const fse = require('fs-extra');
-const {NAMES} = require("./constants/countries");
 const CountryNames = require("./constants/country-names")
 const CountryRusNames = require("./constants/country-rus-names")
 
@@ -10,11 +9,13 @@ module.exports = function (buildDir) {
 
   const files = fse.readdirSync(buildDir);
 
+  const countryNames = Object.values(CountryNames);
+
   const data = files
       .map((key) => {
         const path = `@admiral-ds/icons/build/flags/${key}`;
         const countryName = key.match(/(\w+).svg$/);
-        const country = countryName && countryName[1] && NAMES.find(name => name === countryName[1])
+        const country = countryName && countryName[1] && countryNames.find(name => name === countryName[1])
         if (country) {
           const item = Object.entries(CountryNames).find(([code, name]) => name === country);
           const isoCode = item && item[0];

@@ -53,6 +53,7 @@ const SOURCE_DIR = 'src';
       .replace(/\s[a-z]/g, (match) => match.toUpperCase())
       .replace(/^[a-z]/, (match) => match.toUpperCase())
       .replace(/\s/g, '')
-      .replace(/-/g, '');
+      .replace(/-/g, '')
+      .replace(/'/g, '');
   }
 })();

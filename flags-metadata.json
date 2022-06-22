@@ -24,6 +24,12 @@
     "rusName": "Алжир"
   },
   {
+    "path": "@admiral-ds/icons/build/flags/AmericanSamoa.svg",
+    "isoCode": "ASM",
+    "name": "AmericanSamoa",
+    "rusName": "Американское Самоа"
+  },
+  {
     "path": "@admiral-ds/icons/build/flags/Andorra.svg",
     "isoCode": "AND",
     "name": "Andorra",
@@ -42,16 +48,16 @@
     "rusName": "Ангилья"
   },
   {
+    "path": "@admiral-ds/icons/build/flags/Antarctica.svg",
+    "isoCode": "ATA",
+    "name": "Antarctica",
+    "rusName": "Антарктида"
+  },
+  {
     "path": "@admiral-ds/icons/build/flags/AntiguaAndBarbuda.svg",
     "isoCode": "ATG",
     "name": "AntiguaAndBarbuda",
     "rusName": "Антигуа и Барбуда"
-  },
-  {
-    "path": "@admiral-ds/icons/build/flags/ArabEmirates.svg",
-    "isoCode": "ARE",
-    "name": "ArabEmirates",
-    "rusName": "Объединенные Арабские Эмираты"
   },
   {
     "path": "@admiral-ds/icons/build/flags/Argentina.svg",
@@ -156,6 +162,12 @@
     "rusName": "Боливия"
   },
   {
+    "path": "@admiral-ds/icons/build/flags/Bonaire.svg",
+    "isoCode": "BES",
+    "name": "Bonaire",
+    "rusName": "Бонэйр"
+  },
+  {
     "path": "@admiral-ds/icons/build/flags/BosniaAndHerzegovina.svg",
     "isoCode": "BIH",
     "name": "BosniaAndHerzegovina",
@@ -168,10 +180,22 @@
     "rusName": "Ботсвана"
   },
   {
+    "path": "@admiral-ds/icons/build/flags/BouvetIsland.svg",
+    "isoCode": "BVT",
+    "name": "BouvetIsland",
+    "rusName": "Остров Буве"
+  },
+  {
     "path": "@admiral-ds/icons/build/flags/Brazil.svg",
     "isoCode": "BRA",
     "name": "Brazil",
     "rusName": "Бразилия"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/BritishIndianOceanTerritory.svg",
+    "isoCode": "IOT",
+    "name": "BritishIndianOceanTerritory",
+    "rusName": "Британская территория в Индийском океане"
   },
   {
     "path": "@admiral-ds/icons/build/flags/BritishVirginIslands.svg",
@@ -180,9 +204,9 @@
     "rusName": "Британские Виргинские Острова"
   },
   {
-    "path": "@admiral-ds/icons/build/flags/Brunei.svg",
+    "path": "@admiral-ds/icons/build/flags/BruneiDarussalam.svg",
     "isoCode": "BRN",
-    "name": "Brunei",
+    "name": "BruneiDarussalam",
     "rusName": "Бруней"
   },
   {
@@ -258,6 +282,18 @@
     "rusName": "Китай"
   },
   {
+    "path": "@admiral-ds/icons/build/flags/ChristmasIsland.svg",
+    "isoCode": "CXR",
+    "name": "ChristmasIsland",
+    "rusName": "Остров Рождества"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/CocosKeelingIslands.svg",
+    "isoCode": "CCK",
+    "name": "CocosKeelingIslands",
+    "rusName": "Территория Кокосовых островов (Килинг)"
+  },
+  {
     "path": "@admiral-ds/icons/build/flags/Colombia.svg",
     "isoCode": "COL",
     "name": "Colombia",
@@ -282,6 +318,12 @@
     "rusName": "Конго"
   },
   {
+    "path": "@admiral-ds/icons/build/flags/CookIslands.svg",
+    "isoCode": "COK",
+    "name": "CookIslands",
+    "rusName": "Острова Кука"
+  },
+  {
     "path": "@admiral-ds/icons/build/flags/CostaRica.svg",
     "isoCode": "CRI",
     "name": "CostaRica",
@@ -304,6 +346,12 @@
     "isoCode": "CUB",
     "name": "Cuba",
     "rusName": "Куба"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/Curacao.svg",
+    "isoCode": "CUW",
+    "name": "Curacao",
+    "rusName": "Кюрасао"
   },
   {
     "path": "@admiral-ds/icons/build/flags/Cyprus.svg",
@@ -378,16 +426,34 @@
     "rusName": "Эстония"
   },
   {
+    "path": "@admiral-ds/icons/build/flags/Eswatini.svg",
+    "isoCode": "SWZ",
+    "name": "Eswatini",
+    "rusName": "Эсватини"
+  },
+  {
     "path": "@admiral-ds/icons/build/flags/Ethiopia.svg",
     "isoCode": "ETH",
     "name": "Ethiopia",
     "rusName": "Эфиопия"
   },
   {
+    "path": "@admiral-ds/icons/build/flags/EuropeanUnion.svg",
+    "isoCode": "EU",
+    "name": "EuropeanUnion",
+    "rusName": "Европейский союз"
+  },
+  {
     "path": "@admiral-ds/icons/build/flags/FalklandIslands.svg",
     "isoCode": "FLK",
     "name": "FalklandIslands",
     "rusName": "Фолклендские острова"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/FaroeIslands.svg",
+    "isoCode": "FRO",
+    "name": "FaroeIslands",
+    "rusName": "Фарерские острова"
   },
   {
     "path": "@admiral-ds/icons/build/flags/Fiji.svg",
@@ -406,6 +472,24 @@
     "isoCode": "FRA",
     "name": "France",
     "rusName": "Франция"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/FrenchGuiana.svg",
+    "isoCode": "GUF",
+    "name": "FrenchGuiana",
+    "rusName": "Французская Гвиана"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/FrenchPolynesia.svg",
+    "isoCode": "PYF",
+    "name": "FrenchPolynesia",
+    "rusName": "Французская Полинезия"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/FrenchSouthernAndAntarcticTerritories.svg",
+    "isoCode": "ATF",
+    "name": "FrenchSouthernAndAntarcticTerritories",
+    "rusName": "Французские Южные и Антарктические территории"
   },
   {
     "path": "@admiral-ds/icons/build/flags/Gabon.svg",
@@ -444,22 +528,34 @@
     "rusName": "Гибралтар"
   },
   {
-    "path": "@admiral-ds/icons/build/flags/GreatBritain.svg",
-    "isoCode": "GBR",
-    "name": "GreatBritain",
-    "rusName": "Великобритания"
-  },
-  {
     "path": "@admiral-ds/icons/build/flags/Greece.svg",
     "isoCode": "GRC",
     "name": "Greece",
     "rusName": "Греция"
   },
   {
+    "path": "@admiral-ds/icons/build/flags/Greenland.svg",
+    "isoCode": "GRL",
+    "name": "Greenland",
+    "rusName": "Гренландия"
+  },
+  {
     "path": "@admiral-ds/icons/build/flags/Grenada.svg",
     "isoCode": "GRD",
     "name": "Grenada",
     "rusName": "Гренада"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/Guadeloupe.svg",
+    "isoCode": "GLP",
+    "name": "Guadeloupe",
+    "rusName": "Гваделупа"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/Guam.svg",
+    "isoCode": "GUM",
+    "name": "Guam",
+    "rusName": "Территория Гуам"
   },
   {
     "path": "@admiral-ds/icons/build/flags/Guatemala.svg",
@@ -496,6 +592,18 @@
     "isoCode": "HTI",
     "name": "Haiti",
     "rusName": "Гаити"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/HeardIslandAndMcDonaldIslands.svg",
+    "isoCode": "HMD",
+    "name": "HeardIslandAndMcDonaldIslands",
+    "rusName": "Остров Херд и острова Макдональд"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/HolySee.svg",
+    "isoCode": "VAT",
+    "name": "HolySee",
+    "rusName": "Государство-город Ватикан"
   },
   {
     "path": "@admiral-ds/icons/build/flags/Honduras.svg",
@@ -630,9 +738,9 @@
     "rusName": "Киргизия"
   },
   {
-    "path": "@admiral-ds/icons/build/flags/Laos.svg",
+    "path": "@admiral-ds/icons/build/flags/LaoPeoplesDemocraticRepublic.svg",
     "isoCode": "LAO",
-    "name": "Laos",
+    "name": "LaoPeoplesDemocraticRepublic",
     "rusName": "Лаос"
   },
   {
@@ -690,12 +798,6 @@
     "rusName": "Макао"
   },
   {
-    "path": "@admiral-ds/icons/build/flags/Macedonia.svg",
-    "isoCode": "MKD",
-    "name": "Macedonia",
-    "rusName": "Северная Македония"
-  },
-  {
     "path": "@admiral-ds/icons/build/flags/Madagascar.svg",
     "isoCode": "MDG",
     "name": "Madagascar",
@@ -732,6 +834,18 @@
     "rusName": "Мальта"
   },
   {
+    "path": "@admiral-ds/icons/build/flags/MarshallIslands.svg",
+    "isoCode": "MHL",
+    "name": "MarshallIslands",
+    "rusName": "Маршалловы Острова"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/Martinique.svg",
+    "isoCode": "MTQ",
+    "name": "Martinique",
+    "rusName": "Мартиника"
+  },
+  {
     "path": "@admiral-ds/icons/build/flags/Mauritania.svg",
     "isoCode": "MRT",
     "name": "Mauritania",
@@ -742,6 +856,12 @@
     "isoCode": "MUS",
     "name": "Mauritius",
     "rusName": "Маврикий"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/Mayotte.svg",
+    "isoCode": "MYT",
+    "name": "Mayotte",
+    "rusName": "Майотта"
   },
   {
     "path": "@admiral-ds/icons/build/flags/Mexico.svg",
@@ -810,6 +930,12 @@
     "rusName": "Намибия"
   },
   {
+    "path": "@admiral-ds/icons/build/flags/Nauru.svg",
+    "isoCode": "NRU",
+    "name": "Nauru",
+    "rusName": "Науру"
+  },
+  {
     "path": "@admiral-ds/icons/build/flags/Nepal.svg",
     "isoCode": "NPL",
     "name": "Nepal",
@@ -826,6 +952,12 @@
     "isoCode": "ANT",
     "name": "NetherlandsAntillesCountry",
     "rusName": "Нидерландские Антильские острова"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/NewCaledonia.svg",
+    "isoCode": "NCL",
+    "name": "NewCaledonia",
+    "rusName": "Новая Каледония"
   },
   {
     "path": "@admiral-ds/icons/build/flags/NewZealand.svg",
@@ -852,6 +984,18 @@
     "rusName": "Нигерия"
   },
   {
+    "path": "@admiral-ds/icons/build/flags/NorfolkIsland.svg",
+    "isoCode": "NFK",
+    "name": "NorfolkIsland",
+    "rusName": "Остров Норфолк"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/NorthMacedonia.svg",
+    "isoCode": "MKD",
+    "name": "NorthMacedonia",
+    "rusName": "Северная Македония"
+  },
+  {
     "path": "@admiral-ds/icons/build/flags/Norway.svg",
     "isoCode": "NOR",
     "name": "Norway",
@@ -874,6 +1018,12 @@
     "isoCode": "PLW",
     "name": "Palau",
     "rusName": "Палау"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/Palestine.svg",
+    "isoCode": "PSE",
+    "name": "Palestine",
+    "rusName": "Палестина"
   },
   {
     "path": "@admiral-ds/icons/build/flags/Panama.svg",
@@ -906,16 +1056,16 @@
     "rusName": "Филиппины"
   },
   {
+    "path": "@admiral-ds/icons/build/flags/Pitcairn.svg",
+    "isoCode": "PCN",
+    "name": "Pitcairn",
+    "rusName": "Острова Питкэрн"
+  },
+  {
     "path": "@admiral-ds/icons/build/flags/Poland.svg",
     "isoCode": "POL",
     "name": "Poland",
     "rusName": "Польша"
-  },
-  {
-    "path": "@admiral-ds/icons/build/flags/PolynesiaFrench.svg",
-    "isoCode": "PYF",
-    "name": "PolynesiaFrench",
-    "rusName": "Французская Полинезия"
   },
   {
     "path": "@admiral-ds/icons/build/flags/Portugal.svg",
@@ -936,15 +1086,21 @@
     "rusName": "Катар"
   },
   {
+    "path": "@admiral-ds/icons/build/flags/RepublicOfKiribati.svg",
+    "isoCode": "KIR",
+    "name": "RepublicOfKiribati",
+    "rusName": "Кирибати"
+  },
+  {
     "path": "@admiral-ds/icons/build/flags/Romania.svg",
     "isoCode": "ROU",
     "name": "Romania",
     "rusName": "Румыния"
   },
   {
-    "path": "@admiral-ds/icons/build/flags/Russia.svg",
+    "path": "@admiral-ds/icons/build/flags/RussianFederation.svg",
     "isoCode": "RUS",
-    "name": "Russia",
+    "name": "RussianFederation",
     "rusName": "Россия"
   },
   {
@@ -1062,6 +1218,18 @@
     "rusName": "Южная Африка"
   },
   {
+    "path": "@admiral-ds/icons/build/flags/SouthGeorgiaAndTheSouthSandwichIslands.svg",
+    "isoCode": "SGS",
+    "name": "SouthGeorgiaAndTheSouthSandwichIslands",
+    "rusName": "Южная Георгия и Южные Сандвичевы Острова"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/SouthSudan.svg",
+    "isoCode": "SSD",
+    "name": "SouthSudan",
+    "rusName": "Южный Судан"
+  },
+  {
     "path": "@admiral-ds/icons/build/flags/Spain.svg",
     "isoCode": "ESP",
     "name": "Spain",
@@ -1086,12 +1254,6 @@
     "rusName": "Суринам"
   },
   {
-    "path": "@admiral-ds/icons/build/flags/Swaziland.svg",
-    "isoCode": "SWZ",
-    "name": "Swaziland",
-    "rusName": "Эсватини"
-  },
-  {
     "path": "@admiral-ds/icons/build/flags/Sweden.svg",
     "isoCode": "SWE",
     "name": "Sweden",
@@ -1104,9 +1266,9 @@
     "rusName": "Швейцария"
   },
   {
-    "path": "@admiral-ds/icons/build/flags/Syria.svg",
+    "path": "@admiral-ds/icons/build/flags/SyrianArabRepublic.svg",
     "isoCode": "SYR",
-    "name": "Syria",
+    "name": "SyrianArabRepublic",
     "rusName": "Сирия"
   },
   {
@@ -1146,6 +1308,12 @@
     "rusName": "Того"
   },
   {
+    "path": "@admiral-ds/icons/build/flags/Tokelau.svg",
+    "isoCode": "TKL",
+    "name": "Tokelau",
+    "rusName": "Токелау"
+  },
+  {
     "path": "@admiral-ds/icons/build/flags/Tonga.svg",
     "isoCode": "TON",
     "name": "Tonga",
@@ -1182,6 +1350,12 @@
     "rusName": "Острова Теркс и Кайкос"
   },
   {
+    "path": "@admiral-ds/icons/build/flags/Tuvalu.svg",
+    "isoCode": "TUV",
+    "name": "Tuvalu",
+    "rusName": "Тувалу"
+  },
+  {
     "path": "@admiral-ds/icons/build/flags/Uganda.svg",
     "isoCode": "UGA",
     "name": "Uganda",
@@ -1192,6 +1366,24 @@
     "isoCode": "UKR",
     "name": "Ukraine",
     "rusName": "Украина"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/UnitedArabEmirates.svg",
+    "isoCode": "ARE",
+    "name": "UnitedArabEmirates",
+    "rusName": "Объединенные Арабские Эмираты"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/UnitedKingdomOfGreatBritainAndNorthernIreland.svg",
+    "isoCode": "GBR",
+    "name": "UnitedKingdomOfGreatBritainAndNorthernIreland",
+    "rusName": "Великобритания"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/UnitedStatesMinorOutlyingIslands.svg",
+    "isoCode": "UMI",
+    "name": "UnitedStatesMinorOutlyingIslands",
+    "rusName": "Внешние малые острова США"
   },
   {
     "path": "@admiral-ds/icons/build/flags/UnitedStatesOfAmerica.svg",
@@ -1224,10 +1416,22 @@
     "rusName": "Венесуэла"
   },
   {
-    "path": "@admiral-ds/icons/build/flags/Vietnam.svg",
+    "path": "@admiral-ds/icons/build/flags/VietNam.svg",
     "isoCode": "VNM",
-    "name": "Vietnam",
+    "name": "VietNam",
     "rusName": "Вьетнам"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/WallisAndFutuna.svg",
+    "isoCode": "WLF",
+    "name": "WallisAndFutuna",
+    "rusName": "Уоллис и Футуна"
+  },
+  {
+    "path": "@admiral-ds/icons/build/flags/WesternSahara.svg",
+    "isoCode": "ESH",
+    "name": "WesternSahara",
+    "rusName": "Западная Сахара"
   },
   {
     "path": "@admiral-ds/icons/build/flags/Yemen.svg",
