@@ -49,10 +49,14 @@ const SOURCE_DIR = 'src';
   }
 
   function convertToCamelCase(string) {
-    return string
+    const fileName = path.parse(string).name;
+    const ext = path.parse(string).ext;
+
+    return fileName
+      .replace(/\W+/g, ' ')
       .replace(/\s[a-z]/g, (match) => match.toUpperCase())
       .replace(/^[a-z]/, (match) => match.toUpperCase())
       .replace(/\s/g, '')
-      .replace(/-/g, '');
+      .concat(ext)
   }
 })();
