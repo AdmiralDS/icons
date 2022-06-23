@@ -2928,8 +2928,8 @@
       "type": "solid"
     },
     {
-      "name": "LaoPeoplesDemocraticRepublic",
-      "path": "build/flags/LaoPeoplesDemocraticRepublic.svg",
+      "name": "LaoPeopleSDemocraticRepublic",
+      "path": "build/flags/LaoPeopleSDemocraticRepublic.svg",
       "svg": "<svg viewBox=\"0 0 28 28\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect y=\"4\" width=\"28\" height=\"20\" rx=\"3\" fill=\"#fff\"/><mask id=\"a\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"4\" width=\"28\" height=\"20\"><rect y=\"4\" width=\"28\" height=\"20\" rx=\"3\" fill=\"#fff\"/></mask><g mask=\"url(#a)\" fill-rule=\"evenodd\" clip-rule=\"evenodd\"><path d=\"M0 18.667h28V9.333H0v9.334z\" fill=\"#073A88\"/><path d=\"M0 9.333h28V4H0v5.333zM0 24h28v-5.333H0V24z\" fill=\"#E2273E\"/><path d=\"M14 17.333a3.333 3.333 0 100-6.666 3.333 3.333 0 000 6.666z\" fill=\"#fff\"/></g></svg>",
       "type": "solid"
     },
@@ -4116,8 +4116,8 @@
       "type": "outline"
     },
     {
-      "name": "LinethroughOutline",
-      "path": "build/redact/LinethroughOutline.svg",
+      "name": "LineThroughOutline",
+      "path": "build/redact/LineThroughOutline.svg",
       "svg": "<svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 20c.358 0 .649-.29.649-.649v-4.763a.649.649 0 10-1.297 0v4.763c0 .358.29.649.648.649zm.649-14.702h4.478a.649.649 0 000-1.298H6.873a.649.649 0 000 1.298h4.479V9.37a.649.649 0 101.297 0V5.298zm-8 7.316a.649.649 0 010-1.297h14.703a.649.649 0 010 1.297H4.648z\" fill=\"#626F84\"/></svg>",
       "type": "outline"
     },

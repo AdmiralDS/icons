@@ -123,7 +123,7 @@ module.exports = {
     KOR: 'KoreaSouth',
     KWT: 'Kuwait',
     KGZ: 'Kyrgyzstan',
-    LAO: 'LaoPeoplesDemocraticRepublic',
+    LAO: 'LaoPeopleSDemocraticRepublic',
     LVA: 'Latvia',
     LBN: 'Lebanon',
     LSO: 'Lesotho',
