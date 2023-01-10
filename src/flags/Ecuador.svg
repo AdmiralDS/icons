@@ -4,11 +4,11 @@
 <rect y="4" width="28" height="20" rx="3" fill="white"/>
 </mask>
 <g mask="url(#mask0_17_5722)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 18.6667H28V13.3333H0V18.6667Z" fill="#0748AE"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H28V18.6667H0V24Z" fill="#DE2035"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 18.6667H28V13.3334H0V18.6667Z" fill="#0748AE"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H28V18.6666H0V24Z" fill="#DE2035"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 13.3333H28V4H0V13.3333Z" fill="#FFD935"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.3999 12C11.7523 12.4865 11.3333 13.2611 11.3333 14.1335C11.3333 15.6062 12.5272 16.8002 14 16.8002C15.4727 16.8002 16.6666 15.6062 16.6666 14.1335C16.6666 13.2611 16.2477 12.4865 15.6 12L14.6666 14.8002H13.3333L12.3999 12Z" fill="#FFD935"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14 11.3333L14.6666 14.6667H13.3333L14 11.3333Z" fill="#5FC0DC"/>
-<path opacity="0.66" d="M17.3334 10L15.3334 9.33334L14 10.6667L12.6667 9.33334L10.6667 10" stroke="#3F2821" stroke-width="0.666667" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M14 11.3334L14.6666 14.6667H13.3333L14 11.3334Z" fill="#5FC0DC"/>
+<path opacity="0.66" d="M17.3334 10L15.3334 9.33337L14 10.6667L12.6667 9.33337L10.6667 10" stroke="#3F2821" stroke-width="0.666667" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </svg>

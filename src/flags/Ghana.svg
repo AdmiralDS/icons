@@ -5,8 +5,8 @@
 </mask>
 <g mask="url(#mask0_17_5576)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 10.6667H28V4H0V10.6667Z" fill="#E71F37"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H28V17.3333H0V24Z" fill="#118B56"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 17.3333H28V10.6667H0V17.3333Z" fill="#FDD64C"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H28V17.3334H0V24Z" fill="#118B56"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 17.3333H28V10.6666H0V17.3333Z" fill="#FDD64C"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M14 15.6117L12.0407 17.0301L12.7842 14.7284L10.8298 13.3033L13.2486 13.2991L14 11L14.7514 13.2991L17.1702 13.3033L15.2158 14.7284L15.9593 17.0301L14 15.6117Z" fill="#262626"/>
 </g>
 </svg>

@@ -4,7 +4,7 @@
 <rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="white" stroke-width="0.5"/>
 </mask>
 <g mask="url(#mask0_17_5308)">
-<rect x="18.6667" y="4" width="9.33333" height="20" fill="#FF8515"/>
+<rect x="18.6666" y="4" width="9.33333" height="20" fill="#FF8515"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H9.33333V4H0V24Z" fill="#07BB59"/>
 </g>
 </svg>
