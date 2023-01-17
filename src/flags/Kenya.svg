@@ -6,11 +6,11 @@
 <g mask="url(#mask0_17_5173)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 9.33333H28V4H0V9.33333Z" fill="#262626"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H28V18.6667H0V24Z" fill="#018301"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 18.6667H28V9.33333H0V18.6667Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 17.3333H28V10.6667H0V17.3333Z" fill="#DC0808"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14 20.6667C15.3334 20.6667 17.3334 18.0501 17.3334 14C17.3334 9.94991 15.3334 7.33333 14 7.33333C12.6667 7.33333 10.6667 9.94991 10.6667 14C10.6667 18.0501 12.6667 20.6667 14 20.6667Z" fill="#BC0000"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 18.6666H28V9.33331H0V18.6666Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 17.3334H28V10.6667H0V17.3334Z" fill="#DC0808"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M14 20.6666C15.3334 20.6666 17.3334 18.0501 17.3334 14C17.3334 9.94989 15.3334 7.33331 14 7.33331C12.6667 7.33331 10.6667 9.94989 10.6667 14C10.6667 18.0501 12.6667 20.6666 14 20.6666Z" fill="#BC0000"/>
 <mask id="mask1_17_5173" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="10" y="7" width="8" height="14">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14 20.6667C15.3334 20.6667 17.3334 18.0501 17.3334 14C17.3334 9.94991 15.3334 7.33333 14 7.33333C12.6667 7.33333 10.6667 9.94991 10.6667 14C10.6667 18.0501 12.6667 20.6667 14 20.6667Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M14 20.6666C15.3334 20.6666 17.3334 18.0501 17.3334 14C17.3334 9.94989 15.3334 7.33331 14 7.33331C12.6667 7.33331 10.6667 9.94989 10.6667 14C10.6667 18.0501 12.6667 20.6666 14 20.6666Z" fill="white"/>
 </mask>
 <g mask="url(#mask1_17_5173)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.66671 21.3333C10.5077 21.3333 12 18.0501 12 14C12 9.9499 10.5077 6.66666 8.66671 6.66666C6.82576 6.66666 5.33337 9.9499 5.33337 14C5.33337 18.0501 6.82576 21.3333 8.66671 21.3333Z" fill="#262626"/>

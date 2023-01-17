@@ -6,14 +6,14 @@
 <g mask="url(#mask0_17_5656)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 10.6667H28V4H0V10.6667Z" fill="#262626"/>
 <g filter="url(#filter0_d_17_5656)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 17.3333H28V10.6667H0V17.3333Z" fill="#F01515"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 17.3333H28V10.6666H0V17.3333Z" fill="#F01515"/>
 </g>
 <g filter="url(#filter1_d_17_5656)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H28V17.3333H0V24Z" fill="#FFD521"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H28V17.3334H0V24Z" fill="#FFD521"/>
 </g>
 </g>
 <defs>
-<filter id="filter0_d_17_5656" x="0" y="10.6667" width="28" height="6.66666" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_17_5656" x="0" y="10.6666" width="28" height="6.66669" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset/>
@@ -21,7 +21,7 @@
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_17_5656"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_17_5656" result="shape"/>
 </filter>
-<filter id="filter1_d_17_5656" x="0" y="17.3333" width="28" height="6.66666" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter1_d_17_5656" x="0" y="17.3334" width="28" height="6.66669" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset/>

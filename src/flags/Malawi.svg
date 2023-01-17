@@ -5,7 +5,7 @@
 </mask>
 <g mask="url(#mask0_17_4945)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 10.6667H28V4H0V10.6667Z" fill="#262626"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14 16C16.5773 16 18.6667 13.9107 18.6667 11.3333C18.6667 8.75601 16.5773 6.66667 14 6.66667C11.4227 6.66667 9.33334 8.75601 9.33334 11.3333C9.33334 13.9107 11.4227 16 14 16Z" fill="#E42038"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M14 16C16.5774 16 18.6667 13.9107 18.6667 11.3333C18.6667 8.75599 16.5774 6.66666 14 6.66666C11.4227 6.66666 9.33337 8.75599 9.33337 11.3333C9.33337 13.9107 11.4227 16 14 16Z" fill="#E42038"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 17.3333H28V10.6667H0V17.3333Z" fill="#E42038"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H28V17.3333H0V24Z" fill="#47B849"/>
 </g>

@@ -12,7 +12,7 @@
 <path fill-rule="evenodd" clip-rule="evenodd" d="M21.3334 10L20.3129 11.1303L20.3905 9.60948L18.8697 9.68716L20 8.66667L18.8697 7.64618L20.3905 7.72386L20.3129 6.20299L21.3334 7.33333L22.3538 6.20299L22.2762 7.72386L23.797 7.64618L22.6667 8.66667L23.797 9.68716L22.2762 9.60948L22.3538 11.1303L21.3334 10Z" fill="#FECB2F"/>
 </g>
 <defs>
-<filter id="filter0_d_17_4664" x="0" y="18.6667" width="28" height="5.33333" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_17_4664" x="0" y="18.6667" width="28" height="5.33334" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset/>
