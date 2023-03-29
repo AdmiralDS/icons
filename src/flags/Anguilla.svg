@@ -1,12 +1,12 @@
 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect y="4" width="28" height="20" rx="3" fill="white"/>
-<mask id="mask0_17_6266" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
+<mask id="mask0_17_6266" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
 <rect y="4" width="28" height="20" rx="3" fill="white"/>
 </mask>
 <g mask="url(#mask0_17_6266)">
 <rect y="4" width="28" height="20" fill="#0A17A7"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M17.3333 14C17.3333 12 17.3333 10.6667 17.3333 10.6667L18.6667 11.3334L20 10.6667L21.3333 11.3334L22.6667 10.6667C22.6667 10.6667 22.6667 12 22.6667 14C22.6667 16 20 17.3334 20 17.3334C20 17.3334 17.3333 16 17.3333 14Z" fill="white"/>
-<mask id="mask1_17_6266" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="17" y="10" width="6" height="8">
+<mask id="mask1_17_6266" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="17" y="10" width="6" height="8">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M17.3333 14C17.3333 12 17.3333 10.6667 17.3333 10.6667L18.6667 11.3334L20 10.6667L21.3333 11.3334L22.6667 10.6667C22.6667 10.6667 22.6667 12 22.6667 14C22.6667 16 20 17.3334 20 17.3334C20 17.3334 17.3333 16 17.3333 14Z" fill="white"/>
 </mask>
 <g mask="url(#mask1_17_6266)">
