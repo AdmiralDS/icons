@@ -1,13 +1,13 @@
 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="#D6D8DD" stroke-width="0.5"/>
-<mask id="mask0_17_4475" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
+<mask id="mask0_17_4475" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
 <rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="white" stroke-width="0.5"/>
 </mask>
 <g mask="url(#mask0_17_4475)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 17.3333H28V10.6667H0V17.3333Z" fill="#17508F"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 10.6667H28V4H0V10.6667Z" fill="#E1444D"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M6 14C6 13.355 6.34366 11.9178 6.5375 11.1586C6.61181 10.8675 6.87495 10.6667 7.17534 10.6667H10.1592C10.459 10.6667 10.7218 10.8667 10.7964 11.1571C10.9903 11.912 11.3333 13.3402 11.3333 14C11.3333 14.745 10.833 16.7008 10.6992 17.2105C10.6777 17.2924 10.6412 17.3677 10.5872 17.433C10.3317 17.7426 9.49918 18.6667 8.66667 18.6667C7.83364 18.6667 7.00061 17.7414 6.74565 17.4324C6.69202 17.3675 6.65559 17.2927 6.63405 17.2113C6.50018 16.7052 6 14.7635 6 14Z" fill="white"/>
-<mask id="mask1_17_4475" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="6" y="10" width="6" height="9">
+<mask id="mask1_17_4475" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="6" y="10" width="6" height="9">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M6 14C6 13.355 6.34366 11.9178 6.5375 11.1586C6.61181 10.8675 6.87495 10.6667 7.17534 10.6667H10.1592C10.459 10.6667 10.7218 10.8667 10.7964 11.1571C10.9903 11.912 11.3333 13.3402 11.3333 14C11.3333 14.745 10.833 16.7008 10.6992 17.2105C10.6777 17.2924 10.6412 17.3677 10.5872 17.433C10.3317 17.7426 9.49918 18.6667 8.66667 18.6667C7.83364 18.6667 7.00061 17.7414 6.74565 17.4324C6.69202 17.3675 6.65559 17.2927 6.63405 17.2113C6.50018 16.7052 6 14.7635 6 14Z" fill="white"/>
 </mask>
 <g mask="url(#mask1_17_4475)">

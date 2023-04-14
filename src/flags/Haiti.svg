@@ -1,13 +1,13 @@
 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect y="4" width="28" height="20" rx="3" fill="white"/>
-<mask id="mask0_17_5475" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
+<mask id="mask0_17_5475" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
 <rect y="4" width="28" height="20" rx="3" fill="white"/>
 </mask>
 <g mask="url(#mask0_17_5475)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 13.3333H28V4H0V13.3333Z" fill="#112EBC"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H28V13.3334H0V24Z" fill="#E3264A"/>
 <rect x="9.33331" y="10.6666" width="9.33333" height="8" rx="0.666667" fill="url(#paint0_linear_17_5475)"/>
-<mask id="mask1_17_5475" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="9" y="10" width="10" height="9">
+<mask id="mask1_17_5475" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="9" y="10" width="10" height="9">
 <rect x="9.33331" y="10.6666" width="9.33333" height="8" rx="0.666667" fill="white"/>
 </mask>
 <g mask="url(#mask1_17_5475)">
