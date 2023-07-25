@@ -1,7 +1,7 @@
 const path = require('path');
 
 const fse = require('fs-extra');
-const SVGO = require('svgo');
+const { optimize } = require('svgo');
 
 const BUILD_DIR = 'build';
 const SOURCE_DIR = 'src';
@@ -43,8 +43,7 @@ const SOURCE_DIR = 'src';
   };
 
   async function format(svg) {
-    const svgo = new SVGO(defaultConfig);
-    const { data } = await svgo.optimize(svg);
+    const { data } = await optimize(svg, {});
     return data;
   }
 
@@ -57,6 +56,6 @@ const SOURCE_DIR = 'src';
       .replace(/\s[a-z]/g, (match) => match.toUpperCase())
       .replace(/^[a-z]/, (match) => match.toUpperCase())
       .replace(/\s/g, '')
-      .concat(ext)
+      .concat(ext);
   }
 })();
