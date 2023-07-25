@@ -3,6 +3,23 @@ const path = require('path');
 const fse = require('fs-extra');
 const { optimize } = require('svgo');
 
+const SVGR_OPTIONS = {
+  plugins: [
+    'preset-default',
+    'removeDimensions',
+    {
+      name: 'addAttributesToSVGElement',
+      params: {
+        attributes: [
+          {
+            focusable: false,
+          },
+        ],
+      },
+    },
+  ],
+};
+
 const BUILD_DIR = 'build';
 const SOURCE_DIR = 'src';
 
@@ -43,7 +60,7 @@ const SOURCE_DIR = 'src';
   };
 
   async function format(svg) {
-    const { data } = await optimize(svg, {});
+    const { data } = await optimize(svg, SVGR_OPTIONS);
     return data;
   }
 
