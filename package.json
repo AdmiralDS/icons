@@ -8,9 +8,6 @@
     "metadata.json",
     "flags-metadata.json"
   ],
-  "engines": {
-    "node": ">=18"
-  },
   "scripts": {
     "build": "node scripts/formatSvg.js && node scripts/createMetadata.js"
   },
