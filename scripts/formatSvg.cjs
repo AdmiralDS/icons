@@ -21,7 +21,7 @@ const SVGR_OPTIONS = {
 };
 
 const BUILD_DIR = 'build';
-const SOURCE_DIR = 'src';
+const SOURCE_DIR = 'public/icons';
 
 (function () {
   makeDirectory(BUILD_DIR);
@@ -47,10 +47,7 @@ const SOURCE_DIR = 'src';
       fse.readFile(iconPath, 'utf8', async (error, svg) => {
         const formattedSvg = await format(svg);
 
-        fse.writeFileSync(
-          path.join(BUILD_DIR, categoryName, convertToCamelCase(iconName)),
-          formattedSvg
-        );
+        fse.writeFileSync(path.join(BUILD_DIR, categoryName, convertToCamelCase(iconName)), formattedSvg);
       });
     });
   }
