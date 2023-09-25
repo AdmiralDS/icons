@@ -12,7 +12,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "build-meta": "node scripts/formatSvg.cjs && node scripts/createMetadata",
+    "build-meta": "node scripts/formatSvg.cjs && node scripts/createMetadata && node scripts/generate-svg-icon-exports.cjs",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
