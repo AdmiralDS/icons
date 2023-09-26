@@ -2,7 +2,7 @@
 
 const path = require('path');
 const fse = require('fs-extra');
-const metadata = require('@admiral-ds/icons/metadata.json');
+const metadata = require('../metadata.json');
 
 const generateReactExportFile = () => {
   Object.keys(metadata).forEach((category) => {

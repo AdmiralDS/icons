@@ -1,6 +1,8 @@
 import * as React from 'react';
 import type { Meta, StoryFn } from '@storybook/react';
 import styled from 'styled-components';
+import { ThemeProvider } from 'styled-components';
+import { LIGHT_THEME, FontsVTBGroup, DropdownProvider } from '@admiral-ds/react-ui';
 import { TooltipHoc, typography } from '@admiral-ds/react-ui';
 import { ReactComponent as CopyOutline } from '@admiral-ds/icons/build/documents/CopyOutline.svg';
 import metadata from '@admiral-ds/icons/metadata.json';
@@ -154,30 +156,36 @@ export default {
 } as Meta;
 
 const Template: StoryFn = () => (
-  <>
-    <Title style={{ fontWeight: 400 }}>
-      Иконки — гафические символы используемые для представления действий, идей или объектов. Позволяют быстро
-      передавать смысл отображаемой информации или привлекать к ней дополнительное внимание.
-    </Title>
-    {CATEGORIES.map(({ label, icons }) => (
-      <Category key={label} label={label}>
-        {icons.map(
-          ({ Component, name, path }: { Component: React.ElementType; name: string; path: string }, index: number) => (
-            <IconCard key={name + index}>
-              <Component width={24} height={24} />
-              <IconName>
-                {name}{' '}
-                <CopyButton
-                  renderContent={() => 'Копировать пример использования'}
-                  text={`import { ReactComponent as ${name} } from '@admiral-ds/icons/${path}';`}
-                />
-              </IconName>
-            </IconCard>
-          ),
-        )}
-      </Category>
-    ))}
-  </>
+  <ThemeProvider theme={LIGHT_THEME}>
+    <DropdownProvider>
+      <FontsVTBGroup />
+      <Title style={{ fontWeight: 400 }}>
+        Иконки — гафические символы используемые для представления действий, идей или объектов. Позволяют быстро
+        передавать смысл отображаемой информации или привлекать к ней дополнительное внимание.
+      </Title>
+      {CATEGORIES.map(({ label, icons }) => (
+        <Category key={label} label={label}>
+          {icons.map(
+            (
+              { Component, name, path }: { Component: React.ElementType; name: string; path: string },
+              index: number,
+            ) => (
+              <IconCard key={name + index}>
+                <Component width={24} height={24} />
+                <IconName>
+                  {name}{' '}
+                  <CopyButton
+                    renderContent={() => 'Копировать пример использования'}
+                    text={`import { ReactComponent as ${name} } from '@admiral-ds/icons/${path}';`}
+                  />
+                </IconName>
+              </IconCard>
+            ),
+          )}
+        </Category>
+      ))}
+    </DropdownProvider>
+  </ThemeProvider>
 );
 
 const Template2: StoryFn = () => {
