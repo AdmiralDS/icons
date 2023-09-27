@@ -1,7 +1,7 @@
-const path = require('path');
+import * as path from 'path';
 
-const fse = require('fs-extra');
-const createFlagsMeta = require('./createFlagsMetadata')
+import fse from 'fs-extra';
+import { createFlagsMeta } from './createFlagsMetadata.js';
 
 const BUILD_DIR = 'build';
 const METADATA_FILE = 'metadata.json';
@@ -41,8 +41,7 @@ const METADATA_FILE = 'metadata.json';
 
     return {
       name,
-      path:
-        process.platform === 'win32' ? iconPath.replace(/\\/g, '/') : iconPath,
+      path: process.platform === 'win32' ? iconPath.replace(/\\/g, '/') : iconPath,
       svg,
       type,
     };

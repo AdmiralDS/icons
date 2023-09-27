@@ -1,0 +1,15 @@
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="#D6D8DD" stroke-width="0.5"/>
+<mask id="mask0_17_5313" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
+<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="white" stroke-width="0.5"/>
+</mask>
+<g mask="url(#mask0_17_5313)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 10.6667H28V4H0V10.6667Z" fill="#DF1E35"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H28V17.3333H0V24Z" fill="#262626"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18.6667 12.5393C18.6667 12.2916 18.9274 12.1304 19.1491 12.2412L19.8157 12.5745C19.9287 12.631 20 12.7464 20 12.8727V15.6667C20 15.8508 19.8508 16 19.6667 16H19C18.8159 16 18.6667 15.8508 18.6667 15.6667V12.5393Z" fill="#0F7A40"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.6667 12.5393C10.6667 12.2916 10.9274 12.1304 11.1491 12.2412L11.8157 12.5745C11.9287 12.631 12 12.7464 12 12.8727V15.6667C12 15.8508 11.8508 16 11.6667 16H11C10.8159 16 10.6667 15.8508 10.6667 15.6667V12.5393Z" fill="#0F7A40"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16 12.8727C16 12.7464 16.0713 12.631 16.1843 12.5745L16.8509 12.2412C17.0726 12.1304 17.3333 12.2916 17.3333 12.5393V15.6667C17.3333 15.8508 17.1841 16 17 16H16.3333C16.1492 16 16 15.8508 16 15.6667V12.8727Z" fill="#0F7A40"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.3333 14.206C13.3333 14.0798 13.4047 13.9643 13.5176 13.9079L14.1843 13.5745C14.4059 13.4637 14.6667 13.6249 14.6667 13.8727V14.7264H16.6667V16H14.6667H13.6667C13.4826 16 13.3333 15.8508 13.3333 15.6667V14.206Z" fill="#0F7A40"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 14.206C8 14.0798 8.07133 13.9643 8.18426 13.9079L8.85093 13.5745C9.07256 13.4637 9.33333 13.6249 9.33333 13.8727V14.7264H11.3333V16H9.33333H8.33333C8.14924 16 8 15.8508 8 15.6667V14.206Z" fill="#0F7A40"/>
+</g>
+</svg>
