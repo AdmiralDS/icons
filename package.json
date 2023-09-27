@@ -16,7 +16,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "npm run build-meta && storybook dev -p 6006",
-    "build-storybook": "npm run build-meta && storybook build --disable-telemetry --output-dir docs"
+    "build-storybook": "npm run build-meta && storybook build --disable-telemetry --output-dir docs",
+    "preview-storybook": "npx http-server ./docs"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -48,5 +49,12 @@
     "vite": "^4.4.5",
     "vite-plugin-svgr": "^3.3.0",
     "vite-tsconfig-paths": "^4.2.1"
+  },
+  "repository": "https://github.com/AdmiralDS/icons",
+  "bugs": {
+    "url": "https://github.com/AdmiralDS/icons/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
