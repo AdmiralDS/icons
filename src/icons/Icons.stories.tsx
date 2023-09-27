@@ -227,62 +227,68 @@ const Template2: StoryFn = () => {
   }
   `;
   return (
-    <Text style={{ fontWeight: 400 }}>
-      В наших компонентах используется пакет иконок Admiral 2.0.
-      <ul>
-        <li>
-          <a href="https://www.figma.com/file/8sqIh7WvDuF1nc6Qo2BeCA/04-%F0%9F%9A%A7-%D0%98%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8-%D0%B8-%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B8-Web-2.0?node-id=6681%3A281585">
-            Макеты в Figma
-          </a>
-        </li>
-        <li>
-          <a href="https://www.npmjs.com/package/@admiral-ds/icons">Пакет в npm</a>
-        </li>
-      </ul>
-      1) В проекте может понадобиться настройка загрузчиков svg-иконок. Например, в create-react-app уже изначально для
-      webpack настроены загрузчики svg иконок. В нашем storybook настройки webpack для работы с иконками выглядят так:
-      <Panel>
-        <Code>{exm}</Code>
-      </Panel>
-      Вот несколько полезных ссылок, касающихся настройки проектов для работы с иконками:
-      <ul>
-        <li>
-          <a href="https://react-svgr.com/docs/getting-started/">Svgr - getting started</a>
-        </li>
-        <li>
-          <a href="https://www.npmjs.com/package/@svgr/webpack">Svgr - npm</a>
-        </li>
-      </ul>
-      2) Также в проектах, использующих TypeScript, при работе с иконками может понадобиться настройка тайпинга
-      (создание файла деклараций custom.d.ts и включение его в tsconfig.json). В нашем проекте для этого используется
-      следующий файл svg.d.ts:
-      <Panel>
-        <Code>{svgModule}</Code>
-      </Panel>
-      Вот еще несколько способов написания подобного файла (примеры от пользователей библиотеки):
-      <Panel>
-        <Code>{user1Exm}</Code>
-      </Panel>
-      <Panel>
-        <Code>{user2Exm}</Code>
-      </Panel>
-      <Panel>
-        <Code>{user3Exm}</Code>
-      </Panel>
-      Ряд полезных ссылок по данной теме:
-      <ul>
-        <li>
-          <a href="https://webpack.js.org/guides/typescript/#importing-other-assets">
-            Webpack - Importing Other Assets
-          </a>
-        </li>
-        <li>
-          <a href="https://duncanleung.com/typescript-module-declearation-svg-img-assets/">
-            TypeScript Module Declaration for SVG Assets
-          </a>
-        </li>
-      </ul>
-    </Text>
+    <ThemeProvider theme={LIGHT_THEME}>
+      <DropdownProvider>
+        <FontsVTBGroup />
+        <Text style={{ fontWeight: 400 }}>
+          В наших компонентах используется пакет иконок Admiral 2.0.
+          <ul>
+            <li>
+              <a href="https://www.figma.com/file/8sqIh7WvDuF1nc6Qo2BeCA/04-%F0%9F%9A%A7-%D0%98%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8-%D0%B8-%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B8-Web-2.0?node-id=6681%3A281585">
+                Макеты в Figma
+              </a>
+            </li>
+            <li>
+              <a href="https://www.npmjs.com/package/@admiral-ds/icons">Пакет в npm</a>
+            </li>
+          </ul>
+          1) В проекте может понадобиться настройка загрузчиков svg-иконок. Например, в create-react-app уже изначально
+          для webpack настроены загрузчики svg иконок. В нашем storybook настройки webpack для работы с иконками
+          выглядят так:
+          <Panel>
+            <Code>{exm}</Code>
+          </Panel>
+          Вот несколько полезных ссылок, касающихся настройки проектов для работы с иконками:
+          <ul>
+            <li>
+              <a href="https://react-svgr.com/docs/getting-started/">Svgr - getting started</a>
+            </li>
+            <li>
+              <a href="https://www.npmjs.com/package/@svgr/webpack">Svgr - npm</a>
+            </li>
+          </ul>
+          2) Также в проектах, использующих TypeScript, при работе с иконками может понадобиться настройка тайпинга
+          (создание файла деклараций custom.d.ts и включение его в tsconfig.json). В нашем проекте для этого
+          используется следующий файл svg.d.ts:
+          <Panel>
+            <Code>{svgModule}</Code>
+          </Panel>
+          Вот еще несколько способов написания подобного файла (примеры от пользователей библиотеки):
+          <Panel>
+            <Code>{user1Exm}</Code>
+          </Panel>
+          <Panel>
+            <Code>{user2Exm}</Code>
+          </Panel>
+          <Panel>
+            <Code>{user3Exm}</Code>
+          </Panel>
+          Ряд полезных ссылок по данной теме:
+          <ul>
+            <li>
+              <a href="https://webpack.js.org/guides/typescript/#importing-other-assets">
+                Webpack - Importing Other Assets
+              </a>
+            </li>
+            <li>
+              <a href="https://duncanleung.com/typescript-module-declearation-svg-img-assets/">
+                TypeScript Module Declaration for SVG Assets
+              </a>
+            </li>
+          </ul>
+        </Text>
+      </DropdownProvider>
+    </ThemeProvider>
   );
 };
 

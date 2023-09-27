@@ -15,8 +15,8 @@
     "build-meta": "node scripts/formatSvg.cjs && node scripts/createMetadata && node scripts/generate-svg-icon-exports.cjs",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build --disable-telemetry --output-dir docs"
+    "storybook": "npm run build-meta && storybook dev -p 6006",
+    "build-storybook": "npm run build-meta && storybook build --disable-telemetry --output-dir docs"
   },
   "dependencies": {
     "react": "^18.2.0",
