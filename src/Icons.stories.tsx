@@ -6,18 +6,19 @@ import { LIGHT_THEME, FontsVTBGroup, DropdownProvider } from '@admiral-ds/react-
 import { TooltipHoc, typography } from '@admiral-ds/react-ui';
 import { ReactComponent as CopyOutline } from '@admiral-ds/icons/build/documents/CopyOutline.svg';
 import metadata from '@admiral-ds/icons/metadata.json';
-import * as CardsIcons from './IconComponents-cards';
-import * as CategoryIcons from './IconComponents-category';
-import * as CommunicationIcons from './IconComponents-communication';
-import * as DocumentsIcons from './IconComponents-documents';
-import * as FinanceIcons from './IconComponents-finance';
-import * as FlagsIcons from './IconComponents-flags';
-import * as LocationIcons from './IconComponents-location';
-import * as PaymentIcons from './IconComponents-payment';
-import * as RedactIcons from './IconComponents-redact';
-import * as SecurityIcons from './IconComponents-security';
-import * as ServiceIcons from './IconComponents-service';
-import * as SystemIcons from './IconComponents-system';
+import * as BankIcons from './icons/bank';
+import * as CardsIcons from './icons/cards';
+import * as CategoryIcons from './icons/category';
+import * as CommunicationIcons from './icons/communication';
+import * as DocumentsIcons from './icons/documents';
+import * as FinanceIcons from './icons/finance';
+import * as FlagsIcons from './icons/flags';
+import * as LocationIcons from './icons/location';
+import * as PaymentIcons from './icons/payment';
+import * as RedactIcons from './icons/redact';
+import * as SecurityIcons from './icons/security';
+import * as ServiceIcons from './icons/service';
+import * as SystemIcons from './icons/system';
 
 const Title = styled.div`
   ${typography['Main/XS-bold']}
@@ -116,8 +117,8 @@ const Category = ({ label, children }: { label: string; children: React.ReactNod
   );
 };
 
-const getIcons = (category: string, pack: any) => {
-  return (metadata as Record<string, any>)[category].map((iconMetaInfo: any) => ({
+const getIcons = (category: string, pack: Record<string, React.FunctionComponent<React.SVGProps<SVGSVGElement>>>) => {
+  return (metadata as Record<string, Array<{ name: string; path: string }>>)[category].map((iconMetaInfo) => ({
     ...iconMetaInfo,
     Component: pack[iconMetaInfo.name],
   }));
@@ -136,7 +137,8 @@ const CATEGORIES = [
   { label: 'Security', value: 'security', icons: getIcons('security', SecurityIcons) },
   { label: 'Service', value: 'service', icons: getIcons('service', ServiceIcons) },
   { label: 'System', value: 'system', icons: getIcons('system', SystemIcons) },
-];
+  { label: 'Bank', value: 'bank', icons: getIcons('bank', BankIcons) },
+] as const;
 
 export default {
   title: 'Icons/Icons',
@@ -165,23 +167,18 @@ const Template: StoryFn = () => (
       </Title>
       {CATEGORIES.map(({ label, icons }) => (
         <Category key={label} label={label}>
-          {icons.map(
-            (
-              { Component, name, path }: { Component: React.ElementType; name: string; path: string },
-              index: number,
-            ) => (
-              <IconCard key={name + index}>
-                <Component width={24} height={24} />
-                <IconName>
-                  {name}{' '}
-                  <CopyButton
-                    renderContent={() => 'Копировать пример использования'}
-                    text={`import { ReactComponent as ${name} } from '@admiral-ds/icons/${path}';`}
-                  />
-                </IconName>
-              </IconCard>
-            ),
-          )}
+          {icons.map(({ Component, name, path }, index: number) => (
+            <IconCard key={name + index}>
+              <Component width={24} height={24} />
+              <IconName>
+                {name}{' '}
+                <CopyButton
+                  renderContent={() => 'Копировать пример использования'}
+                  text={`import { ReactComponent as ${name} } from '@admiral-ds/icons/${path}';`}
+                />
+              </IconName>
+            </IconCard>
+          ))}
         </Category>
       ))}
     </DropdownProvider>

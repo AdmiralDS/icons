@@ -18,13 +18,15 @@ export default defineConfig({
       },
     }),
     tsconfigPaths(),
-    // typescript({
-    //   declaration: true,
-    //   emitDeclarationOnly: true,
-    //   noForceEmit: true,
-    //   declarationDir: resolve(__dirname, 'dist/types'),
-    //   rootDir: resolve(__dirname, 'src'),
-    // }),
+    typescript({
+      noEmit: false,
+      declaration: true,
+      emitDeclarationOnly: true,
+      noForceEmit: true,
+      declarationDir: resolve(__dirname, 'dist'),
+      rootDir: resolve(__dirname, 'src'),
+      exclude: ['*/**/*.stories.*'],
+    }),
   ],
   build: {
     // use vite library mode to build the package
@@ -32,6 +34,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
       formats: ['cjs', 'es'],
+      fileName: (format, entryName) => `${entryName}.${format}.js`,
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled

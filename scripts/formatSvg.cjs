@@ -58,7 +58,6 @@ const SOURCE_DIR = 'public/icons';
   };
 
   async function format(svg, path) {
-    console.log(path);
     const conf = { ...SVGR_OPTIONS, path };
     const { data } = await optimize(svg, conf);
     return data;

@@ -6,7 +6,7 @@ const metadata = require('../metadata.json');
 
 const generateReactExportFile = () => {
   Object.keys(metadata).forEach((category) => {
-    const exportFileName = path.resolve('src/icons', `IconComponents-${category}.ts`);
+    const exportFileName = path.resolve('src/icons', `${category}.ts`);
 
     if (!fse.existsSync(exportFileName)) {
       fse.createFileSync(exportFileName);
