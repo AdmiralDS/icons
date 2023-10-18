@@ -7,6 +7,7 @@ const SVGR_OPTIONS = {
   plugins: [
     'preset-default',
     'removeDimensions',
+    'prefixIds',
     {
       name: 'addAttributesToSVGElement',
       params: {
@@ -45,7 +46,7 @@ const SOURCE_DIR = 'public/icons';
       const iconPath = path.join(categoryPath, iconName);
 
       fse.readFile(iconPath, 'utf8', async (error, svg) => {
-        const formattedSvg = await format(svg);
+        const formattedSvg = await format(svg, iconPath);
 
         fse.writeFileSync(path.join(BUILD_DIR, categoryName, convertToCamelCase(iconName)), formattedSvg);
       });
@@ -56,8 +57,10 @@ const SOURCE_DIR = 'public/icons';
     plugins: [{ removeViewBox: false }, { removeDimensions: true }],
   };
 
-  async function format(svg) {
-    const { data } = await optimize(svg, SVGR_OPTIONS);
+  async function format(svg, path) {
+    console.log(path);
+    const conf = { ...SVGR_OPTIONS, path };
+    const { data } = await optimize(svg, conf);
     return data;
   }
 
