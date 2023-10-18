@@ -1,0 +1,9 @@
+export { ReactComponent as CardsBroker } from '@admiral-ds/icons/build/cards/Broker.svg';
+export { ReactComponent as CardsIIS } from '@admiral-ds/icons/build/cards/IIS.svg';
+export { ReactComponent as CardsPaymentsMaster } from '@admiral-ds/icons/build/cards/PaymentsMaster.svg';
+export { ReactComponent as CardsPaymentsMasterEUR } from '@admiral-ds/icons/build/cards/PaymentsMasterEUR.svg';
+export { ReactComponent as CardsPaymentsMasterGBR } from '@admiral-ds/icons/build/cards/PaymentsMasterGBR.svg';
+export { ReactComponent as CardsPaymentsMasterJPY } from '@admiral-ds/icons/build/cards/PaymentsMasterJPY.svg';
+export { ReactComponent as CardsPaymentsMasterRUB } from '@admiral-ds/icons/build/cards/PaymentsMasterRUB.svg';
+export { ReactComponent as CardsPaymentsMasterUAH } from '@admiral-ds/icons/build/cards/PaymentsMasterUAH.svg';
+export { ReactComponent as CardsPaymentsMasterUSD } from '@admiral-ds/icons/build/cards/PaymentsMasterUSD.svg';
