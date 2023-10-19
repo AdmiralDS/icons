@@ -24,6 +24,6 @@
       "@admiral-ds/icons/*": ["./*"]
     }
   },
-  "include": ["src", "build"],
+  "include": ["src", "build", "./metadata.json"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

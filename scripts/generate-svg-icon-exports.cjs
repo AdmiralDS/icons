@@ -19,7 +19,7 @@ const generateReactExportFile = () => {
     const exportFileContent = metadata[category]
       .map(
         ({ name, path }) =>
-          `export { ReactComponent as ${capitalizeFirstLetter(category)}${name} } from '@admiral-ds/icons/${path}';`,
+          `export { default as ${capitalizeFirstLetter(category)}${name} } from '@admiral-ds/icons/${path}?react';`,
       )
       .concat(['']) // add empty lane at the file end
       .join('\n');
