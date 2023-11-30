@@ -96,10 +96,16 @@ export { default as CategoryEnvelopeOutline } from '@admiral-ds/icons/build/cate
 export { default as CategoryEnvelopeSolid } from '@admiral-ds/icons/build/category/EnvelopeSolid.svg?react';
 export { default as CategoryFlagOutline } from '@admiral-ds/icons/build/category/FlagOutline.svg?react';
 export { default as CategoryFlagSolid } from '@admiral-ds/icons/build/category/FlagSolid.svg?react';
+export { default as CategoryFlashLightOutline } from '@admiral-ds/icons/build/category/FlashLightOutline.svg?react';
+export { default as CategoryFlashLightSolid } from '@admiral-ds/icons/build/category/FlashLightSolid.svg?react';
 export { default as CategoryForksOutline } from '@admiral-ds/icons/build/category/ForksOutline.svg?react';
 export { default as CategoryForksSolid } from '@admiral-ds/icons/build/category/ForksSolid.svg?react';
+export { default as CategoryGalleryOutline } from '@admiral-ds/icons/build/category/GalleryOutline.svg?react';
+export { default as CategoryGallerySolid } from '@admiral-ds/icons/build/category/GallerySolid.svg?react';
 export { default as CategoryGameOutline } from '@admiral-ds/icons/build/category/GameOutline.svg?react';
 export { default as CategoryGameSolid } from '@admiral-ds/icons/build/category/GameSolid.svg?react';
+export { default as CategoryGanttChartOutline } from '@admiral-ds/icons/build/category/GanttChartOutline.svg?react';
+export { default as CategoryGanttChartSolid } from '@admiral-ds/icons/build/category/GanttChartSolid.svg?react';
 export { default as CategoryGlobeOutline } from '@admiral-ds/icons/build/category/GlobeOutline.svg?react';
 export { default as CategoryGlobeSolid } from '@admiral-ds/icons/build/category/GlobeSolid.svg?react';
 export { default as CategoryGovernmentOutline } from '@admiral-ds/icons/build/category/GovernmentOutline.svg?react';
@@ -238,6 +244,8 @@ export { default as CategoryWatcherOutline } from '@admiral-ds/icons/build/categ
 export { default as CategoryWatcherSolid } from '@admiral-ds/icons/build/category/WatcherSolid.svg?react';
 export { default as CategoryWatcherTestITOutline } from '@admiral-ds/icons/build/category/WatcherTestITOutline.svg?react';
 export { default as CategoryWatcherTestITSolid } from '@admiral-ds/icons/build/category/WatcherTestITSolid.svg?react';
+export { default as CategoryWebhookOutline } from '@admiral-ds/icons/build/category/WebhookOutline.svg?react';
+export { default as CategoryWebhookSolid } from '@admiral-ds/icons/build/category/WebhookSolid.svg?react';
 export { default as CategoryWikiOutline } from '@admiral-ds/icons/build/category/WikiOutline.svg?react';
 export { default as CategoryWikiSolid } from '@admiral-ds/icons/build/category/WikiSolid.svg?react';
 export { default as CategoryWorkOutline } from '@admiral-ds/icons/build/category/WorkOutline.svg?react';

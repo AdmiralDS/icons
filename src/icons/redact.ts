@@ -3,6 +3,7 @@ export { default as RedactAlignLeftOutline } from '@admiral-ds/icons/build/redac
 export { default as RedactAlignMiddleOutline } from '@admiral-ds/icons/build/redact/AlignMiddleOutline.svg?react';
 export { default as RedactAlignRightOutline } from '@admiral-ds/icons/build/redact/AlignRightOutline.svg?react';
 export { default as RedactAlignTopOutline } from '@admiral-ds/icons/build/redact/AlignTopOutline.svg?react';
+export { default as RedactAmountOutline } from '@admiral-ds/icons/build/redact/AmountOutline.svg?react';
 export { default as RedactBgColorOutline } from '@admiral-ds/icons/build/redact/BgColorOutline.svg?react';
 export { default as RedactBorderBoldBottomOutline } from '@admiral-ds/icons/build/redact/BorderBoldBottomOutline.svg?react';
 export { default as RedactBorderBoldLeftOutline } from '@admiral-ds/icons/build/redact/BorderBoldLeftOutline.svg?react';
@@ -53,8 +54,12 @@ export { default as RedactRowDeleteOutline } from '@admiral-ds/icons/build/redac
 export { default as RedactRowInsertAfterOutline } from '@admiral-ds/icons/build/redact/RowInsertAfterOutline.svg?react';
 export { default as RedactRowInsertBelowOutline } from '@admiral-ds/icons/build/redact/RowInsertBelowOutline.svg?react';
 export { default as RedactSpellCheckOutline } from '@admiral-ds/icons/build/redact/SpellCheckOutline.svg?react';
+export { default as RedactSubscriptOutline } from '@admiral-ds/icons/build/redact/SubscriptOutline.svg?react';
+export { default as RedactSuperscriptOutline } from '@admiral-ds/icons/build/redact/SuperscriptOutline.svg?react';
 export { default as RedactTableOutline } from '@admiral-ds/icons/build/redact/TableOutline.svg?react';
 export { default as RedactTextBoldOutline } from '@admiral-ds/icons/build/redact/TextBoldOutline.svg?react';
 export { default as RedactTextItalicOutline } from '@admiral-ds/icons/build/redact/TextItalicOutline.svg?react';
 export { default as RedactTextUnderlineOutline } from '@admiral-ds/icons/build/redact/TextUnderlineOutline.svg?react';
 export { default as RedactTxtColorOutline } from '@admiral-ds/icons/build/redact/TxtColorOutline.svg?react';
+export { default as RedactUnwrapOutline } from '@admiral-ds/icons/build/redact/UnwrapOutline.svg?react';
+export { default as RedactWrapOutline } from '@admiral-ds/icons/build/redact/WrapOutline.svg?react';

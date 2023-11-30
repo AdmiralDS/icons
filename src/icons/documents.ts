@@ -76,8 +76,12 @@ export { default as DocumentsFileXMLOutline } from '@admiral-ds/icons/build/docu
 export { default as DocumentsFileXMLSolid } from '@admiral-ds/icons/build/documents/FileXMLSolid.svg?react';
 export { default as DocumentsFolderOutline } from '@admiral-ds/icons/build/documents/FolderOutline.svg?react';
 export { default as DocumentsFolderSolid } from '@admiral-ds/icons/build/documents/FolderSolid.svg?react';
+export { default as DocumentsInvoiceOutline } from '@admiral-ds/icons/build/documents/InvoiceOutline.svg?react';
+export { default as DocumentsInvoiceSolid } from '@admiral-ds/icons/build/documents/InvoiceSolid.svg?react';
 export { default as DocumentsJpgOutline } from '@admiral-ds/icons/build/documents/JpgOutline.svg?react';
 export { default as DocumentsJpgSolid } from '@admiral-ds/icons/build/documents/JpgSolid.svg?react';
+export { default as DocumentsMissingDocumentOutline } from '@admiral-ds/icons/build/documents/MissingDocumentOutline.svg?react';
+export { default as DocumentsMissingDocumentSolid } from '@admiral-ds/icons/build/documents/MissingDocumentSolid.svg?react';
 export { default as DocumentsPDFOutline } from '@admiral-ds/icons/build/documents/PDFOutline.svg?react';
 export { default as DocumentsPDFSolid } from '@admiral-ds/icons/build/documents/PDFSolid.svg?react';
 export { default as DocumentsPPTOutline } from '@admiral-ds/icons/build/documents/PPTOutline.svg?react';
@@ -88,6 +92,8 @@ export { default as DocumentsRotateLeftOutline } from '@admiral-ds/icons/build/d
 export { default as DocumentsRotateLeftSolid } from '@admiral-ds/icons/build/documents/RotateLeftSolid.svg?react';
 export { default as DocumentsRotateRightOutline } from '@admiral-ds/icons/build/documents/RotateRightOutline.svg?react';
 export { default as DocumentsRotateRightSolid } from '@admiral-ds/icons/build/documents/RotateRightSolid.svg?react';
+export { default as DocumentsScanDocOutline } from '@admiral-ds/icons/build/documents/ScanDocOutline.svg?react';
+export { default as DocumentsScanDocSolid } from '@admiral-ds/icons/build/documents/ScanDocSolid.svg?react';
 export { default as DocumentsScanOutline } from '@admiral-ds/icons/build/documents/ScanOutline.svg?react';
 export { default as DocumentsScanRedoOutline } from '@admiral-ds/icons/build/documents/ScanRedoOutline.svg?react';
 export { default as DocumentsScanRedoSolid } from '@admiral-ds/icons/build/documents/ScanRedoSolid.svg?react';

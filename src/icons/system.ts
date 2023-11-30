@@ -12,6 +12,8 @@ export { default as SystemArrowLeftOutline } from '@admiral-ds/icons/build/syste
 export { default as SystemArrowLeftSolid } from '@admiral-ds/icons/build/system/ArrowLeftSolid.svg?react';
 export { default as SystemArrowRightOutline } from '@admiral-ds/icons/build/system/ArrowRightOutline.svg?react';
 export { default as SystemArrowRightSolid } from '@admiral-ds/icons/build/system/ArrowRightSolid.svg?react';
+export { default as SystemArrowUpDownOutline } from '@admiral-ds/icons/build/system/ArrowUpDownOutline.svg?react';
+export { default as SystemArrowUpDownSolid } from '@admiral-ds/icons/build/system/ArrowUpDownSolid.svg?react';
 export { default as SystemArrowUpOneOutline } from '@admiral-ds/icons/build/system/ArrowUpOneOutline.svg?react';
 export { default as SystemArrowUpOneSolid } from '@admiral-ds/icons/build/system/ArrowUpOneSolid.svg?react';
 export { default as SystemArrowUpOutline } from '@admiral-ds/icons/build/system/ArrowUpOutline.svg?react';
@@ -94,6 +96,10 @@ export { default as SystemEyedropperOutline } from '@admiral-ds/icons/build/syst
 export { default as SystemEyedropperSolid } from '@admiral-ds/icons/build/system/EyedropperSolid.svg?react';
 export { default as SystemFilterOutline } from '@admiral-ds/icons/build/system/FilterOutline.svg?react';
 export { default as SystemFilterSolid } from '@admiral-ds/icons/build/system/FilterSolid.svg?react';
+export { default as SystemGroupObjectsOutline } from '@admiral-ds/icons/build/system/GroupObjectsOutline.svg?react';
+export { default as SystemGroupObjectsSolid } from '@admiral-ds/icons/build/system/GroupObjectsSolid.svg?react';
+export { default as SystemHierarchyOutline } from '@admiral-ds/icons/build/system/HierarchyOutline.svg?react';
+export { default as SystemHierarchySolid } from '@admiral-ds/icons/build/system/HierarchySolid.svg?react';
 export { default as SystemHomeOutline } from '@admiral-ds/icons/build/system/HomeOutline.svg?react';
 export { default as SystemHomeSolid } from '@admiral-ds/icons/build/system/HomeSolid.svg?react';
 export { default as SystemImportOutline } from '@admiral-ds/icons/build/system/ImportOutline.svg?react';
@@ -144,6 +150,8 @@ export { default as SystemPowerOutline } from '@admiral-ds/icons/build/system/Po
 export { default as SystemPowerSolid } from '@admiral-ds/icons/build/system/PowerSolid.svg?react';
 export { default as SystemPrintOutline } from '@admiral-ds/icons/build/system/PrintOutline.svg?react';
 export { default as SystemPrintSolid } from '@admiral-ds/icons/build/system/PrintSolid.svg?react';
+export { default as SystemQLOutline } from '@admiral-ds/icons/build/system/QLOutline.svg?react';
+export { default as SystemQLSolid } from '@admiral-ds/icons/build/system/QLSolid.svg?react';
 export { default as SystemQRCodeOutline } from '@admiral-ds/icons/build/system/QRCodeOutline.svg?react';
 export { default as SystemQRCodeSolid } from '@admiral-ds/icons/build/system/QRCodeSolid.svg?react';
 export { default as SystemRedoOutline } from '@admiral-ds/icons/build/system/RedoOutline.svg?react';
@@ -161,6 +169,8 @@ export { default as SystemSearchOutline } from '@admiral-ds/icons/build/system/S
 export { default as SystemSearchSolid } from '@admiral-ds/icons/build/system/SearchSolid.svg?react';
 export { default as SystemSettingsOutline } from '@admiral-ds/icons/build/system/SettingsOutline.svg?react';
 export { default as SystemSettingsSolid } from '@admiral-ds/icons/build/system/SettingsSolid.svg?react';
+export { default as SystemSharingOutline } from '@admiral-ds/icons/build/system/SharingOutline.svg?react';
+export { default as SystemSharingSolid } from '@admiral-ds/icons/build/system/SharingSolid.svg?react';
 export { default as SystemSignInOutline } from '@admiral-ds/icons/build/system/SignInOutline.svg?react';
 export { default as SystemSignInSolid } from '@admiral-ds/icons/build/system/SignInSolid.svg?react';
 export { default as SystemSmallArrowDownOutline } from '@admiral-ds/icons/build/system/SmallArrowDownOutline.svg?react';
