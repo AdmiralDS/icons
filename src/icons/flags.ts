@@ -1,3 +1,4 @@
+export { default as FlagsAbkhazia } from '@admiral-ds/icons/build/flags/Abkhazia.svg?react';
 export { default as FlagsAfghanistan } from '@admiral-ds/icons/build/flags/Afghanistan.svg?react';
 export { default as FlagsAlandIslands } from '@admiral-ds/icons/build/flags/AlandIslands.svg?react';
 export { default as FlagsAlbania } from '@admiral-ds/icons/build/flags/Albania.svg?react';
@@ -168,8 +169,10 @@ export { default as FlagsNewZealand } from '@admiral-ds/icons/build/flags/NewZea
 export { default as FlagsNicaragua } from '@admiral-ds/icons/build/flags/Nicaragua.svg?react';
 export { default as FlagsNiger } from '@admiral-ds/icons/build/flags/Niger.svg?react';
 export { default as FlagsNigeria } from '@admiral-ds/icons/build/flags/Nigeria.svg?react';
+export { default as FlagsNiue } from '@admiral-ds/icons/build/flags/Niue.svg?react';
 export { default as FlagsNorfolkIsland } from '@admiral-ds/icons/build/flags/NorfolkIsland.svg?react';
 export { default as FlagsNorthMacedonia } from '@admiral-ds/icons/build/flags/NorthMacedonia.svg?react';
+export { default as FlagsNorthernMarianaIslands } from '@admiral-ds/icons/build/flags/NorthernMarianaIslands.svg?react';
 export { default as FlagsNorway } from '@admiral-ds/icons/build/flags/Norway.svg?react';
 export { default as FlagsOman } from '@admiral-ds/icons/build/flags/Oman.svg?react';
 export { default as FlagsPakistan } from '@admiral-ds/icons/build/flags/Pakistan.svg?react';
@@ -186,12 +189,16 @@ export { default as FlagsPortugal } from '@admiral-ds/icons/build/flags/Portugal
 export { default as FlagsPuertoRico } from '@admiral-ds/icons/build/flags/PuertoRico.svg?react';
 export { default as FlagsQatar } from '@admiral-ds/icons/build/flags/Qatar.svg?react';
 export { default as FlagsRepublicOfKiribati } from '@admiral-ds/icons/build/flags/RepublicOfKiribati.svg?react';
+export { default as FlagsReunion } from '@admiral-ds/icons/build/flags/Reunion.svg?react';
 export { default as FlagsRomania } from '@admiral-ds/icons/build/flags/Romania.svg?react';
 export { default as FlagsRussianFederation } from '@admiral-ds/icons/build/flags/RussianFederation.svg?react';
 export { default as FlagsRwanda } from '@admiral-ds/icons/build/flags/Rwanda.svg?react';
+export { default as FlagsSaintBarthelemy } from '@admiral-ds/icons/build/flags/SaintBarthelemy.svg?react';
 export { default as FlagsSaintHelena } from '@admiral-ds/icons/build/flags/SaintHelena.svg?react';
 export { default as FlagsSaintKittsAndNevis } from '@admiral-ds/icons/build/flags/SaintKittsAndNevis.svg?react';
 export { default as FlagsSaintLucia } from '@admiral-ds/icons/build/flags/SaintLucia.svg?react';
+export { default as FlagsSaintMartin } from '@admiral-ds/icons/build/flags/SaintMartin.svg?react';
+export { default as FlagsSaintPierreAndMiquelon } from '@admiral-ds/icons/build/flags/SaintPierreAndMiquelon.svg?react';
 export { default as FlagsSaintVincentAndTheGrenadines } from '@admiral-ds/icons/build/flags/SaintVincentAndTheGrenadines.svg?react';
 export { default as FlagsSamoa } from '@admiral-ds/icons/build/flags/Samoa.svg?react';
 export { default as FlagsSanMarino } from '@admiral-ds/icons/build/flags/SanMarino.svg?react';
@@ -202,6 +209,7 @@ export { default as FlagsSerbia } from '@admiral-ds/icons/build/flags/Serbia.svg
 export { default as FlagsSeychelles } from '@admiral-ds/icons/build/flags/Seychelles.svg?react';
 export { default as FlagsSierraLeone } from '@admiral-ds/icons/build/flags/SierraLeone.svg?react';
 export { default as FlagsSingapore } from '@admiral-ds/icons/build/flags/Singapore.svg?react';
+export { default as FlagsSintMaarten } from '@admiral-ds/icons/build/flags/SintMaarten.svg?react';
 export { default as FlagsSlovakia } from '@admiral-ds/icons/build/flags/Slovakia.svg?react';
 export { default as FlagsSlovenia } from '@admiral-ds/icons/build/flags/Slovenia.svg?react';
 export { default as FlagsSolomonIslands } from '@admiral-ds/icons/build/flags/SolomonIslands.svg?react';
@@ -241,6 +249,7 @@ export { default as FlagsUzbekistan } from '@admiral-ds/icons/build/flags/Uzbeki
 export { default as FlagsVanuatu } from '@admiral-ds/icons/build/flags/Vanuatu.svg?react';
 export { default as FlagsVenezuela } from '@admiral-ds/icons/build/flags/Venezuela.svg?react';
 export { default as FlagsVietNam } from '@admiral-ds/icons/build/flags/VietNam.svg?react';
+export { default as FlagsVirginIslandsOfTheUnitedStates } from '@admiral-ds/icons/build/flags/VirginIslandsOfTheUnitedStates.svg?react';
 export { default as FlagsWW } from '@admiral-ds/icons/build/flags/WW.svg?react';
 export { default as FlagsWallisAndFutuna } from '@admiral-ds/icons/build/flags/WallisAndFutuna.svg?react';
 export { default as FlagsWesternSahara } from '@admiral-ds/icons/build/flags/WesternSahara.svg?react';
