@@ -16,7 +16,8 @@
   "exports": {
       ".": "./dist/index.es.js",
       "./build/*": "./build/*",
-      "./public/*": "./public/*"
+      "./public/*": "./public/*",
+      "./*.json": "./*.json"
   },
   "scripts": {
     "dev": "vite",
