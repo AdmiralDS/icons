@@ -1,0 +1,13 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1090_1197">
+			<rect id="Outline / Wall Outline" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip1090_1197)">
+		<path id="Shape" d="M17 4C18.65 4 20 5.34 20 7L20 16.98C20 18.64 18.65 19.98 17 19.98L7 19.98C5.34 19.98 4 18.64 4 16.98L4 7C4 5.34 5.34 4 7 4L17 4ZM12.64 5.3L12.64 8.69L18.7 8.69L18.7 7C18.7 6.06 17.94 5.3 17 5.3L12.64 5.3ZM11.35 8.69L11.35 5.3L7 5.3C6.06 5.3 5.29 6.06 5.29 7L5.29 8.69L11.35 8.69ZM5.29 9.99L5.29 14L7.64 14L7.64 9.99L5.29 9.99ZM5.29 15.3L5.29 16.98C5.29 17.92 6.06 18.68 7 18.68L11.35 18.68L11.35 15.3L5.29 15.3ZM12.64 18.68L17 18.68C17.94 18.68 18.7 17.92 18.7 16.98L18.7 15.3L12.64 15.3L12.64 18.68ZM18.7 14L18.7 9.99L16.35 9.99L16.35 14L18.7 14ZM15.05 9.99L8.94 9.99L8.94 14L15.05 14L15.05 9.99Z" fill="#717681" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

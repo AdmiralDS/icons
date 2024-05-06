@@ -1,5 +1,10 @@
-<svg width="23" height="10" viewBox="0 0 23 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="12.259" cy="5.25905" r="4.25905" fill="#EB001B"/>
-<circle cx="17.8284" cy="5.25905" r="4.25905" fill="#0099DF"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M15.0434 8.48164C15.9463 7.70068 16.5175 6.54667 16.5175 5.25925C16.5175 3.97184 15.9463 2.81783 15.0434 2.03687C14.1406 2.81783 13.5694 3.97184 13.5694 5.25925C13.5694 6.54667 14.1406 7.70068 15.0434 8.48164Z" fill="#6C6BBD"/>
+<svg width="23.000000" height="10.000000" viewBox="0 0 23 10" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Maestro S" width="22.000000" height="10.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<circle id="Red" cx="12.259048" cy="5.259033" r="4.259046" fill="#EB001B" fill-opacity="1.000000"/>
+	<circle id="Blue" cx="17.828384" cy="5.259033" r="4.259046" fill="#0099DF" fill-opacity="1.000000"/>
+	<path id="Intersect" d="M15.0434 2.03687C15.9463 2.81781 16.5175 3.97186 16.5175 5.25928C16.5175 6.54669 15.9463 7.70068 15.0434 8.48163C14.1406 7.70068 13.5694 6.54669 13.5694 5.25928C13.5694 3.97186 14.1406 2.81781 15.0434 2.03687Z" clip-rule="evenodd" fill="#6C6BBD" fill-opacity="1.000000" fill-rule="evenodd"/>
 </svg>

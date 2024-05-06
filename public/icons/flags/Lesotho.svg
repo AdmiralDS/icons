@@ -1,12 +1,29 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="#D6D8DD" stroke-width="0.5"/>
-<mask id="mask0_17_5108" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="white" stroke-width="0.5"/>
-</mask>
-<g mask="url(#mask0_17_5108)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 10.6667H28V4H0V10.6667Z" fill="#0C33B8"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H28V17.3333H0V24Z" fill="#1DB158"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M13.3333 14L13.3675 13.8974C13.5701 13.2896 14.4298 13.2896 14.6324 13.8974L14.6667 14L15.8484 15.7726C15.9365 15.9048 15.9172 16.0791 15.7853 16.1678C15.4916 16.3653 14.8965 16.6667 14 16.6667C13.1035 16.6667 12.5084 16.3653 12.2147 16.1678C12.0828 16.0791 12.0634 15.9048 12.1516 15.7726L13.3333 14Z" fill="#262626"/>
-<path d="M15 12.6667C15 13.219 14.5523 13.6667 14 13.6667C13.4477 13.6667 13 13.219 13 12.6667C13 12.1144 13.4477 11.6667 14 11.6667C14.5523 11.6667 15 12.1144 15 12.6667Z" stroke="#262626" stroke-width="0.666667"/>
-</g>
+<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Lesotho" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#D6D8DD" stroke-opacity="1.000000" stroke-width="0.500000"/>
+	<mask id="mask17_5110" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
+		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#F5F5F5" stroke-opacity="1.000000" stroke-width="0.500000"/>
+	</mask>
+	<g mask="url(#mask17_5110)">
+		<path id="Rectangle 2" d="M0 10.66L28 10.66L28 4L0 4L0 10.66Z" fill="#0C33B8" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2" d="M28 10.66L28 4L0 4L0 10.66L28 10.66Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_5110)">
+		<path id="Rectangle 2" d="M0 24L28 24L28 17.33L0 17.33L0 24Z" fill="#1DB158" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2" d="M28 24L28 17.33L0 17.33L0 24L28 24Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_5110)">
+		<path id="Rectangle 328" d="M13.33 14L13.36 13.89C13.57 13.28 14.42 13.28 14.63 13.89L14.66 14L15.84 15.77C15.93 15.9 15.91 16.07 15.78 16.16C15.49 16.36 14.89 16.66 14 16.66C13.1 16.66 12.5 16.36 12.21 16.16C12.08 16.07 12.06 15.9 12.15 15.77L13.33 14Z" fill="#262626" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 328" d="M13.36 13.89C13.57 13.28 14.42 13.28 14.63 13.89L14.66 14L15.84 15.77C15.93 15.9 15.91 16.07 15.78 16.16C15.49 16.36 14.89 16.66 14 16.66C13.1 16.66 12.5 16.36 12.21 16.16C12.08 16.07 12.06 15.9 12.15 15.77L13.33 14L13.36 13.89Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_5110)">
+		<path id="Oval 17" d="M14 14C14.73 14 15.33 13.4 15.33 12.66C15.33 11.93 14.73 11.33 14 11.33C13.26 11.33 12.66 11.93 12.66 12.66C12.66 13.4 13.26 14 14 14Z" fill="#D8D8D8" fill-opacity="0" fill-rule="evenodd"/>
+		<path id="Oval 17" d="M15.33 12.66C15.33 13.4 14.73 14 14 14C13.26 14 12.66 13.4 12.66 12.66C12.66 11.93 13.26 11.33 14 11.33C14.73 11.33 15.33 11.93 15.33 12.66ZM14.61 12.41Q14.66 12.52 14.66 12.66Q14.66 12.8 14.61 12.92Q14.56 13.04 14.47 13.13Q14.37 13.23 14.25 13.28Q14.13 13.33 14 13.33Q13.86 13.33 13.74 13.28Q13.62 13.23 13.52 13.13Q13.43 13.04 13.38 12.92Q13.33 12.8 13.33 12.66Q13.33 12.52 13.38 12.41Q13.43 12.29 13.52 12.19Q13.62 12.09 13.74 12.04Q13.86 12 14 12Q14.13 12 14.25 12.04Q14.37 12.09 14.47 12.19Q14.56 12.29 14.61 12.41Z" fill="#262626" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
 </svg>

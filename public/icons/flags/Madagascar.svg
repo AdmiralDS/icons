@@ -1,10 +1,27 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="#D6D8DD" stroke-width="0.5"/>
-<mask id="mask0_17_4913" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="white" stroke-width="0.5"/>
-</mask>
-<g mask="url(#mask0_17_4913)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M9.33331 13.3333V24H28V13.3333H9.33331Z" fill="#149047"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M28 13.3333H9.33331V4H28V13.3333Z" fill="#F84F4B"/>
-</g>
+<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Madagascar" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#D6D8DD" stroke-opacity="1.000000" stroke-width="0.500000"/>
+	<mask id="mask17_4915" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
+		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#F5F5F5" stroke-opacity="1.000000" stroke-width="0.500000"/>
+	</mask>
+	<g mask="url(#mask17_4915)">
+		<mask id="mask_17_4916" fill="white">
+			<path id="Combined Shape" d="M9.33331 13.3333L9.33331 24L28 24L28 13.3333L9.33331 13.3333Z" clip-rule="evenodd" fill="" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</mask>
+		<path id="Combined Shape" d="M9.33331 13.3333L9.33331 24L28 24L28 13.3333L9.33331 13.3333Z" clip-rule="evenodd" fill="#149047" fill-opacity="1.000000" fill-rule="evenodd" mask="url(#mask_17_4916)"/>
+		<path id="Combined Shape" d="" fill="#979797" fill-opacity="0.000000" fill-rule="nonzero"/>
+	</g>
+	<g mask="url(#mask17_4915)">
+		<mask id="mask_17_4919" fill="white">
+			<path id="Combined Shape" d="M9.33331 4L9.33331 13.3333L28 13.3333L28 4L9.33331 4Z" clip-rule="evenodd" fill="" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</mask>
+		<path id="Combined Shape" d="M9.33331 4L9.33331 13.3333L28 13.3333L28 4L9.33331 4Z" clip-rule="evenodd" fill="#F84F4B" fill-opacity="1.000000" fill-rule="evenodd" mask="url(#mask_17_4919)"/>
+		<path id="Combined Shape" d="" fill="#979797" fill-opacity="0.000000" fill-rule="nonzero"/>
+	</g>
 </svg>

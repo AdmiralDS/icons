@@ -1,14 +1,37 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect y="4" width="28" height="20" rx="3" fill="white"/>
-<mask id="mask0_17_4466" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
-<rect y="4" width="28" height="20" rx="3" fill="white"/>
-</mask>
-<g mask="url(#mask0_17_4466)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H28V17.3333H0V24Z" fill="#2ACB41"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 10.6667H28V4H0V10.6667Z" fill="#2ACB41"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 17.3333H28V10.6667H0V17.3333Z" fill="#FDD043"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 4L10.6667 14L0 24V4Z" fill="#E71E43"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14.6667 15.0933L13.0992 16.1574L13.6268 14.3379L12.1305 13.1759L14.024 13.1155L14.6667 11.3333L15.3093 13.1155L17.2028 13.1759L15.7065 14.3379L16.2341 16.1574L14.6667 15.0933Z" fill="#262626"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M21.3333 15.0933L19.7659 16.1574L20.2935 14.3379L18.7972 13.1759L20.6907 13.1155L21.3333 11.3333L21.976 13.1155L23.8695 13.1759L22.3731 14.3379L22.9008 16.1574L21.3333 15.0933Z" fill="#262626"/>
-</g>
+<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Sao Tome and Principe" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	<mask id="mask17_4468" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
+		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</mask>
+	<g mask="url(#mask17_4468)">
+		<path id="Rectangle 2" d="M0 24L28 24L28 17.33L0 17.33L0 24Z" fill="#2ACB41" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2" d="M28 24L28 17.33L0 17.33L0 24L28 24Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_4468)">
+		<path id="Rectangle 2" d="M0 10.66L28 10.66L28 4L0 4L0 10.66Z" fill="#2ACB41" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2" d="M28 10.66L28 4L0 4L0 10.66L28 10.66Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_4468)">
+		<path id="Rectangle 2" d="M0 17.33L28 17.33L28 10.66L0 10.66L0 17.33Z" fill="#FDD043" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2" d="M28 17.33L28 10.66L0 10.66L0 17.33L28 17.33Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_4468)">
+		<path id="Rectangle 83" d="M0 4L10.66 14L0 24L0 4Z" fill="#E71E43" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 83" d="M10.66 14L0 24L0 4L10.66 14Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_4468)">
+		<path id="Star 33" d="M14.66 15.09L13.09 16.15L13.62 14.33L12.13 13.17L14.02 13.11L14.66 11.33L15.3 13.11L17.2 13.17L15.7 14.33L16.23 16.15L14.66 15.09Z" fill="#262626" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Star 33" d="M13.09 16.15L13.62 14.33L12.13 13.17L14.02 13.11L14.66 11.33L15.3 13.11L17.2 13.17L15.7 14.33L16.23 16.15L14.66 15.09L13.09 16.15Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_4468)">
+		<path id="Star 33" d="M21.33 15.09L19.76 16.15L20.29 14.33L18.79 13.17L20.69 13.11L21.33 11.33L21.97 13.11L23.86 13.17L22.37 14.33L22.9 16.15L21.33 15.09Z" fill="#262626" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Star 33" d="M19.76 16.15L20.29 14.33L18.79 13.17L20.69 13.11L21.33 11.33L21.97 13.11L23.86 13.17L22.37 14.33L22.9 16.15L21.33 15.09L19.76 16.15Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
 </svg>

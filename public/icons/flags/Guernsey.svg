@@ -1,16 +1,35 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="#D6D8DD" stroke-width="0.5"/>
-<mask id="mask0_17_5629" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="white" stroke-width="0.5"/>
-</mask>
-<g mask="url(#mask0_17_5629)">
-<rect x="10.6667" y="4" width="6.66667" height="20" fill="#E8112D"/>
-<rect y="10.6666" width="28" height="6.66667" fill="#E8112D"/>
-<rect x="13.3333" y="6.66663" width="1.33333" height="14.6667" fill="#F9DD16"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14 19.9999L15.3333 21.3333H12.6667L14 19.9999Z" fill="#F9DD16"/>
-<rect x="6.66666" y="13.3333" width="14.6667" height="1.33333" fill="#F9DD16"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14 7.99994L15.3333 6.66661H12.6667L14 7.99994Z" fill="#F9DD16"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7.99998 14L6.66665 12.6666V15.3333L7.99998 14Z" fill="#F9DD16"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M20 14L21.3333 12.6666V15.3333L20 14Z" fill="#F9DD16"/>
-</g>
+<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Guernsey" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#D6D8DD" stroke-opacity="1.000000" stroke-width="0.500000"/>
+	<mask id="mask17_5631" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
+		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#F5F5F5" stroke-opacity="1.000000" stroke-width="0.500000"/>
+	</mask>
+	<g mask="url(#mask17_5631)">
+		<rect id="Mask" x="10.666687" y="4.000000" width="6.666667" height="20.000000" fill="#E8112D" fill-opacity="1.000000"/>
+		<rect id="Mask" x="10.666687" y="4.000000" width="6.666667" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_5631)">
+		<rect id="Mask" y="10.666626" width="28.000000" height="6.666667" fill="#E8112D" fill-opacity="1.000000"/>
+		<rect id="Mask" y="10.666626" width="28.000000" height="6.666667" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_5631)">
+		<rect id="Rectangle 1229" x="13.333313" y="6.666626" width="1.333333" height="14.666667" fill="#F9DD16" fill-opacity="1.000000"/>
+		<rect id="Rectangle 1229" x="13.333313" y="6.666626" width="1.333333" height="14.666667" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+		<path id="Triangle 1" d="M14 20L15.33 21.33L12.66 21.33L14 20Z" fill="#F9DD16" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Triangle 1" d="M15.33 21.33L12.66 21.33L14 20L15.33 21.33Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+		<rect id="Rectangle 1229" x="6.666687" y="13.333313" width="14.666667" height="1.333333" fill="#F9DD16" fill-opacity="1.000000"/>
+		<rect id="Rectangle 1229" x="6.666687" y="13.333313" width="14.666667" height="1.333333" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+		<path id="Triangle 1" d="M14 8L15.33 6.66L12.66 6.66L14 8Z" fill="#F9DD16" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Triangle 1" d="M15.33 6.66L12.66 6.66L14 8L15.33 6.66Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+		<path id="Triangle 1" d="M8 14L6.66 12.66L6.66 15.33L8 14Z" fill="#F9DD16" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Triangle 1" d="M6.66 12.66L6.66 15.33L8 14L6.66 12.66Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+		<path id="Triangle 1" d="M20 14L21.33 12.66L21.33 15.33L20 14Z" fill="#F9DD16" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Triangle 1" d="M21.33 12.66L21.33 15.33L20 14L21.33 12.66Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
 </svg>

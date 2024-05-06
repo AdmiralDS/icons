@@ -1,14 +1,31 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0_107608_792" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
-<rect y="4" width="28" height="20" rx="3" fill="#062365"/>
-</mask>
-<g mask="url(#mask0_107608_792)">
-<rect y="4" width="28" height="20" fill="#062365"/>
-<path d="M26.052 20.064L5.54481 19.8464C5.15923 19.6225 5.38415 19.4007 5.54481 19.3177L25.8965 19.4888L26.4251 19.8153L26.052 20.064Z" fill="#F8D147"/>
-<path d="M26.4718 19.2089L5.68481 19.0379C6.85606 18.4264 9.50109 16.6861 11.2353 15.1821C12.9921 13.6585 19.2267 9.67831 22.585 8.26349C18.6981 12.1504 23.3623 19.0846 26.4718 19.0846V19.2089Z" fill="#F8D147"/>
-<path d="M5.90249 8.1391L6.06655 8.64402L6.59745 8.64402L6.16794 8.95608L6.332 9.46101L5.90249 9.14895L5.47297 9.46101L5.63703 8.95608L5.20752 8.64402L5.73843 8.64402L5.90249 8.1391Z" fill="white"/>
-<path d="M5.90251 16.3171L6.08751 16.8865H6.6862L6.20185 17.2384L6.38685 17.8077L5.90251 17.4558L5.41816 17.8077L5.60317 17.2384L5.11882 16.8865H5.71751L5.90251 16.3171Z" fill="white"/>
-<path d="M2.73073 11.3108L2.89479 11.8157L3.4257 11.8157L2.99619 12.1278L3.16025 12.6327L2.73073 12.3206L2.30122 12.6327L2.46528 12.1278L2.03576 11.8157L2.56667 11.8157L2.73073 11.3108Z" fill="white"/>
-<path d="M8.63873 10.6578L8.76789 11.0553L9.18584 11.0553L8.84771 11.3009L8.97686 11.6984L8.63873 11.4528L8.30061 11.6984L8.42976 11.3009L8.09163 11.0553L8.50958 11.0553L8.63873 10.6578Z" fill="white"/>
-</g>
+<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Tokelau" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<mask id="mask107608_784" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
+		<rect id="image 1" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#062365" fill-opacity="1.000000"/>
+	</mask>
+	<g mask="url(#mask107608_784)">
+		<rect id="image 2" y="4.000000" width="28.000000" height="20.000000" fill="#062365" fill-opacity="1.000000"/>
+	</g>
+	<g mask="url(#mask107608_784)">
+		<path id="Vector 35" d="M5.54 19.84L26.05 20.06L26.42 19.81L25.89 19.48L5.54 19.31C5.38 19.4 5.15 19.62 5.54 19.84Z" fill="#F8D147" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<g mask="url(#mask107608_784)">
+		<path id="Vector 36" d="M5.68 19.03L26.47 19.2L26.47 19.08C23.36 19.08 18.69 12.15 22.58 8.26C19.22 9.67 12.99 13.65 11.23 15.18C9.5 16.68 6.85 18.42 5.68 19.03Z" fill="#F8D147" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<g mask="url(#mask107608_784)">
+		<path id="Star 107" d="M5.9 8.13L5.73 8.64L5.2 8.64L5.63 8.95L5.47 9.46L5.9 9.14L6.33 9.46L6.16 8.95L6.59 8.64L6.06 8.64L5.9 8.13Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<g mask="url(#mask107608_784)">
+		<path id="Star 110" d="M5.9 16.31L5.71 16.88L5.11 16.88L5.6 17.23L5.41 17.8L5.9 17.45L6.38 17.8L6.2 17.23L6.68 16.88L6.08 16.88L5.9 16.31Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<g mask="url(#mask107608_784)">
+		<path id="Star 108" d="M2.73 11.31L2.56 11.81L2.03 11.81L2.46 12.12L2.3 12.63L2.73 12.32L3.16 12.63L2.99 12.12L3.42 11.81L2.89 11.81L2.73 11.31Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<g mask="url(#mask107608_784)">
+		<path id="Star 109" d="M8.63 10.65L8.5 11.05L8.09 11.05L8.42 11.3L8.3 11.69L8.63 11.45L8.97 11.69L8.84 11.3L9.18 11.05L8.76 11.05L8.63 10.65Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
 </svg>

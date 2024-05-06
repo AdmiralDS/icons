@@ -1,11 +1,25 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="#D6D8DD" stroke-width="0.5"/>
-<mask id="mask0_17_5841" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="white" stroke-width="0.5"/>
-</mask>
-<g mask="url(#mask0_17_5841)">
-<rect x="20" y="4" width="8" height="20" fill="#FF3131"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H8V4H0V24Z" fill="#FF3131"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M16.1118 13.2215C15.8786 13.4547 15.4845 13.2438 15.5492 12.9204L16 10.6666L14.6666 11.3333L14 9.33331L13.3333 11.3333L12 10.6666L12.4507 12.9204C12.5154 13.2438 12.1214 13.4547 11.8882 13.2215L11.569 12.9023C11.4388 12.7722 11.2278 12.7722 11.0976 12.9023L10.6666 13.3333L9.33331 12.6666L9.99998 14L9.56901 14.4309C9.43884 14.5611 9.43884 14.7722 9.56902 14.9023L11.3333 16.6666H13.3333L13.6666 18.6666H14.3333L14.6666 16.6666H16.6666L18.4309 14.9023C18.5611 14.7722 18.5611 14.5611 18.4309 14.4309L18 14L18.6666 12.6666L17.3333 13.3333L16.9023 12.9023C16.7722 12.7722 16.5611 12.7722 16.4309 12.9023L16.1118 13.2215Z" fill="#FF3131"/>
-</g>
+<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Canada" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#D6D8DD" stroke-opacity="1.000000" stroke-width="0.500000"/>
+	<mask id="mask17_5843" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
+		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#F5F5F5" stroke-opacity="1.000000" stroke-width="0.500000"/>
+	</mask>
+	<g mask="url(#mask17_5843)">
+		<rect id="Mask" x="20.000000" y="4.000000" width="8.000000" height="20.000000" fill="#FF3131" fill-opacity="1.000000"/>
+		<rect id="Mask" x="20.000000" y="4.000000" width="8.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_5843)">
+		<path id="Rectangle 2" d="M0 24L8 24L8 4L0 4L0 24Z" fill="#FF3131" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2" d="M8 24L8 4L0 4L0 24L8 24Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_5843)">
+		<path id="Rectangle 66" d="M16.11 13.22C15.87 13.45 15.48 13.24 15.54 12.92L16 10.66L14.66 11.33L14 9.33L13.33 11.33L12 10.66L12.45 12.92C12.51 13.24 12.12 13.45 11.88 13.22L11.56 12.9C11.43 12.77 11.22 12.77 11.09 12.9L10.66 13.33L9.33 12.66L10 14L9.56 14.43C9.43 14.56 9.43 14.77 9.56 14.9L11.33 16.66L13.33 16.66L13.66 18.66L14.33 18.66L14.66 16.66L16.66 16.66L18.43 14.9C18.56 14.77 18.56 14.56 18.43 14.43L18 14L18.66 12.66L17.33 13.33L16.9 12.9C16.77 12.77 16.56 12.77 16.43 12.9L16.11 13.22Z" fill="#FF3131" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 66" d="M16 10.66L14.66 11.33L14 9.33L13.33 11.33L12 10.66L12.45 12.92C12.51 13.24 12.12 13.45 11.88 13.22L11.56 12.9C11.43 12.77 11.22 12.77 11.09 12.9L10.66 13.33L9.33 12.66L10 14L9.56 14.43C9.43 14.56 9.43 14.77 9.56 14.9L11.33 16.66L13.33 16.66L13.66 18.66L14.33 18.66L14.66 16.66L16.66 16.66L18.43 14.9C18.56 14.77 18.56 14.56 18.43 14.43L18 14L18.66 12.66L17.33 13.33L16.9 12.9C16.77 12.77 16.56 12.77 16.43 12.9L16.11 13.22C15.87 13.45 15.48 13.24 15.54 12.92L16 10.66Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
 </svg>

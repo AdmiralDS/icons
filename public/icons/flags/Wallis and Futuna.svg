@@ -1,17 +1,36 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect y="4" width="28" height="20" rx="3" fill="white"/>
-<mask id="mask0_107608_886" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
-<rect y="4" width="28" height="20" rx="3" fill="white"/>
-</mask>
-<g mask="url(#mask0_107608_886)">
-<rect y="4" width="28" height="20" fill="#F44653"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 15H15V4H0V15Z" fill="#083B9A" stroke="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 15H5V4H0V15Z" fill="#083B9A"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M5 15H10V4H5V15Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M10 15H15V4H10V15Z" fill="#F44653"/>
-<path d="M23.8949 10.5H18.7689L21.3319 13.063L23.8949 10.5Z" fill="white"/>
-<path d="M23.8949 17.4199H18.7689L21.3319 14.8569L23.8949 17.4199Z" fill="white"/>
-<path d="M24.6638 11.397L24.6638 16.5229L22.1008 13.96L24.6638 11.397Z" fill="white"/>
-<path d="M18 11.397L18 16.5229L20.563 13.96L18 11.397Z" fill="white"/>
-</g>
+<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Wallis and Futuna" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	<mask id="mask107608_875" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
+		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</mask>
+	<g mask="url(#mask107608_875)">
+		<rect id="Mask Copy" y="4.000000" width="28.000000" height="20.000000" fill="#F44653" fill-opacity="1.000000"/>
+		<rect id="Mask Copy" y="4.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask107608_875)">
+		<path id="Rectangle 2" d="M0 15L15 15L15 4L0 4L0 15Z" fill="#083B9A" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2" d="M15 15L15 4L0 4L0 15L15 15Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000"/>
+	</g>
+	<g mask="url(#mask107608_875)">
+		<path id="Rectangle 3" d="M0 15L5 15L5 4L0 4L0 15Z" fill="#083B9A" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<g mask="url(#mask107608_875)">
+		<path id="Rectangle 4" d="M5 15L10 15L10 4L5 4L5 15Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<g mask="url(#mask107608_875)">
+		<path id="Rectangle 5" d="M10 15L15 15L15 4L10 4L10 15Z" fill="#F44653" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<g mask="url(#mask107608_875)">
+		<path id="Vector 37" d="M18.76 10.5L23.89 10.5L21.33 13.06L18.76 10.5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector 38" d="M18.76 17.41L23.89 17.41L21.33 14.85L18.76 17.41Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector 39" d="M24.66 16.52L24.66 11.39L22.1 13.96L24.66 16.52Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector 40" d="M18 16.52L18 11.39L20.56 13.96L18 16.52Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
 </svg>

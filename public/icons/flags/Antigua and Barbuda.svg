@@ -1,40 +1,62 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect y="4" width="28" height="20" rx="3" fill="white"/>
-<mask id="mask0_17_6209" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
-<rect y="4" width="28" height="20" rx="3" fill="white"/>
-</mask>
-<g mask="url(#mask0_17_6209)">
-<rect y="4" width="28" height="20" fill="#E2243B"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 4H28L14 24L0 4Z" fill="#262626"/>
-<mask id="mask1_17_6209" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 4H28L14 24L0 4Z" fill="white"/>
-</mask>
-<g mask="url(#mask1_17_6209)">
-<g filter="url(#filter0_d_17_6209)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14 15L11.7039 17.5433L11.8787 14.1213L8.45672 14.2961L11 12L8 9.33333L11.8787 10L11.3333 6L14 9.33333L16.6667 6L16.1213 10L20 9.33333L17 12L19.5433 14.2961L16.1213 14.1213L16.2961 17.5433L14 15Z" fill="#FFCF3C"/>
-</g>
-<g filter="url(#filter1_d_17_6209)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 17.3333H28V12H0V17.3333Z" fill="#1984D8"/>
-</g>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H28V17.3333H0V24Z" fill="white"/>
-</g>
-</g>
-<defs>
-<filter id="filter0_d_17_6209" x="8" y="6" width="12" height="11.5433" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_17_6209"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_17_6209" result="shape"/>
-</filter>
-<filter id="filter1_d_17_6209" x="0" y="12" width="28" height="5.33331" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_17_6209"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_17_6209" result="shape"/>
-</filter>
-</defs>
+<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_17_6216_dd" x="8.000000" y="6.000000" width="12.000000" height="11.543274" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="0"/>
+			<feGaussianBlur stdDeviation="0"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.059 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<filter id="filter_17_6217_dd" x="0.000000" y="12.000000" width="28.000000" height="5.333313" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="0"/>
+			<feGaussianBlur stdDeviation="0"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.059 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+	</defs>
+	<rect id="Antigua and Barbuda" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	<mask id="mask17_6211" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
+		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</mask>
+	<g mask="url(#mask17_6211)">
+		<rect id="Mask Copy" y="4.000000" width="28.000000" height="20.000000" fill="#E2243B" fill-opacity="1.000000"/>
+		<rect id="Mask Copy" y="4.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_6211)">
+		<path id="Mask" d="M0 4L28 4L14 24L0 4Z" fill="#262626" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Mask" d="M28 4L14 24L0 4L28 4Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+		<mask id="mask17_6215" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
+			<path id="Mask" d="M0 4L28 4L14 24L0 4Z" fill="#262626" fill-opacity="1.000000" fill-rule="evenodd"/>
+			<path id="Mask" d="M28 4L14 24L0 4L28 4Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+		</mask>
+		<g mask="url(#mask17_6215)">
+			<g filter="url(#filter_17_6216_dd)">
+				<path id="Star 1" d="M14 15L11.7 17.54L11.87 14.12L8.45 14.29L11 12L8 9.33L11.87 10L11.33 6L14 9.33L16.66 6L16.12 10L20 9.33L17 12L19.54 14.29L16.12 14.12L16.29 17.54L14 15Z" fill="#FFCF3C" fill-opacity="1.000000" fill-rule="evenodd"/>
+			</g>
+			<path id="Star 1" d="M11.7 17.54L11.87 14.12L8.45 14.29L11 12L8 9.33L11.87 10L11.33 6L14 9.33L16.66 6L16.12 10L20 9.33L17 12L19.54 14.29L16.12 14.12L16.29 17.54L14 15L11.7 17.54Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+		</g>
+		<g mask="url(#mask17_6215)">
+			<g filter="url(#filter_17_6217_dd)">
+				<path id="Rectangle 2" d="M0 17.33L28 17.33L28 12L0 12L0 17.33Z" fill="#1984D8" fill-opacity="1.000000" fill-rule="evenodd"/>
+			</g>
+			<path id="Rectangle 2" d="M28 17.33L28 12L0 12L0 17.33L28 17.33Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+		</g>
+		<g mask="url(#mask17_6215)">
+			<path id="Rectangle 2" d="M0 24L28 24L28 17.33L0 17.33L0 24Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+			<path id="Rectangle 2" d="M28 24L28 17.33L0 17.33L0 24L28 24Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+		</g>
+	</g>
 </svg>
