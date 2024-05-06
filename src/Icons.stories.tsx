@@ -14,6 +14,7 @@ import * as DocumentsIcons from './icons/documents';
 import * as FinanceIcons from './icons/finance';
 import * as FlagsIcons from './icons/flags';
 import * as LocationIcons from './icons/location';
+import * as LogoIcons from './icons/logo';
 import * as PaymentIcons from './icons/payment';
 import * as RedactIcons from './icons/redact';
 import * as SecurityIcons from './icons/security';
@@ -151,6 +152,7 @@ const CATEGORIES: Array<Category> = [
   { label: 'Payment', value: 'payment', icons: getIcons('payment', PaymentIcons) },
   { label: 'Redact', value: 'redact', icons: getIcons('redact', RedactIcons) },
   { label: 'Location', value: 'location', icons: getIcons('location', LocationIcons) },
+  { label: 'Logo', value: 'logo', icons: getIcons('logo', LogoIcons) },
   { label: 'Security', value: 'security', icons: getIcons('security', SecurityIcons) },
   { label: 'Service', value: 'service', icons: getIcons('service', ServiceIcons) },
   { label: 'System', value: 'system', icons: getIcons('system', SystemIcons) },
