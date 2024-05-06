@@ -52,6 +52,10 @@ export { default as CategoryChessKingOutline } from '@admiral-ds/icons/build/cat
 export { default as CategoryChessKingSolid } from '@admiral-ds/icons/build/category/ChessKingSolid.svg?react';
 export { default as CategoryChipOutline } from '@admiral-ds/icons/build/category/ChipOutline.svg?react';
 export { default as CategoryChipSolid } from '@admiral-ds/icons/build/category/ChipSolid.svg?react';
+export { default as CategoryCityOutline } from '@admiral-ds/icons/build/category/CityOutline.svg?react';
+export { default as CategoryCitySolid } from '@admiral-ds/icons/build/category/CitySolid.svg?react';
+export { default as CategoryCleanOutline } from '@admiral-ds/icons/build/category/CleanOutline.svg?react';
+export { default as CategoryCleanSolid } from '@admiral-ds/icons/build/category/CleanSolid.svg?react';
 export { default as CategoryClipboardOutline } from '@admiral-ds/icons/build/category/ClipboardOutline.svg?react';
 export { default as CategoryClipboardSolid } from '@admiral-ds/icons/build/category/ClipboardSolid.svg?react';
 export { default as CategoryCloneOutline } from '@admiral-ds/icons/build/category/CloneOutline.svg?react';
@@ -90,8 +94,12 @@ export { default as CategoryDeveloperOutline } from '@admiral-ds/icons/build/cat
 export { default as CategoryDeveloperSolid } from '@admiral-ds/icons/build/category/DeveloperSolid.svg?react';
 export { default as CategoryDiamondOutline } from '@admiral-ds/icons/build/category/DiamondOutline.svg?react';
 export { default as CategoryDiamondSolid } from '@admiral-ds/icons/build/category/DiamondSolid.svg?react';
+export { default as CategoryDumpOutline } from '@admiral-ds/icons/build/category/DumpOutline.svg?react';
+export { default as CategoryDumpSolid } from '@admiral-ds/icons/build/category/DumpSolid.svg?react';
 export { default as CategoryElderlyOutline } from '@admiral-ds/icons/build/category/ElderlyOutline.svg?react';
 export { default as CategoryElderlySolid } from '@admiral-ds/icons/build/category/ElderlySolid.svg?react';
+export { default as CategoryEmailsOutline } from '@admiral-ds/icons/build/category/EmailsOutline.svg?react';
+export { default as CategoryEmailsSolid } from '@admiral-ds/icons/build/category/EmailsSolid.svg?react';
 export { default as CategoryEnvelopeOutline } from '@admiral-ds/icons/build/category/EnvelopeOutline.svg?react';
 export { default as CategoryEnvelopeSolid } from '@admiral-ds/icons/build/category/EnvelopeSolid.svg?react';
 export { default as CategoryFlagOutline } from '@admiral-ds/icons/build/category/FlagOutline.svg?react';
@@ -126,6 +134,10 @@ export { default as CategoryIdeaOutline } from '@admiral-ds/icons/build/category
 export { default as CategoryIdeaSolid } from '@admiral-ds/icons/build/category/IdeaSolid.svg?react';
 export { default as CategoryInvalidOutline } from '@admiral-ds/icons/build/category/InvalidOutline.svg?react';
 export { default as CategoryInvalidSolid } from '@admiral-ds/icons/build/category/InvalidSolid.svg?react';
+export { default as CategoryItemConverterOutline } from '@admiral-ds/icons/build/category/ItemConverterOutline.svg?react';
+export { default as CategoryItemConverterSolid } from '@admiral-ds/icons/build/category/ItemConverterSolid.svg?react';
+export { default as CategoryKeysOutline } from '@admiral-ds/icons/build/category/KeysOutline.svg?react';
+export { default as CategoryKeysSolid } from '@admiral-ds/icons/build/category/KeysSolid.svg?react';
 export { default as CategoryLabelOutline } from '@admiral-ds/icons/build/category/LabelOutline.svg?react';
 export { default as CategoryLabelSolid } from '@admiral-ds/icons/build/category/LabelSolid.svg?react';
 export { default as CategoryLayersOutline } from '@admiral-ds/icons/build/category/LayersOutline.svg?react';
@@ -160,8 +172,12 @@ export { default as CategoryMultibonusOutline } from '@admiral-ds/icons/build/ca
 export { default as CategoryMultibonusSolid } from '@admiral-ds/icons/build/category/MultibonusSolid.svg?react';
 export { default as CategoryNFCOutline } from '@admiral-ds/icons/build/category/NFCOutline.svg?react';
 export { default as CategoryNFCSolid } from '@admiral-ds/icons/build/category/NFCSolid.svg?react';
+export { default as CategoryNewspaperOutline } from '@admiral-ds/icons/build/category/NewspaperOutline.svg?react';
+export { default as CategoryNewspaperSolid } from '@admiral-ds/icons/build/category/NewspaperSolid.svg?react';
 export { default as CategoryOrganisationOutline } from '@admiral-ds/icons/build/category/OrganisationOutline.svg?react';
 export { default as CategoryOrganisationSolid } from '@admiral-ds/icons/build/category/OrganisationSolid.svg?react';
+export { default as CategoryPalleteOutline } from '@admiral-ds/icons/build/category/PalleteOutline.svg?react';
+export { default as CategoryPalleteSolid } from '@admiral-ds/icons/build/category/PalleteSolid.svg?react';
 export { default as CategoryPensionOutline } from '@admiral-ds/icons/build/category/PensionOutline.svg?react';
 export { default as CategoryPensionSolid } from '@admiral-ds/icons/build/category/PensionSolid.svg?react';
 export { default as CategoryPersonVIPOutline } from '@admiral-ds/icons/build/category/PersonVIPOutline.svg?react';
@@ -178,6 +194,8 @@ export { default as CategoryPostOutline } from '@admiral-ds/icons/build/category
 export { default as CategoryPostSolid } from '@admiral-ds/icons/build/category/PostSolid.svg?react';
 export { default as CategoryPregnantOutline } from '@admiral-ds/icons/build/category/PregnantOutline.svg?react';
 export { default as CategoryPregnantSolid } from '@admiral-ds/icons/build/category/PregnantSolid.svg?react';
+export { default as CategoryProductsOutline } from '@admiral-ds/icons/build/category/ProductsOutline.svg?react';
+export { default as CategoryProductsSolid } from '@admiral-ds/icons/build/category/ProductsSolid.svg?react';
 export { default as CategoryPullRequestOutline } from '@admiral-ds/icons/build/category/PullRequestOutline.svg?react';
 export { default as CategoryPullRequestSolid } from '@admiral-ds/icons/build/category/PullRequestSolid.svg?react';
 export { default as CategoryRIPOutline } from '@admiral-ds/icons/build/category/RIPOutline.svg?react';

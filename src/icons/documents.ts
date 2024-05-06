@@ -8,6 +8,8 @@ export { default as DocumentsArchiveOutline } from '@admiral-ds/icons/build/docu
 export { default as DocumentsArchiveSolid } from '@admiral-ds/icons/build/documents/ArchiveSolid.svg?react';
 export { default as DocumentsBurnCardOutline } from '@admiral-ds/icons/build/documents/BurnCardOutline.svg?react';
 export { default as DocumentsBurnCardSolid } from '@admiral-ds/icons/build/documents/BurnCardSolid.svg?react';
+export { default as DocumentsCatalogExtOutline } from '@admiral-ds/icons/build/documents/CatalogExtOutline.svg?react';
+export { default as DocumentsCatalogExtSolid } from '@admiral-ds/icons/build/documents/CatalogExtSolid.svg?react';
 export { default as DocumentsCatalogOutline } from '@admiral-ds/icons/build/documents/CatalogOutline.svg?react';
 export { default as DocumentsCatalogSolid } from '@admiral-ds/icons/build/documents/CatalogSolid.svg?react';
 export { default as DocumentsComponentTemplateOutline } from '@admiral-ds/icons/build/documents/ComponentTemplateOutline.svg?react';
@@ -20,6 +22,8 @@ export { default as DocumentsDeleteDocumentOutline } from '@admiral-ds/icons/bui
 export { default as DocumentsDeleteDocumentSolid } from '@admiral-ds/icons/build/documents/DeleteDocumentSolid.svg?react';
 export { default as DocumentsDescriptionOutline } from '@admiral-ds/icons/build/documents/DescriptionOutline.svg?react';
 export { default as DocumentsDescriptionSolid } from '@admiral-ds/icons/build/documents/DescriptionSolid.svg?react';
+export { default as DocumentsDirectoryOutline } from '@admiral-ds/icons/build/documents/DirectoryOutline.svg?react';
+export { default as DocumentsDirectorySolid } from '@admiral-ds/icons/build/documents/DirectorySolid.svg?react';
 export { default as DocumentsDocAttentionOutline } from '@admiral-ds/icons/build/documents/DocAttentionOutline.svg?react';
 export { default as DocumentsDocAttentionSolid } from '@admiral-ds/icons/build/documents/DocAttentionSolid.svg?react';
 export { default as DocumentsDocExportOutline } from '@admiral-ds/icons/build/documents/DocExportOutline.svg?react';
@@ -60,6 +64,8 @@ export { default as DocumentsFilePDFOutline } from '@admiral-ds/icons/build/docu
 export { default as DocumentsFilePDFSolid } from '@admiral-ds/icons/build/documents/FilePDFSolid.svg?react';
 export { default as DocumentsFilePPTOutline } from '@admiral-ds/icons/build/documents/FilePPTOutline.svg?react';
 export { default as DocumentsFilePPTSolid } from '@admiral-ds/icons/build/documents/FilePPTSolid.svg?react';
+export { default as DocumentsFileRubleOutline } from '@admiral-ds/icons/build/documents/FileRubleOutline.svg?react';
+export { default as DocumentsFileRubleSolid } from '@admiral-ds/icons/build/documents/FileRubleSolid.svg?react';
 export { default as DocumentsFileSNGOutline } from '@admiral-ds/icons/build/documents/FileSNGOutline.svg?react';
 export { default as DocumentsFileSNGSolid } from '@admiral-ds/icons/build/documents/FileSNGSolid.svg?react';
 export { default as DocumentsFileTIFFOutline } from '@admiral-ds/icons/build/documents/FileTIFFOutline.svg?react';
@@ -74,6 +80,8 @@ export { default as DocumentsFileXLSOutline } from '@admiral-ds/icons/build/docu
 export { default as DocumentsFileXLSSolid } from '@admiral-ds/icons/build/documents/FileXLSSolid.svg?react';
 export { default as DocumentsFileXMLOutline } from '@admiral-ds/icons/build/documents/FileXMLOutline.svg?react';
 export { default as DocumentsFileXMLSolid } from '@admiral-ds/icons/build/documents/FileXMLSolid.svg?react';
+export { default as DocumentsFolderDeleteOutline } from '@admiral-ds/icons/build/documents/FolderDeleteOutline.svg?react';
+export { default as DocumentsFolderDeleteSolid } from '@admiral-ds/icons/build/documents/FolderDeleteSolid.svg?react';
 export { default as DocumentsFolderOutline } from '@admiral-ds/icons/build/documents/FolderOutline.svg?react';
 export { default as DocumentsFolderSolid } from '@admiral-ds/icons/build/documents/FolderSolid.svg?react';
 export { default as DocumentsInvoiceOutline } from '@admiral-ds/icons/build/documents/InvoiceOutline.svg?react';
