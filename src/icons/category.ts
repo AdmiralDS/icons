@@ -249,5 +249,4 @@ export { default as CategoryWebhookSolid } from '@admiral-ds/icons/build/categor
 export { default as CategoryWikiOutline } from '@admiral-ds/icons/build/category/WikiOutline.svg?react';
 export { default as CategoryWikiSolid } from '@admiral-ds/icons/build/category/WikiSolid.svg?react';
 export { default as CategoryWorkOutline } from '@admiral-ds/icons/build/category/WorkOutline.svg?react';
-export { default as CategoryWorkOutlinePixso } from '@admiral-ds/icons/build/category/WorkOutlinePixso.svg?react';
 export { default as CategoryWorkSolid } from '@admiral-ds/icons/build/category/WorkSolid.svg?react';
