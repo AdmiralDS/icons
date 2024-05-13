@@ -27,10 +27,12 @@ export default defineConfig({
       noForceEmit: true,
       declarationDir: resolve(__dirname, 'dist'),
       rootDir: resolve(__dirname, 'src'),
-      exclude: ['*/**/*.stories.tsx', 'stories/**', '*/**/*.test.*'],
+      exclude: ['*/**/*.stories.tsx', 'stories/**', '*/**/*.test.*', '*.stories.tsx'],
     }) as PluginOption,
   ],
   build: {
+    sourcemap: true,
+    copyPublicDir: false,
     // use vite library mode to build the package
     // https://vitejs.dev/guide/build.html#library-mode
     lib: {

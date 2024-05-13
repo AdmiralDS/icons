@@ -12,8 +12,8 @@
     "flags-metadata.json"
   ],
   "type": "module",
-  "main": "dist/index.es.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
   "exports": {
       ".":"./dist/index.es.js",
       "./build/*": "./build/*",
@@ -49,8 +49,8 @@
     "@svgr/core": "^8.1.0",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
     "@vitejs/plugin-react-swc": "^3.3.2",
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
