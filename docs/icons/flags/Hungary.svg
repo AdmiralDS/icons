@@ -1,10 +1,21 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="#D6D8DD" stroke-width="0.5"/>
-<mask id="mask0_108089_1219" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="white" stroke-width="0.5"/>
-</mask>
-<g mask="url(#mask0_108089_1219)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 10.6667H28V4H0V10.6667Z" fill="#E03D52"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H28V17.3334H0V24Z" fill="#5A9165"/>
-</g>
+<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Hungary" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#D6D8DD" stroke-opacity="1.000000" stroke-width="0.500000"/>
+	<mask id="mask108089_1216" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
+		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#F5F5F5" stroke-opacity="1.000000" stroke-width="0.500000"/>
+	</mask>
+	<g mask="url(#mask108089_1216)">
+		<path id="Rectangle 2" d="M0 10.66L28 10.66L28 4L0 4L0 10.66Z" fill="#E03D52" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2" d="M28 10.66L28 4L0 4L0 10.66L28 10.66Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask108089_1216)">
+		<path id="Rectangle 2" d="M0 24L28 24L28 17.33L0 17.33L0 24Z" fill="#5A9165" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2" d="M28 24L28 17.33L0 17.33L0 24L28 24Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
 </svg>

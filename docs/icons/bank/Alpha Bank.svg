@@ -1,5 +1,8 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1" y="7" width="38" height="27.4444" rx="4" fill="#ED352F"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14.7223 29.5588H26.2374V27.1993H14.7223V29.5588Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M18.8507 19.6136L20.4658 14.8798H20.5256L22.0511 19.6136H18.8507ZM22.5887 14.0059C22.2605 13.0404 21.882 12.2777 20.5855 12.2777C19.2888 12.2777 18.8861 13.0373 18.5405 14.0059L14.9774 23.9935H17.3402L18.1627 21.6191H22.709L23.4717 23.9935H25.9841L22.5887 14.0059Z" fill="white"/>
+<svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="BG" x="1.000000" y="7.000000" rx="4.000000" width="38.000000" height="27.444445" fill="#ED352F" fill-opacity="1.000000"/>
+	<path id="Vector" d="M20.58 12.27C21.88 12.27 22.26 13.04 22.58 14L25.98 23.99L23.47 23.99L22.7 21.61L18.16 21.61L17.34 23.99L14.97 23.99L18.54 14C18.88 13.03 19.28 12.27 20.58 12.27ZM20.46 14.87L18.85 19.61L22.05 19.61L20.52 14.87L20.46 14.87ZM26.23 29.55L14.72 29.55L14.72 27.19L26.23 27.19L26.23 29.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
 </svg>

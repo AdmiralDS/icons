@@ -1,9 +1,20 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="#D6D8DD" stroke-width="0.5"/>
-<mask id="mask0_17_5583" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="white" stroke-width="0.5"/>
-</mask>
-<g mask="url(#mask0_17_5583)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M5.33333 4H0V9.33333H5.33333V4ZM13.3333 4H8V9.33333H13.3333L13.3333 12H8V17.3333H13.3333H28V14.6667H13.3333V12H28V9.33333H13.3333L13.3333 6.66667H28V4H13.3333ZM28 20H0V22.6667H28V20ZM5.33333 12H0V17.3333H5.33333V12Z" fill="#1C6DC1"/>
-</g>
+<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Greece" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#D6D8DD" stroke-opacity="1.000000" stroke-width="0.500000"/>
+	<mask id="mask17_5585" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
+		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#F5F5F5" stroke-opacity="1.000000" stroke-width="0.500000"/>
+	</mask>
+	<g mask="url(#mask17_5585)">
+		<mask id="mask_17_5586" fill="white">
+			<path id="Rectangle 537" d="M0 4L5.33334 4L5.33334 9.33331L0 9.33331L0 4ZM8 4L28 4L28 6.66669L13.3333 6.66669L13.3333 9.33331L8 9.33331L8 4ZM13.3333 9.33331L28 9.33331L28 12L13.3333 12L13.3333 9.33331ZM0 12L5.33334 12L5.33334 17.3333L0 17.3333L0 12ZM8 12L13.3333 12L13.3333 14.6667L28 14.6667L28 17.3333L8 17.3333L8 12ZM0 20L28 20L28 22.6667L0 22.6667L0 20Z" clip-rule="evenodd" fill="" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</mask>
+		<path id="Rectangle 537" d="M0 4L5.33334 4L5.33334 9.33331L0 9.33331L0 4ZM8 4L28 4L28 6.66669L13.3333 6.66669L13.3333 9.33331L8 9.33331L8 4ZM13.3333 9.33331L28 9.33331L28 12L13.3333 12L13.3333 9.33331ZM0 12L5.33334 12L5.33334 17.3333L0 17.3333L0 12ZM8 12L13.3333 12L13.3333 14.6667L28 14.6667L28 17.3333L8 17.3333L8 12ZM0 20L28 20L28 22.6667L0 22.6667L0 20Z" clip-rule="evenodd" fill="#1C6DC1" fill-opacity="1.000000" fill-rule="evenodd" mask="url(#mask_17_5586)"/>
+		<path id="Rectangle 537" d="" fill="#979797" fill-opacity="0.000000" fill-rule="nonzero"/>
+	</g>
 </svg>

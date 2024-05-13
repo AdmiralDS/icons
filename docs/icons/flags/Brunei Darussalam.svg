@@ -1,11 +1,23 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect y="4" width="28" height="20" rx="3" fill="white"/>
-<mask id="mask0_17_6112" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
-<rect y="4" width="28" height="20" rx="3" fill="white"/>
-</mask>
-<g mask="url(#mask0_17_6112)">
-<rect y="4" width="28" height="20" fill="#F7E250"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M-4.16739 7.38762L32.1674 20.6124L33.5355 16.8536L-2.79931 3.62885L-4.16739 7.38762Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M-5.53547 11.1464L30.7993 24.3712L32.1674 20.6124L-4.16739 7.38763L-5.53547 11.1464Z" fill="#262626"/>
-</g>
+<svg width="39.000000" height="28.000000" viewBox="0 0 39 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Brunei Darussalam" width="28.000000" height="28.000000" transform="translate(5.000000 0.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Mask" x="5.000000" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="Mask" x="5.000000" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	<mask id="mask17_6114" mask-type="alpha" maskUnits="userSpaceOnUse" x="5.000000" y="4.000000" width="28.000000" height="20.000000">
+		<rect id="Mask" x="5.000000" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Mask" x="5.000000" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</mask>
+	<g mask="url(#mask17_6114)">
+		<rect id="Mask Copy" x="5.000000" y="4.000000" width="28.000000" height="20.000000" fill="#F7E250" fill-opacity="1.000000"/>
+		<rect id="Mask Copy" x="5.000000" y="4.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_6114)">
+		<path id="Rectangle 2 Copy 4" d="M0.83 7.38L37.16 20.61L38.53 16.85L2.2 3.62L0.83 7.38Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2 Copy 4" d="M37.16 20.61L38.53 16.85L2.2 3.62L0.83 7.38L37.16 20.61Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+		<path id="Rectangle 2 Copy 4" d="M-0.54 11.14L35.79 24.37L37.16 20.61L0.83 7.38L-0.54 11.14Z" fill="#262626" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2 Copy 4" d="M35.79 24.37L37.16 20.61L0.83 7.38L-0.54 11.14L35.79 24.37Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
 </svg>

@@ -1,3 +1,13 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14.2309 12.9445L12.0032 10.5329L9.77245 12.9445H14.2309ZM12.5177 9.174C12.2407 8.87411 11.7669 8.87395 11.4896 9.17364L7.88625 13.0692C7.47164 13.5174 7.78954 14.2445 8.40012 14.2445H15.602C16.2123 14.2445 16.5303 13.5179 16.1162 13.0695L12.5177 9.174Z" fill="#717681"/>
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip5574_731">
+			<rect id="Outline / Sort Up Outline" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip5574_731)">
+		<path id="Shape" d="M14.23 12.94L12 10.53L9.77 12.94L14.23 12.94ZM12.51 9.17C12.24 8.87 11.76 8.87 11.48 9.17L7.88 13.06C7.47 13.51 7.78 14.24 8.39 14.24L15.6 14.24C16.21 14.24 16.52 13.51 16.11 13.06L12.51 9.17Z" fill="#717681" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
 </svg>

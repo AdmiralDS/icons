@@ -1,12 +1,29 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="#D6D8DD" stroke-width="0.5"/>
-<mask id="mask0_17_4500" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="white" stroke-width="0.5"/>
-</mask>
-<g mask="url(#mask0_17_4500)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 8H28V4H0V8Z" fill="#43924C"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H28V20H0V24Z" fill="#43924C"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 17.3333H28V10.6667H0V17.3333Z" fill="#CD153A"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14 15.7L12.0407 17.0301L12.7002 14.7557L10.8298 13.3033L13.1967 13.2277L14 11L14.8033 13.2277L17.1702 13.3033L15.2998 14.7557L15.9593 17.0301L14 15.7Z" fill="#F5D24B"/>
-</g>
+<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Suriname" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#D6D8DD" stroke-opacity="1.000000" stroke-width="0.500000"/>
+	<mask id="mask17_4502" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
+		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#F5F5F5" stroke-opacity="1.000000" stroke-width="0.500000"/>
+	</mask>
+	<g mask="url(#mask17_4502)">
+		<path id="Rectangle 2" d="M0 8L28 8L28 4L0 4L0 8Z" fill="#43924C" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2" d="M28 8L28 4L0 4L0 8L28 8Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_4502)">
+		<path id="Rectangle 2" d="M0 24L28 24L28 20L0 20L0 24Z" fill="#43924C" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2" d="M28 24L28 20L0 20L0 24L28 24Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_4502)">
+		<path id="Rectangle 2 Copy 4" d="M0 17.33L28 17.33L28 10.66L0 10.66L0 17.33Z" fill="#CD153A" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2 Copy 4" d="M28 17.33L28 10.66L0 10.66L0 17.33L28 17.33Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_4502)">
+		<path id="Star 33" d="M14 15.7L12.04 17.03L12.7 14.75L10.82 13.3L13.19 13.22L14 11L14.8 13.22L17.17 13.3L15.29 14.75L15.95 17.03L14 15.7Z" fill="#F5D24B" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Star 33" d="M12.04 17.03L12.7 14.75L10.82 13.3L13.19 13.22L14 11L14.8 13.22L17.17 13.3L15.29 14.75L15.95 17.03L14 15.7L12.04 17.03Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
 </svg>

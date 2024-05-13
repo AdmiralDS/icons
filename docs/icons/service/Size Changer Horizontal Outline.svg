@@ -1,4 +1,13 @@
-<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8.8 3.99998C8.8 3.64099 8.50899 3.34998 8.15 3.34998C7.79101 3.34998 7.5 3.64099 7.5 3.99998V16C7.5 16.359 7.79101 16.65 8.15 16.65C8.50899 16.65 8.8 16.359 8.8 16V3.99998Z" fill="#717681"/>
-<path d="M12.5 3.99998C12.5 3.64099 12.2089 3.34998 11.85 3.34998C11.491 3.34998 11.2 3.64099 11.2 3.99998V16C11.2 16.359 11.491 16.65 11.85 16.65C12.2089 16.65 12.5 16.359 12.5 16V3.99998Z" fill="#717681"/>
+<svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip6746_1217">
+			<rect id="Outline / Size Changer Horizontal Outline" width="20.000000" height="20.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip6746_1217)">
+		<path id="Shape" d="M8.14 3.34C8.5 3.34 8.79 3.64 8.79 4L8.79 16C8.79 16.35 8.5 16.65 8.14 16.65C7.79 16.65 7.5 16.35 7.5 16L7.5 4C7.5 3.64 7.79 3.34 8.14 3.34ZM11.85 3.34C12.2 3.34 12.5 3.64 12.5 4L12.5 16C12.5 16.35 12.2 16.65 11.85 16.65C11.49 16.65 11.2 16.35 11.2 16L11.2 4C11.2 3.64 11.49 3.34 11.85 3.34Z" fill="#717681" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
 </svg>
