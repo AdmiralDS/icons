@@ -12,13 +12,13 @@
     "flags-metadata.json"
   ],
   "type": "module",
-  "main": "./dist/index.es.js",
-  "types": "./dist/index.d.ts",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
   "exports": {
-      ".":"./dist/index.es.js",
-      "./build/*": "./build/*",
-      "./public/*": "./public/*",
-      "./*.json": "./*.json"
+    ".": "./dist/index.es.js",
+    "./build/*": "./build/*",
+    "./public/*": "./public/*",
+    "./*.json": "./*.json"
   },
   "scripts": {
     "dev": "vite",
