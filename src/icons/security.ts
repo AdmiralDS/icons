@@ -10,10 +10,14 @@ export { default as SecurityLockOutline } from '@admiral-ds/icons/build/security
 export { default as SecurityLockSolid } from '@admiral-ds/icons/build/security/LockSolid.svg?react';
 export { default as SecurityPasswordOutline } from '@admiral-ds/icons/build/security/PasswordOutline.svg?react';
 export { default as SecurityPasswordSolid } from '@admiral-ds/icons/build/security/PasswordSolid.svg?react';
+export { default as SecuritySafeCertificateOutline } from '@admiral-ds/icons/build/security/SafeCertificateOutline.svg?react';
+export { default as SecuritySafeCertificateSolid } from '@admiral-ds/icons/build/security/SafeCertificateSolid.svg?react';
 export { default as SecuritySafetyCertificateOutline } from '@admiral-ds/icons/build/security/SafetyCertificateOutline.svg?react';
 export { default as SecuritySafetyCertificateSolid } from '@admiral-ds/icons/build/security/SafetyCertificateSolid.svg?react';
 export { default as SecuritySafetyOutline } from '@admiral-ds/icons/build/security/SafetyOutline.svg?react';
 export { default as SecuritySafetySolid } from '@admiral-ds/icons/build/security/SafetySolid.svg?react';
+export { default as SecurityShieldsOutline } from '@admiral-ds/icons/build/security/ShieldsOutline.svg?react';
+export { default as SecurityShieldsSolid } from '@admiral-ds/icons/build/security/ShieldsSolid.svg?react';
 export { default as SecurityUnlockOutline } from '@admiral-ds/icons/build/security/UnlockOutline.svg?react';
 export { default as SecurityUnlockSolid } from '@admiral-ds/icons/build/security/UnlockSolid.svg?react';
 export { default as SecurityUnsafetyOutline } from '@admiral-ds/icons/build/security/UnsafetyOutline.svg?react';

@@ -1,3 +1,13 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M19 6C19 4.34315 17.6569 3 16 3H8C6.34315 3 5 4.34315 5 6V18C5 19.6569 6.34315 21 8 21H16C17.6569 21 19 19.6569 19 18L19 6ZM6.32639 18.3H17.6736C17.5319 19.0958 16.8365 19.7 16 19.7H8C7.16348 19.7 6.46808 19.0958 6.32639 18.3ZM17.6736 5.69995H6.3264C6.46811 4.90417 7.1635 4.3 8 4.3L16 4.3C16.8365 4.3 17.5319 4.90417 17.6736 5.69995ZM17.7 6.99995V17H6.3L6.3 6.99995H17.7Z" fill="#717681"/>
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip17_247">
+			<rect id="Outline / Tablet Outline" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip17_247)">
+		<path id="Shape" d="M19 6C19 4.34 17.65 3 16 3L8 3C6.34 3 5 4.34 5 6L5 18C5 19.65 6.34 21 8 21L16 21C17.65 21 19 19.65 19 18L19 6ZM6.32 18.29L17.67 18.29C17.53 19.09 16.83 19.7 16 19.7L8 19.7C7.16 19.7 6.46 19.09 6.32 18.29ZM17.67 5.69L6.32 5.69C6.46 4.9 7.16 4.29 8 4.29L16 4.29C16.83 4.29 17.53 4.9 17.67 5.69ZM17.7 6.99L17.7 17L6.29 17L6.29 6.99L17.7 6.99Z" fill="#717681" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
 </svg>

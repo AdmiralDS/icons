@@ -1,11 +1,28 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="#D6D8DD" stroke-width="0.5"/>
-<mask id="mask0_17_5098" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="white" stroke-width="0.5"/>
-</mask>
-<g mask="url(#mask0_17_5098)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M28 4H13.3333V6.66667H28V4ZM28 9.33333H13.3333V12H28V9.33333ZM13.3333 14.6667H28V17.3333H13.3333V14.6667ZM28 20H0V22.6667H28V20Z" fill="#E1244A"/>
-<rect y="4" width="13.3333" height="13.3333" fill="#0C3F8E"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M6.66663 12.2267L4.31549 13.9027L5.18298 11.1487L2.8624 9.43059L5.74968 9.40459L6.66663 6.66666L7.58357 9.40459L10.4709 9.43059L8.15027 11.1487L9.01777 13.9027L6.66663 12.2267Z" fill="white"/>
-</g>
+<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Liberia" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#D6D8DD" stroke-opacity="1.000000" stroke-width="0.500000"/>
+	<mask id="mask17_5100" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
+		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#F5F5F5" stroke-opacity="1.000000" stroke-width="0.500000"/>
+	</mask>
+	<g mask="url(#mask17_5100)">
+		<mask id="mask_17_5101" fill="white">
+			<path id="Rectangle 537" d="M28 4L13.3333 4L13.3333 6.66666L28 6.66666L28 4ZM28 9.33334L13.3333 9.33334L13.3333 12L28 12L28 9.33334ZM13.3333 14.6667L28 14.6667L28 17.3333L13.3333 17.3333L13.3333 14.6667ZM28 20L0 20L0 22.6667L28 22.6667L28 20Z" clip-rule="evenodd" fill="" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</mask>
+		<path id="Rectangle 537" d="M28 4L13.3333 4L13.3333 6.66666L28 6.66666L28 4ZM28 9.33334L13.3333 9.33334L13.3333 12L28 12L28 9.33334ZM13.3333 14.6667L28 14.6667L28 17.3333L13.3333 17.3333L13.3333 14.6667ZM28 20L0 20L0 22.6667L28 22.6667L28 20Z" clip-rule="evenodd" fill="#E1244A" fill-opacity="1.000000" fill-rule="evenodd" mask="url(#mask_17_5101)"/>
+		<path id="Rectangle 537" d="" fill="#979797" fill-opacity="0.000000" fill-rule="nonzero"/>
+	</g>
+	<g mask="url(#mask17_5100)">
+		<rect id="Rectangle 1568" y="4.000000" width="13.333333" height="13.333333" fill="#0C3F8E" fill-opacity="1.000000"/>
+		<rect id="Rectangle 1568" y="4.000000" width="13.333333" height="13.333333" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_5100)">
+		<path id="Star 8" d="M6.66 12.22L4.31 13.9L5.18 11.14L2.86 9.43L5.74 9.4L6.66 6.66L7.58 9.4L10.47 9.43L8.15 11.14L9.01 13.9L6.66 12.22Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Star 8" d="M4.31 13.9L5.18 11.14L2.86 9.43L5.74 9.4L6.66 6.66L7.58 9.4L10.47 9.43L8.15 11.14L9.01 13.9L6.66 12.22L4.31 13.9Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
 </svg>

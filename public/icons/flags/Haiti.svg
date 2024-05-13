@@ -1,26 +1,54 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect y="4" width="28" height="20" rx="3" fill="white"/>
-<mask id="mask0_17_5475" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
-<rect y="4" width="28" height="20" rx="3" fill="white"/>
-</mask>
-<g mask="url(#mask0_17_5475)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 13.3333H28V4H0V13.3333Z" fill="#112EBC"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H28V13.3334H0V24Z" fill="#E3264A"/>
-<rect x="9.33331" y="10.6666" width="9.33333" height="8" rx="0.666667" fill="url(#paint0_linear_17_5475)"/>
-<mask id="mask1_17_5475" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="9" y="10" width="10" height="9">
-<rect x="9.33331" y="10.6666" width="9.33333" height="8" rx="0.666667" fill="white"/>
-</mask>
-<g mask="url(#mask1_17_5475)">
-<path d="M9.66665 18.3333V17.5393L11.586 16.5796C11.91 16.4176 12.2673 16.3333 12.6295 16.3333H15.3705C15.7327 16.3333 16.09 16.4176 16.414 16.5796L18.3333 17.5393V18.3333H9.66665Z" fill="#AABCAE" stroke="#366C14" stroke-width="0.666667"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14 15.9999C15.1046 15.9999 16 15.1045 16 13.9999C16 12.8954 15.1046 11.9999 14 11.9999C12.8954 11.9999 12 12.8954 12 13.9999C12 15.1045 12.8954 15.9999 14 15.9999Z" fill="#D4B872"/>
-<path d="M11 15.387C11 15.1075 11.3233 14.9521 11.5415 15.1267L13.3753 16.5937C13.7405 16.8859 14.2594 16.8859 14.6247 16.5937L16.4584 15.1267C16.6766 14.9521 17 15.1075 17 15.387V16.6666C17 16.8507 16.8507 16.9999 16.6666 16.9999H11.3333C11.1492 16.9999 11 16.8507 11 16.6666V15.387Z" fill="#C28321" stroke="#0D3488" stroke-width="0.666667"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M12.569 12.569C12.359 12.359 12.5078 11.9999 12.8047 11.9999H15.1953C15.4922 11.9999 15.641 12.359 15.431 12.569L14.2357 13.7642C14.1055 13.8944 13.8945 13.8944 13.7643 13.7642L12.569 12.569Z" fill="#216C30"/>
-</g>
-</g>
-<defs>
-<linearGradient id="paint0_linear_17_5475" x1="9.33331" y1="10.6666" x2="9.33331" y2="18.6666" gradientUnits="userSpaceOnUse">
-<stop stop-color="white"/>
-<stop offset="1" stop-color="#F0F0F0"/>
-</linearGradient>
-</defs>
+<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<linearGradient id="paint_linear_17_5481_0" x1="9.333313" y1="10.666626" x2="9.333313" y2="18.666626" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFFFFF"/>
+			<stop offset="1.000000" stop-color="#F0F0F0"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_17_5482_0" x1="9.333313" y1="10.666626" x2="9.333313" y2="18.666626" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFFFFF"/>
+			<stop offset="1.000000" stop-color="#F0F0F0"/>
+		</linearGradient>
+	</defs>
+	<rect id="Haiti" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	<mask id="mask17_5477" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
+		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</mask>
+	<g mask="url(#mask17_5477)">
+		<path id="Rectangle 2" d="M0 13.33L28 13.33L28 4L0 4L0 13.33Z" fill="#112EBC" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2" d="M28 13.33L28 4L0 4L0 13.33L28 13.33Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_5477)">
+		<path id="Rectangle 2" d="M0 24L28 24L28 13.33L0 13.33L0 24Z" fill="#E3264A" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2" d="M28 24L28 13.33L0 13.33L0 24L28 24Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_5477)">
+		<rect id="Mask" x="9.333313" y="10.666626" rx="0.666667" width="9.333333" height="8.000000" fill="url(#paint_linear_17_5481_0)" fill-opacity="1.000000"/>
+		<rect id="Mask" x="9.333313" y="10.666626" rx="0.666667" width="9.333333" height="8.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+		<mask id="mask17_5482" mask-type="alpha" maskUnits="userSpaceOnUse" x="9.333313" y="10.666626" width="9.333313" height="8.000000">
+			<rect id="Mask" x="9.333313" y="10.666626" rx="0.666667" width="9.333333" height="8.000000" fill="url(#paint_linear_17_5482_0)" fill-opacity="1.000000"/>
+			<rect id="Mask" x="9.333313" y="10.666626" rx="0.666667" width="9.333333" height="8.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+		</mask>
+		<g mask="url(#mask17_5482)">
+			<path id="Rectangle 181" d="M9.33 17.33L11.43 16.28C11.8 16.09 12.21 16 12.62 16L15.37 16C15.78 16 16.19 16.09 16.56 16.28L18.66 17.33L18.66 18.66L9.33 18.66L9.33 17.33Z" fill="#AABCAE" fill-opacity="1.000000" fill-rule="evenodd"/>
+			<path id="Rectangle 181" d="M9.33 17.33L11.43 16.28C11.8 16.09 12.21 16 12.62 16L15.37 16C15.78 16 16.19 16.09 16.56 16.28L18.66 17.33L18.66 18.66L9.33 18.66L9.33 17.33ZM10 17.74L10 18L18 18L18 17.74L16.26 16.87Q16.05 16.77 15.83 16.71Q15.6 16.66 15.37 16.66L12.62 16.66Q12.39 16.66 12.16 16.71Q11.94 16.77 11.73 16.87L10 17.74Z" fill="#366C14" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</g>
+		<g mask="url(#mask17_5482)">
+			<path id="Oval 6" d="M14 16C15.1 16 16 15.1 16 14C16 12.89 15.1 12 14 12C12.89 12 12 12.89 12 14C12 15.1 12.89 16 14 16Z" fill="#D4B872" fill-opacity="1.000000" fill-rule="evenodd"/>
+			<path id="Oval 6" d="M16 14C16 12.89 15.1 12 14 12C12.89 12 12 12.89 12 14C12 15.1 12.89 16 14 16C15.1 16 16 15.1 16 14Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+		</g>
+		<g mask="url(#mask17_5482)">
+			<path id="Rectangle 182" d="M10.66 15.38C10.66 14.82 11.31 14.51 11.74 14.86L13.58 16.33C13.82 16.52 14.17 16.52 14.41 16.33L16.25 14.86C16.68 14.51 17.33 14.82 17.33 15.38L17.33 16.66C17.33 17.03 17.03 17.33 16.66 17.33L11.33 17.33C10.96 17.33 10.66 17.03 10.66 16.66L10.66 15.38Z" fill="#C28321" fill-opacity="1.000000" fill-rule="evenodd"/>
+			<path id="Rectangle 182" d="M10.66 15.38C10.66 14.82 11.31 14.51 11.74 14.86L13.58 16.33C13.82 16.52 14.17 16.52 14.41 16.33L16.25 14.86C16.68 14.51 17.33 14.82 17.33 15.38L17.33 16.66C17.33 17.03 17.03 17.33 16.66 17.33L11.33 17.33C10.96 17.33 10.66 17.03 10.66 16.66L10.66 15.38ZM12.93 16.66L11.33 15.38L11.33 16.66L12.93 16.66ZM15.06 16.66L16.66 16.66L16.66 15.38L15.06 16.66Z" fill="#0D3488" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</g>
+		<g mask="url(#mask17_5482)">
+			<path id="Rectangle 183" d="M12.56 12.56C12.35 12.35 12.5 12 12.8 12L15.19 12C15.49 12 15.64 12.35 15.43 12.56L14.23 13.76C14.1 13.89 13.89 13.89 13.76 13.76L12.56 12.56Z" fill="#216C30" fill-opacity="1.000000" fill-rule="evenodd"/>
+			<path id="Rectangle 183" d="M15.19 12C15.49 12 15.64 12.35 15.43 12.56L14.23 13.76C14.1 13.89 13.89 13.89 13.76 13.76L12.56 12.56C12.35 12.35 12.5 12 12.8 12L15.19 12Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+		</g>
+	</g>
 </svg>

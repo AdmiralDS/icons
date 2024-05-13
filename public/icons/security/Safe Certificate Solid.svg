@@ -1,0 +1,13 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip116868_717">
+			<rect id="Solid / Safety Certificate Solid" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip116868_717)">
+		<path id="Shape" d="M4 5.92C4 5.32 4.4 4.8 4.98 4.66L11.27 3.08C11.75 2.97 12.24 2.97 12.72 3.08L19.01 4.66C19.59 4.8 20 5.32 20 5.92L20 11.15C20 14.25 18.4 17.14 15.77 18.78L12.68 20.71C12.26 20.97 11.73 20.97 11.31 20.71L8.22 18.78C5.59 17.14 4 14.25 4 11.15L4 5.92ZM11.04 13.4C11.32 13.68 11.78 13.67 12.05 13.38L15.11 10.09C15.35 9.82 15.33 9.41 15.07 9.17C14.81 8.93 14.39 8.94 14.15 9.21L11.52 12.04L10.1 10.63C9.85 10.38 9.43 10.38 9.18 10.63C8.93 10.88 8.93 11.3 9.18 11.55L11.04 13.4Z" fill="#717681" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

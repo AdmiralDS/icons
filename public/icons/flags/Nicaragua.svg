@@ -1,12 +1,29 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="#D6D8DD" stroke-width="0.5"/>
-<mask id="mask0_17_4859" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
-<rect x="0.25" y="4.25" width="27.5" height="19.5" rx="2.75" fill="white" stroke="white" stroke-width="0.5"/>
-</mask>
-<g mask="url(#mask0_17_4859)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 10.6667H28V4H0V10.6667Z" fill="#1A78D6"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H28V17.3333H0V24Z" fill="#1A78D6"/>
-<path d="M14 16.3333C15.2887 16.3333 16.3333 15.2887 16.3333 14C16.3333 12.7113 15.2887 11.6667 14 11.6667C12.7113 11.6667 11.6667 12.7113 11.6667 14C11.6667 15.2887 12.7113 16.3333 14 16.3333Z" stroke="#DBCD92" stroke-width="0.666667"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14 12.6667L15.3333 15.3333H12.6667L14 12.6667Z" fill="#9CDDEE"/>
-</g>
+<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Nicaragua" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#D6D8DD" stroke-opacity="1.000000" stroke-width="0.500000"/>
+	<mask id="mask17_4861" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
+		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#F5F5F5" stroke-opacity="1.000000" stroke-width="0.500000"/>
+	</mask>
+	<g mask="url(#mask17_4861)">
+		<path id="Rectangle 2" d="M0 10.66L28 10.66L28 4L0 4L0 10.66Z" fill="#1A78D6" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2" d="M28 10.66L28 4L0 4L0 10.66L28 10.66Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_4861)">
+		<path id="Rectangle 2" d="M0 24L28 24L28 17.33L0 17.33L0 24Z" fill="#1A78D6" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2" d="M28 24L28 17.33L0 17.33L0 24L28 24Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_4861)">
+		<path id="Oval 1" d="M14 16C15.1 16 16 15.1 16 14C16 12.89 15.1 12 14 12C12.89 12 12 12.89 12 14C12 15.1 12.89 16 14 16Z" fill="#181A93" fill-opacity="0" fill-rule="evenodd"/>
+		<path id="Oval 1" d="M16.6 14.57Q16.66 14.29 16.66 14Q16.66 13.7 16.6 13.42Q16.55 13.18 16.45 12.96Q16.36 12.73 16.22 12.53Q16.07 12.3 15.88 12.11Q15.69 11.92 15.46 11.77Q15.26 11.63 15.03 11.54Q14.81 11.44 14.57 11.39Q14.29 11.33 14 11.33Q13.7 11.33 13.42 11.39Q13.18 11.44 12.96 11.54Q12.73 11.63 12.53 11.77Q12.3 11.92 12.11 12.11Q11.92 12.3 11.77 12.53Q11.63 12.73 11.54 12.96Q11.44 13.18 11.39 13.42Q11.33 13.7 11.33 14Q11.33 14.29 11.39 14.57Q11.44 14.81 11.54 15.03Q11.63 15.26 11.77 15.46Q11.92 15.69 12.11 15.88Q12.3 16.07 12.53 16.22Q12.73 16.36 12.96 16.45Q13.18 16.55 13.42 16.6Q13.7 16.66 14 16.66Q14.29 16.66 14.57 16.6Q14.81 16.55 15.03 16.45Q15.26 16.36 15.46 16.22Q15.69 16.07 15.88 15.88Q16.07 15.69 16.22 15.46Q16.36 15.26 16.45 15.03Q16.55 14.81 16.6 14.57ZM16 14C16 15.1 15.1 16 14 16C12.89 16 12 15.1 12 14C12 12.89 12.89 12 14 12C15.1 12 16 12.89 16 14Z" fill="#DBCD92" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<g mask="url(#mask17_4861)">
+		<path id="Rectangle 390" d="M14 12.66L15.33 15.33L12.66 15.33L14 12.66Z" fill="#9CDDEE" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 390" d="M15.33 15.33L12.66 15.33L14 12.66L15.33 15.33Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
 </svg>

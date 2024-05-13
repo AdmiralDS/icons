@@ -1,8 +1,8 @@
-import * as React from 'react';
+import { useState, forwardRef } from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import styled from 'styled-components';
 import { ThemeProvider } from 'styled-components';
-import { LIGHT_THEME, FontsVTBGroup, DropdownProvider } from '@admiral-ds/react-ui';
+import { LIGHT_THEME, FontsVTBGroup, DropdownProvider, Hint } from '@admiral-ds/react-ui';
 import { TooltipHoc, typography } from '@admiral-ds/react-ui';
 import CopyOutline from '@admiral-ds/icons/build/documents/CopyOutline.svg?react';
 import metadata from '../metadata.json';
@@ -14,6 +14,7 @@ import * as DocumentsIcons from './icons/documents';
 import * as FinanceIcons from './icons/finance';
 import * as FlagsIcons from './icons/flags';
 import * as LocationIcons from './icons/location';
+import * as LogoIcons from './icons/logo';
 import * as PaymentIcons from './icons/payment';
 import * as RedactIcons from './icons/redact';
 import * as SecurityIcons from './icons/security';
@@ -70,7 +71,7 @@ const CategoryWrapper = styled.div`
   margin-bottom: 40px;
 `;
 
-const IconCard = styled.div`
+const IconCardContainer = styled.div`
   display: flex;
   flex-shrink: 0;
   flex-direction: column;
@@ -78,6 +79,16 @@ const IconCard = styled.div`
   width: 200px;
   height: 100px;
 `;
+
+type IconCardProps = { renderContent: () => React.ReactNode } & React.HtmlHTMLAttributes<HTMLDivElement>;
+function IconCard({ renderContent, ...props }: IconCardProps) {
+  const [visible, setVisible] = useState(false);
+  return (
+    <Hint visible={visible} onVisibilityChange={setVisible} renderContent={renderContent} style={{ width: 600 }}>
+      <IconCardContainer {...props} />
+    </Hint>
+  );
+}
 
 const IconName = styled.div`
   margin-top: 16px;
@@ -92,7 +103,7 @@ const CopyOutlineWrapper = styled.div`
   cursor: pointer;
 `;
 
-const CopyIcon = React.forwardRef<HTMLDivElement, { text: string }>(({ text }, ref) => {
+const CopyIcon = forwardRef<HTMLDivElement, { text: string }>(({ text }, ref) => {
   const copyToClipboard = () => {
     const el = document.createElement('textarea');
     el.value = text;
@@ -151,6 +162,7 @@ const CATEGORIES: Array<Category> = [
   { label: 'Payment', value: 'payment', icons: getIcons('payment', PaymentIcons) },
   { label: 'Redact', value: 'redact', icons: getIcons('redact', RedactIcons) },
   { label: 'Location', value: 'location', icons: getIcons('location', LocationIcons) },
+  { label: 'Logo', value: 'logo', icons: getIcons('logo', LogoIcons) },
   { label: 'Security', value: 'security', icons: getIcons('security', SecurityIcons) },
   { label: 'Service', value: 'service', icons: getIcons('service', ServiceIcons) },
   { label: 'System', value: 'system', icons: getIcons('system', SystemIcons) },
@@ -193,30 +205,70 @@ const Template = () => (
       Иконки — гафические символы используемые для представления действий, идей или объектов. Позволяют быстро
       передавать смысл отображаемой информации или привлекать к ней дополнительное внимание.
     </Title>
-    {CATEGORIES.map(({ label, icons }) => (
+    {CATEGORIES.map(({ value, label, icons }) => (
       <Category key={label} label={label}>
-        {icons.map(({ Component, name, path }, index: number) => (
-          <IconCard key={name + index}>
-            <Component width={24} height={24} />
-            <IconName>
-              {name}{' '}
-              <CopyButton
-                renderContent={() => 'Копировать пример использования'}
-                text={`import { ReactComponent as ${name} } from '@admiral-ds/icons/${path}';`}
-              />
-            </IconName>
-          </IconCard>
-        ))}
+        {icons.map(({ Component, name, path }, index: number) => {
+          const exampleText = `
+// Импорт через лоадер (настроен в vitejs по умолчанию)
+import ${name} from '@admiral-ds/icons/${path}?react';
+
+// Импорт компонента (лоадер не требуется)
+import { ${capitalizeFirstLetter(value)}${name} } from '@admiral-ds/icons';
+`;
+          return (
+            <IconCard
+              key={name + index}
+              renderContent={() => (
+                <div style={{ whiteSpace: 'pre-wrap' }}>
+                  <code>{exampleText}</code>
+                </div>
+              )}
+            >
+              <Component width={24} height={24} />
+              <IconName>
+                {name} <CopyButton renderContent={() => 'Копировать пример использования'} text={exampleText} />
+              </IconName>
+            </IconCard>
+          );
+        })}
       </Category>
     ))}
   </>
 );
 
 const exm = `
-  config.module.rules.unshift({
-    test: /\\.svg$/,
-    use: [{ loader: '@svgr/webpack', options: { dimensions: false, svgProps: { focusable: '{false}' } } }],
-  });
+module: {
+  rules: [
+    {
+      test: /\\.(js|jsx|tsx)$/,
+      use: {
+        loader: 'babel-loader',
+        options: {
+          presets: ['@babel/preset-typescript'],
+        },
+      },
+    },
+    {
+      test: /\\.css$/,
+      use: ['style-loader', 'css-loader'],
+    },
+    {
+      test: /\\.(jpg|jpeg|png|gif|eot|otf|webp|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$/,
+      type: 'asset/resource',
+    },
+    {
+      test: /\\.svg$/i,
+      type: 'asset/resource',
+      resourceQuery: { not: [/react/] }, // *.svg Для имрорта URL
+    },
+    {
+      test: /\\.svg$/i,
+      issuer: /\\.[jt]sx?$/,
+      resourceQuery: /react/, // *.svg?react Для импорта в виде реакт компонента через лоадер
+      use: [{ loader: '@svgr/webpack', options: { dimensions: false, svgProps: { focusable: '{false}' } } }],
+    },
+  ],
+},
   `;
 const svgModule = `
   declare module '*.svg' {
@@ -263,8 +315,8 @@ const Template2 = () => {
           <a href="https://www.npmjs.com/package/@admiral-ds/icons">Пакет в npm</a>
         </li>
       </ul>
-      1) В проекте может понадобиться настройка загрузчиков svg-иконок. Например, в create-react-app уже изначально для
-      webpack настроены загрузчики svg иконок. В нашем storybook настройки webpack для работы с иконками выглядят так:
+      1) В проекте может понадобиться настройка загрузчиков svg-иконок. Например, в vitejs уже изначально для webpack
+      настроены загрузчики svg иконок. В нашем storybook настройки webpack для работы с иконками выглядят так:
       <Panel>
         <Code>{exm}</Code>
       </Panel>

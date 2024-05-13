@@ -1,3 +1,13 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M11.4896 9.17364C11.7669 8.87395 12.2407 8.87411 12.5177 9.174L16.1162 13.0695C16.5303 13.5179 16.2123 14.2445 15.602 14.2445H8.40012C7.78954 14.2445 7.47164 13.5174 7.88625 13.0692L11.4896 9.17364Z" fill="#717681"/>
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip5574_732">
+			<rect id="Solid / Sort Up Solid" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip5574_732)">
+		<path id="Shape" d="M11.48 9.17C11.76 8.87 12.24 8.87 12.51 9.17L16.11 13.06C16.52 13.51 16.21 14.24 15.6 14.24L8.39 14.24C7.78 14.24 7.47 13.51 7.88 13.06L11.48 9.17Z" fill="#717681" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
 </svg>

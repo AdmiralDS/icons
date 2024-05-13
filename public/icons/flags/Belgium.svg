@@ -1,11 +1,25 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect y="4" width="28" height="20" rx="3" fill="white"/>
-<mask id="mask0_17_6027" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="28" height="20">
-<rect y="4" width="28" height="20" rx="3" fill="white"/>
-</mask>
-<g mask="url(#mask0_17_6027)">
-<rect x="13.3333" y="4" width="14.6667" height="20" fill="#FF4453"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24H9.33333V4H0V24Z" fill="#262626"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M9.33334 24H18.6667V4H9.33334V24Z" fill="#FFCF3C"/>
-</g>
+<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Belgium" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	<mask id="mask17_6029" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
+		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</mask>
+	<g mask="url(#mask17_6029)">
+		<rect id="Mask" x="13.333344" y="4.000000" width="14.666667" height="20.000000" fill="#FF4453" fill-opacity="1.000000"/>
+		<rect id="Mask" x="13.333344" y="4.000000" width="14.666667" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_6029)">
+		<path id="Rectangle 2" d="M0 24L9.33 24L9.33 4L0 4L0 24Z" fill="#262626" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2" d="M9.33 24L9.33 4L0 4L0 24L9.33 24Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<g mask="url(#mask17_6029)">
+		<path id="Rectangle 2 Copy" d="M9.33 24L18.66 24L18.66 4L9.33 4L9.33 24Z" fill="#FFCF3C" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Rectangle 2 Copy" d="M18.66 24L18.66 4L9.33 4L9.33 24L18.66 24Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
 </svg>

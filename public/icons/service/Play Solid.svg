@@ -1,3 +1,13 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21ZM9.51996 9.55907C9.51996 8.49659 10.7253 7.88279 11.5846 8.50771L14.9409 10.9487C15.6547 11.4678 15.6547 12.5322 14.9409 13.0514L11.5846 15.4923C10.7253 16.1172 9.51996 15.5034 9.51996 14.441V9.55907Z" fill="#717681"/>
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip17_112">
+			<rect id="Solid / Play Solid" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip17_112)">
+		<path id="Shape" d="M12 21C16.97 21 21 16.97 21 12C21 7.02 16.97 3 12 3C7.02 3 3 7.02 3 12C3 16.97 7.02 21 12 21ZM9.52 9.55C9.52 8.49 10.72 7.88 11.58 8.5L14.94 10.94C15.65 11.46 15.65 12.53 14.94 13.05L11.58 15.49C10.72 16.11 9.52 15.5 9.52 14.44L9.52 9.55Z" fill="#717681" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
 </svg>
