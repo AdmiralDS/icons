@@ -8,7 +8,7 @@
 		</clipPath>
 	</defs>
 	<rect id="Christmas Island" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
-	<g clip-path="url(#clip107628_877)">
+	<g>
 		<mask id="mask107628_864" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="3.999939" width="28.000000" height="20.000000">
 			<path id="path14" d="M25 23.99L3 23.99C1.34 23.99 0 22.65 0 20.99L0 6.99C0 5.34 1.34 3.99 3 3.99L25 3.99C26.65 3.99 28 5.34 28 6.99L28 20.99C28 22.65 26.65 23.99 25 23.99Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
 		</mask>

@@ -7,7 +7,7 @@
 			<rect id="Outline / Sort Down Outline" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
 		</clipPath>
 	</defs>
-	<g clip-path="url(#clip5574_729)">
+	<g>
 		<path id="Shape" d="M9.76 10.48L11.99 12.89L14.22 10.48L9.76 10.48ZM11.48 14.25C11.75 14.55 12.23 14.55 12.51 14.25L16.11 10.36C16.52 9.91 16.21 9.18 15.6 9.18L8.39 9.18C7.78 9.18 7.46 9.91 7.88 10.36L11.48 14.25Z" fill="#717681" fill-opacity="1.000000" fill-rule="evenodd"/>
 	</g>
 </svg>
