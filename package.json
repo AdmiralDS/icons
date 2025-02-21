@@ -1,6 +1,6 @@
 {
   "name": "@admiral-ds/icons",
-  "version": "4.3.1",
+  "version": "4.3.3",
   "author": "AdmiralDS team",
   "private": false,
   "license": "See license in ./LICENSE",
@@ -12,10 +12,12 @@
     "flags-metadata.json"
   ],
   "type": "module",
-  "module": "dist/index.es.js",
-  "types": "dist/index.d.ts",
   "exports": {
-    ".": "./dist/index.es.js",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js"
+    },
     "./build/*": "./build/*",
     "./public/*": "./public/*",
     "./*.json": "./*.json"
@@ -62,10 +64,12 @@
     "storybook": "^7.6.19",
     "svgo": "^3.3.2",
     "typescript": "^5.4.5",
-    "vite": "^5.2.13",
+    "vite": "^5.2.13 || 6",
     "vite-plugin-svgr": "^4.2.0",
     "vite-tsconfig-paths": "^4.3.2"
   },
+  "main": "./dist/index.cjs.js",
+  "types": "./dist/index.d.ts",
   "repository": "https://github.com/AdmiralDS/icons",
   "bugs": {
     "url": "https://github.com/AdmiralDS/icons/issues"
