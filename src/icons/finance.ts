@@ -14,6 +14,7 @@ export { default as FinanceCashboxOutline } from '@admiral-ds/icons/build/financ
 export { default as FinanceCashboxSolid } from '@admiral-ds/icons/build/finance/CashboxSolid.svg?react';
 export { default as FinanceCreditCardOutline } from '@admiral-ds/icons/build/finance/CreditCardOutline.svg?react';
 export { default as FinanceCreditCardSolid } from '@admiral-ds/icons/build/finance/CreditCardSolid.svg?react';
+export { default as FinanceCurrencyOutline } from '@admiral-ds/icons/build/finance/CurrencyOutline.svg?react';
 export { default as FinanceDebitCardOutline } from '@admiral-ds/icons/build/finance/DebitCardOutline.svg?react';
 export { default as FinanceDebitCardSolid } from '@admiral-ds/icons/build/finance/DebitCardSolid.svg?react';
 export { default as FinanceDigitalMoneyOutline } from '@admiral-ds/icons/build/finance/DigitalMoneyOutline.svg?react';
@@ -42,6 +43,8 @@ export { default as FinancePayCashOutline } from '@admiral-ds/icons/build/financ
 export { default as FinancePayCashSolid } from '@admiral-ds/icons/build/finance/PayCashSolid.svg?react';
 export { default as FinancePayrollCardOutline } from '@admiral-ds/icons/build/finance/PayrollCardOutline.svg?react';
 export { default as FinancePayrollCardSolid } from '@admiral-ds/icons/build/finance/PayrollCardSolid.svg?react';
+export { default as FinancePercentOutline } from '@admiral-ds/icons/build/finance/PercentOutline.svg?react';
+export { default as FinancePercentSolid } from '@admiral-ds/icons/build/finance/PercentSolid.svg?react';
 export { default as FinancePlatinumOutline } from '@admiral-ds/icons/build/finance/PlatinumOutline.svg?react';
 export { default as FinancePlatinumSolid } from '@admiral-ds/icons/build/finance/PlatinumSolid.svg?react';
 export { default as FinanceRUBOutline } from '@admiral-ds/icons/build/finance/RUBOutline.svg?react';

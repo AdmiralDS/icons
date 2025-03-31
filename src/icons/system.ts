@@ -1,5 +1,7 @@
 export { default as SystemActionsOutline } from '@admiral-ds/icons/build/system/ActionsOutline.svg?react';
 export { default as SystemActionsSolid } from '@admiral-ds/icons/build/system/ActionsSolid.svg?react';
+export { default as SystemAddressBookOutline } from '@admiral-ds/icons/build/system/AddressBookOutline.svg?react';
+export { default as SystemAddressBookSolid } from '@admiral-ds/icons/build/system/AddressBookSolid.svg?react';
 export { default as SystemAdminOutline } from '@admiral-ds/icons/build/system/AdminOutline.svg?react';
 export { default as SystemAdminSolid } from '@admiral-ds/icons/build/system/AdminSolid.svg?react';
 export { default as SystemArrowCrossOutline } from '@admiral-ds/icons/build/system/ArrowCrossOutline.svg?react';
@@ -154,6 +156,8 @@ export { default as SystemOkSendOutline } from '@admiral-ds/icons/build/system/O
 export { default as SystemOkSendSolid } from '@admiral-ds/icons/build/system/OkSendSolid.svg?react';
 export { default as SystemOpenInFullOutline } from '@admiral-ds/icons/build/system/OpenInFullOutline.svg?react';
 export { default as SystemOpenInFullSolid } from '@admiral-ds/icons/build/system/OpenInFullSolid.svg?react';
+export { default as SystemOpenInNewOutline } from '@admiral-ds/icons/build/system/OpenInNewOutline.svg?react';
+export { default as SystemOpenInNewSolid } from '@admiral-ds/icons/build/system/OpenInNewSolid.svg?react';
 export { default as SystemPeopleOutline } from '@admiral-ds/icons/build/system/PeopleOutline.svg?react';
 export { default as SystemPeopleSolid } from '@admiral-ds/icons/build/system/PeopleSolid.svg?react';
 export { default as SystemPersonAccountOutline } from '@admiral-ds/icons/build/system/PersonAccountOutline.svg?react';
@@ -178,6 +182,7 @@ export { default as SystemQRCodeOutline } from '@admiral-ds/icons/build/system/Q
 export { default as SystemQRCodeSolid } from '@admiral-ds/icons/build/system/QRCodeSolid.svg?react';
 export { default as SystemRedoOutline } from '@admiral-ds/icons/build/system/RedoOutline.svg?react';
 export { default as SystemRedoSolid } from '@admiral-ds/icons/build/system/RedoSolid.svg?react';
+export { default as SystemRefreshOutline } from '@admiral-ds/icons/build/system/RefreshOutline.svg?react';
 export { default as SystemRefuseOutline } from '@admiral-ds/icons/build/system/RefuseOutline.svg?react';
 export { default as SystemRefuseSmallOutline } from '@admiral-ds/icons/build/system/RefuseSmallOutline.svg?react';
 export { default as SystemRefuseSmallSolid } from '@admiral-ds/icons/build/system/RefuseSmallSolid.svg?react';
