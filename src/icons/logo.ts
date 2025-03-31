@@ -12,6 +12,7 @@ export { default as LogoETCDOutline } from '@admiral-ds/icons/build/logo/ETCDOut
 export { default as LogoETCDSolid } from '@admiral-ds/icons/build/logo/ETCDSolid.svg?react';
 export { default as LogoGitLabOutline } from '@admiral-ds/icons/build/logo/GitLabOutline.svg?react';
 export { default as LogoGitLabSolid } from '@admiral-ds/icons/build/logo/GitLabSolid.svg?react';
+export { default as LogoGithubSolid } from '@admiral-ds/icons/build/logo/GithubSolid.svg?react';
 export { default as LogoHelmOutline } from '@admiral-ds/icons/build/logo/HelmOutline.svg?react';
 export { default as LogoHelmSolid } from '@admiral-ds/icons/build/logo/HelmSolid.svg?react';
 export { default as LogoJinjaOutline } from '@admiral-ds/icons/build/logo/JinjaOutline.svg?react';
@@ -36,6 +37,7 @@ export { default as LogoRabbitOutline } from '@admiral-ds/icons/build/logo/Rabbi
 export { default as LogoRabbitSolid } from '@admiral-ds/icons/build/logo/RabbitSolid.svg?react';
 export { default as LogoSkyllaOutline } from '@admiral-ds/icons/build/logo/SkyllaOutline.svg?react';
 export { default as LogoSkyllaSolid } from '@admiral-ds/icons/build/logo/SkyllaSolid.svg?react';
+export { default as LogoSpaceOpsSolid } from '@admiral-ds/icons/build/logo/SpaceOpsSolid.svg?react';
 export { default as LogoUtariOutline } from '@admiral-ds/icons/build/logo/UtariOutline.svg?react';
 export { default as LogoUtariSolid } from '@admiral-ds/icons/build/logo/UtariSolid.svg?react';
 export { default as LogoVeeamOutline } from '@admiral-ds/icons/build/logo/VeeamOutline.svg?react';

@@ -30,6 +30,8 @@ export { default as CategoryBonusRubleSolid } from '@admiral-ds/icons/build/cate
 export { default as CategoryBonusSolid } from '@admiral-ds/icons/build/category/BonusSolid.svg?react';
 export { default as CategoryBookOutline } from '@admiral-ds/icons/build/category/BookOutline.svg?react';
 export { default as CategoryBookSolid } from '@admiral-ds/icons/build/category/BookSolid.svg?react';
+export { default as CategoryBoxesOutline } from '@admiral-ds/icons/build/category/BoxesOutline.svg?react';
+export { default as CategoryBoxesSolid } from '@admiral-ds/icons/build/category/BoxesSolid.svg?react';
 export { default as CategoryBranchesOutline } from '@admiral-ds/icons/build/category/BranchesOutline.svg?react';
 export { default as CategoryBranchesSolid } from '@admiral-ds/icons/build/category/BranchesSolid.svg?react';
 export { default as CategoryBugOutline } from '@admiral-ds/icons/build/category/BugOutline.svg?react';
