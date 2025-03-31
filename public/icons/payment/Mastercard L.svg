@@ -3,8 +3,8 @@
 			Created with Pixso.
 	</desc>
 	<defs/>
-	<rect id="Mastercard L" width="40.000000" height="40.000000" fill="#FFFFFF" fill-opacity="0"/>
-	<rect id="Mastercard M" width="28.000000" height="20.000000" transform="translate(6.000000 10.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Mastercard L" rx="-0.500000" width="39.000000" height="39.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Mastercard M" rx="-0.500000" width="27.000000" height="19.000000" transform="translate(6.500000 10.500000)" fill="#FFFFFF" fill-opacity="0"/>
 	<rect id="BG" x="6.000000" y="10.000000" rx="2.000000" width="28.000000" height="20.000000" fill="#F0F2F5" fill-opacity="1.000000"/>
 	<path id="Intersection" d="M17.61 24.4L22.36 24.4L22.36 15.68L17.61 15.68L17.61 24.4Z" fill="#FF5F00" fill-opacity="1.000000" fill-rule="evenodd"/>
 	<path id="Red" d="M17.92 20C17.92 18.24 18.73 16.68 20 15.67C19.07 14.93 17.9 14.5 16.63 14.5C13.63 14.5 11.2 16.96 11.2 20C11.2 23.03 13.63 25.5 16.63 25.5C17.9 25.5 19.07 25.06 20 24.32C18.73 23.31 17.92 21.75 17.92 20Z" fill="#EB001B" fill-opacity="1.000000" fill-rule="evenodd"/>

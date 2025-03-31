@@ -3,7 +3,7 @@
 			Created with Pixso.
 	</desc>
 	<defs>
-		<linearGradient id="paint_linear_17_7521_0" x1="14.002197" y1="3.003906" x2="14.002197" y2="17.000488" gradientUnits="userSpaceOnUse">
+		<linearGradient x1="14.002197" y1="3.003906" x2="14.002197" y2="17.000488" id="paint_linear_17_7521_0" gradientUnits="userSpaceOnUse">
 			<stop offset="0.276042" stop-color="#BB9026"/>
 			<stop offset="0.661458" stop-color="#C39931"/>
 			<stop offset="1.000000" stop-color="#D0A742"/>
