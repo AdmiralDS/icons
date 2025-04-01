@@ -7,7 +7,7 @@
 			<rect id="Outline / Minus Outline" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
 		</clipPath>
 	</defs>
-	<g>
-		<path id="Shape" d="M5 11.35L12.64 11.35L19 11.35C19.35 11.35 19.64 11.64 19.64 12C19.64 12.35 19.35 12.65 19 12.65L12.64 12.65L5 12.65C4.64 12.65 4.35 12.35 4.35 12C4.35 11.64 4.64 11.35 5 11.35Z" fill="#717681" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<g clip-path="url(#clip17_73)">
+		<path id="Shape" d="M5 11.35L12.64 11.35L19 11.35C19.35 11.35 19.64 11.64 19.64 12C19.64 12.35 19.35 12.65 19 12.65L12.64 12.65L5 12.65C4.64 12.65 4.35 12.35 4.35 12C4.35 11.64 4.64 11.35 5 11.35Z" fill="#74767B" fill-opacity="1.000000" fill-rule="evenodd"/>
 	</g>
 </svg>
