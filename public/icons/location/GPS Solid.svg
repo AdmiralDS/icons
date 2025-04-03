@@ -7,7 +7,7 @@
 			<rect id="Solid / GPS Solid" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
 		</clipPath>
 	</defs>
-	<g clip-path="url(#clip17_1102)">
+	<g >
 		<path id="Shape" d="M18.06 4.14C19.18 3.65 20.31 4.79 19.83 5.92L14.11 19.18C13.57 20.43 11.74 20.19 11.54 18.84L10.75 13.57C10.73 13.41 10.61 13.29 10.46 13.27L5.22 12.48C3.88 12.27 3.64 10.44 4.88 9.9L18.06 4.14Z" fill="#74767B" fill-opacity="1.000000" fill-rule="evenodd"/>
 	</g>
 </svg>

@@ -7,7 +7,7 @@
 			<rect id="Outline / Chevron Up Outline" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
 		</clipPath>
 	</defs>
-	<g clip-path="url(#clip17_1420)">
+	<g >
 		<path id="Shape" d="M5.11 15.4C5.11 15.58 5.18 15.75 5.32 15.88C5.59 16.12 6 16.1 6.24 15.84L11.98 9.47L17.54 15.88C17.77 16.15 18.18 16.16 18.45 15.92C18.71 15.68 18.73 15.27 18.5 15L12.5 8.1C12.23 7.79 11.75 7.79 11.46 8.1L5.28 14.96C5.16 15.09 5.11 15.24 5.11 15.4Z" fill="#74767B" fill-opacity="1.000000" fill-rule="nonzero"/>
 	</g>
 </svg>
