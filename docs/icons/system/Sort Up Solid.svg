@@ -7,7 +7,7 @@
 			<rect id="Solid / Sort Up Solid" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
 		</clipPath>
 	</defs>
-	<g>
-		<path id="Shape" d="M11.48 9.17C11.76 8.87 12.24 8.87 12.51 9.17L16.11 13.06C16.52 13.51 16.21 14.24 15.6 14.24L8.39 14.24C7.78 14.24 7.47 13.51 7.88 13.06L11.48 9.17Z" fill="#717681" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<g clip-path="url(#clip5574_732)">
+		<path id="Shape" d="M11.48 9.17C11.76 8.87 12.24 8.87 12.51 9.17L16.11 13.06C16.52 13.51 16.21 14.24 15.6 14.24L8.39 14.24C7.78 14.24 7.47 13.51 7.88 13.06L11.48 9.17Z" fill="#74767B" fill-opacity="1.000000" fill-rule="nonzero"/>
 	</g>
 </svg>
