@@ -1,13 +1,6 @@
 <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<desc>
-			Created with Pixso.
-	</desc>
-	<defs>
-		<clipPath id="clip8688_1314">
-			<rect id="Solid / VK Solid" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
-		</clipPath>
-	</defs>
-	<g clip-path="url(#clip8688_1314)">
+	<g>
+		<rect id="Solid / VK Solid" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
 		<path id="Shape" d="M12.8 18.23C6.65 18.23 3.14 14.01 3 7L6.08 7C6.18 12.14 8.45 14.33 10.25 14.78L10.25 7L13.15 7L13.15 11.44C14.92 11.24 16.79 9.22 17.42 7L20.32 7C19.84 9.74 17.81 11.76 16.37 12.59C17.81 13.27 20.12 15.03 21 18.23L17.8 18.23C17.12 16.09 15.41 14.44 13.15 14.21L13.15 18.23L12.8 18.23Z" fill="#74767B" fill-opacity="1.000000" fill-rule="nonzero"/>
 	</g>
 </svg>
