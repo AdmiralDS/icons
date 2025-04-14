@@ -1,4 +1,15 @@
 export { default as BankAlphaBank } from '@admiral-ds/icons/build/bank/AlphaBank.svg?react';
+export { default as BankAvito } from '@admiral-ds/icons/build/bank/Avito.svg?react';
+export { default as BankCitibank } from '@admiral-ds/icons/build/bank/Citibank.svg?react';
+export { default as BankCreditMoskowBank } from '@admiral-ds/icons/build/bank/CreditMoskowBank.svg?react';
+export { default as BankGazprombank } from '@admiral-ds/icons/build/bank/Gazprombank.svg?react';
+export { default as BankMTS } from '@admiral-ds/icons/build/bank/MTS.svg?react';
+export { default as BankOzon } from '@admiral-ds/icons/build/bank/Ozon.svg?react';
+export { default as BankPochtaBank } from '@admiral-ds/icons/build/bank/PochtaBank.svg?react';
+export { default as BankQiwi } from '@admiral-ds/icons/build/bank/Qiwi.svg?react';
 export { default as BankRaif } from '@admiral-ds/icons/build/bank/Raif.svg?react';
 export { default as BankSBP } from '@admiral-ds/icons/build/bank/SBP.svg?react';
 export { default as BankSber } from '@admiral-ds/icons/build/bank/Sber.svg?react';
+export { default as BankTBank } from '@admiral-ds/icons/build/bank/TBank.svg?react';
+export { default as BankUnionpay } from '@admiral-ds/icons/build/bank/Unionpay.svg?react';
+export { default as BankVTB } from '@admiral-ds/icons/build/bank/VTB.svg?react';

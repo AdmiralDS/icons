@@ -29,6 +29,7 @@ export { default as LogoMongoOutline } from '@admiral-ds/icons/build/logo/MongoO
 export { default as LogoMongoSolid } from '@admiral-ds/icons/build/logo/MongoSolid.svg?react';
 export { default as LogoOpenSearchOutline } from '@admiral-ds/icons/build/logo/OpenSearchOutline.svg?react';
 export { default as LogoOpenSearchSolid } from '@admiral-ds/icons/build/logo/OpenSearchSolid.svg?react';
+export { default as LogoPixsoSolid } from '@admiral-ds/icons/build/logo/PixsoSolid.svg?react';
 export { default as LogoPostgreSQLOutline } from '@admiral-ds/icons/build/logo/PostgreSQLOutline.svg?react';
 export { default as LogoPostgreSQLSolid } from '@admiral-ds/icons/build/logo/PostgreSQLSolid.svg?react';
 export { default as LogoPythonOutline } from '@admiral-ds/icons/build/logo/PythonOutline.svg?react';
