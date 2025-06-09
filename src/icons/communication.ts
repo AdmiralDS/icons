@@ -27,6 +27,7 @@ export { default as CommunicationWhatsUpRoundSolid } from '@admiral-ds/icons/bui
 export { default as CommunicationWhatsUpSolid } from '@admiral-ds/icons/build/communication/WhatsUpSolid.svg?react';
 export { default as CommunicationWifiOutline } from '@admiral-ds/icons/build/communication/WifiOutline.svg?react';
 export { default as CommunicationWifiSolid } from '@admiral-ds/icons/build/communication/WifiSolid.svg?react';
+export { default as CommunicationXOutline } from '@admiral-ds/icons/build/communication/XOutline.svg?react';
 export { default as CommunicationXOutlined } from '@admiral-ds/icons/build/communication/XOutlined.svg?react';
 export { default as CommunicationXSolid } from '@admiral-ds/icons/build/communication/XSolid.svg?react';
 export { default as CommunicationYouTubeRoundSolid } from '@admiral-ds/icons/build/communication/YouTubeRoundSolid.svg?react';

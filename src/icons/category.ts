@@ -122,6 +122,8 @@ export { default as CategoryGovernmentOutline } from '@admiral-ds/icons/build/ca
 export { default as CategoryGovernmentSolid } from '@admiral-ds/icons/build/category/GovernmentSolid.svg?react';
 export { default as CategoryGridOutline } from '@admiral-ds/icons/build/category/GridOutline.svg?react';
 export { default as CategoryGridSolid } from '@admiral-ds/icons/build/category/GridSolid.svg?react';
+export { default as CategoryHandOutline } from '@admiral-ds/icons/build/category/HandOutline.svg?react';
+export { default as CategoryHandSolid } from '@admiral-ds/icons/build/category/HandSolid.svg?react';
 export { default as CategoryHeartOutline } from '@admiral-ds/icons/build/category/HeartOutline.svg?react';
 export { default as CategoryHeartSolid } from '@admiral-ds/icons/build/category/HeartSolid.svg?react';
 export { default as CategoryHomeAutocreditOutline } from '@admiral-ds/icons/build/category/HomeAutocreditOutline.svg?react';
