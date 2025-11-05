@@ -26,13 +26,13 @@ function capitalizeFirstLetter(str: string) {
 }
 
 const Title = styled.div`
-  ${typography['Main/XS-bold']}
+  ${typography['Header/H6']}
   color: ${({ theme }) => theme.color['Neutral/Neutral 90']};
   margin-bottom: 20px;
 `;
 
 const Text = styled.div`
-  ${typography['Additional/M']}
+  ${typography['Body/Body 1 Short']}
   color: ${({ theme }) => theme.color['Neutral/Neutral 90']};
 `;
 
@@ -78,21 +78,22 @@ const IconCardContainer = styled.div`
   align-items: center;
   width: 200px;
   height: 100px;
+  row-gap: 16px;
 `;
 
 type IconCardProps = { renderContent: () => React.ReactNode } & React.HtmlHTMLAttributes<HTMLDivElement>;
-function IconCard({ renderContent, ...props }: IconCardProps) {
+
+function IconWithHint({ renderContent, children }: IconCardProps) {
   const [visible, setVisible] = useState(false);
   return (
-    <Hint visible={visible} onVisibilityChange={setVisible} renderContent={renderContent} style={{ width: 600 }}>
-      <IconCardContainer {...props} />
+    <Hint visible={visible} onVisibilityChange={setVisible} renderContent={renderContent} style={{ maxWidth: 600 }}>
+      {children}
     </Hint>
   );
 }
 
 const IconName = styled.div`
-  margin-top: 16px;
-  ${typography['Caption/XS']}
+  ${typography['Caption/Caption 1']}
   color: ${({ theme }) => theme.color['Neutral/Neutral 50']};
   display: flex;
   gap: 8px;
@@ -216,19 +217,20 @@ import ${name} from '@admiral-ds/icons/${path}?react';
 import { ${capitalizeFirstLetter(value)}${name} } from '@admiral-ds/icons';
 `;
           return (
-            <IconCard
-              key={name + index}
-              renderContent={() => (
-                <div style={{ whiteSpace: 'pre-wrap' }}>
-                  <code>{exampleText}</code>
-                </div>
-              )}
-            >
-              <Component width={24} height={24} />
+            <IconCardContainer key={name + index}>
+              <IconWithHint
+                renderContent={() => (
+                  <div style={{ whiteSpace: 'pre-wrap' }}>
+                    <code>{exampleText}</code>
+                  </div>
+                )}
+              >
+                <Component width={24} height={24} />
+              </IconWithHint>
               <IconName>
                 {name} <CopyButton renderContent={() => 'Копировать пример использования'} text={exampleText} />
               </IconName>
-            </IconCard>
+            </IconCardContainer>
           );
         })}
       </Category>
