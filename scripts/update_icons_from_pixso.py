@@ -23,8 +23,7 @@ for category_dir in source_path.iterdir():
         try:
             with zipfile.ZipFile(zip_file, 'r') as zip_ref:
                 zip_ref.extractall(category_dir)
-            zip_file.unlink()
-            print("Unpacked and deleted ZIP")
+            print("Unpacked ZIP (archive kept)")
         except Exception as e:
             print(f"Failed to extract {zip_file.name}: {e}")
             continue
@@ -36,7 +35,7 @@ for category_dir in source_path.iterdir():
     print(f"Found {len(svg_files)} SVG files")
 
     # 3. Папка назначения
-    dst_dir = dst_root_path / category_dir.name
+    dst_dir = dst_root_path / category_dir.name.strip()
     dst_dir.mkdir(parents=True, exist_ok=True)
 
     # 4. Удаляем старые SVG в целевой папке
@@ -45,11 +44,7 @@ for category_dir in source_path.iterdir():
 
     # 5. Копируем и переименовываем
     for file in svg_files:
-        new_name = file.name
-        match = re.match(r".*?_ (.+)", file.stem)
-        if match:
-            new_name = match.group(1) + file.suffix
-
+        new_name = file.name.strip()
         dst_file = dst_dir / new_name
         dst_file.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(file, dst_file)
