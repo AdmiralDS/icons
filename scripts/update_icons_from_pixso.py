@@ -15,6 +15,19 @@ if not source_path.is_dir():
 if not dst_root_path.is_dir():
     sys.exit(f"destination path is not a directory: {dst_root_path}")
 
+
+def collect_icon_paths(root: Path):
+    return sorted(p.relative_to(root).as_posix() for p in root.rglob("*.svg"))
+
+
+def format_list(items, prefix):
+    if not items:
+        return "- none"
+    return "\n".join(f"{prefix}{item}" for item in items)
+
+
+existing_icons_before = collect_icon_paths(dst_root_path)
+
 # === Основная логика ===
 for category_dir in source_path.iterdir():
     if not category_dir.is_dir():
@@ -68,3 +81,22 @@ for category_dir in source_path.iterdir():
             print(f"⚠️ Could not delete {item}: {e}")
 
 print("\nDone. Icons updated and source cleaned.")
+
+existing_icons_after = collect_icon_paths(dst_root_path)
+added_icons = sorted(set(existing_icons_after) - set(existing_icons_before))
+removed_icons = sorted(set(existing_icons_before) - set(existing_icons_after))
+
+commit_messages_path = repo_root / "commitMessages.txt"
+commit_messages_content = f"""feat(icons): add new icons
+
+Added icons:
+{format_list(added_icons, "- ")}
+
+
+feat(icons): remove outdated icons
+
+Removed icons:
+{format_list(removed_icons, "BREAKING CHANGE: removed ")}
+"""
+
+commit_messages_path.write_text(commit_messages_content, encoding="utf-8")
