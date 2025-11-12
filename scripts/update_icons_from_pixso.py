@@ -1,6 +1,7 @@
 import os
 import re
 import shutil
+import sys
 import zipfile
 from pathlib import Path
 
@@ -8,6 +9,11 @@ from pathlib import Path
 repo_root = Path(__file__).resolve().parent.parent
 source_path = repo_root / "inputZIP"
 dst_root_path = repo_root / "public" / "icons"
+
+if not source_path.is_dir():
+    sys.exit(f"source path is not a directory: {source_path}")
+if not dst_root_path.is_dir():
+    sys.exit(f"destination path is not a directory: {dst_root_path}")
 
 # === Основная логика ===
 for category_dir in source_path.iterdir():
