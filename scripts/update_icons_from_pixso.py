@@ -25,6 +25,14 @@ def format_list(items, prefix):
         return "- none"
     return "\n".join(f"{prefix}{item}" for item in items)
 
+def fix_file_name(fileName):
+    ret = fileName.strip()
+    ret = re.sub(r'\s+', ' ', fileName)
+    ret = re.sub(r' \.svg$','.svg', ret)
+    return ret
+
+def skip_file(fileName):
+    return fileName.startswith("Rectangle")
 
 existing_icons_before = collect_icon_paths(dst_root_path)
 
@@ -63,7 +71,9 @@ for category_dir in source_path.iterdir():
 
     # 5. Копируем и переименовываем
     for file in svg_files:
-        new_name = file.name.strip()
+        if skip_file(file.name):
+            continue
+        new_name = fix_file_name(file.name)
         dst_file = dst_dir / new_name
         dst_file.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(file, dst_file)
