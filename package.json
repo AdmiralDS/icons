@@ -60,7 +60,6 @@
     "eslint-plugin-react-refresh": "^0.4.7",
     "eslint-plugin-storybook": "0.8.0",
     "fs-extra": "^11.2.0",
-    "python": "^0.0.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "standard-version": "^9.5.0",
