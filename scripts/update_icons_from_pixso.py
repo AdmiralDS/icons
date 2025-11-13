@@ -25,7 +25,7 @@ def format_list(items, prefix):
         return "- none"
     return "\n".join(f"{prefix}{item}" for item in items)
 
-def fix_file_name(fileName):
+def normalize_file_name(fileName):
     ret = fileName.strip()
     ret = re.sub(r'\s+', ' ', fileName)
     ret = re.sub(r' \.svg$','.svg', ret)
@@ -73,7 +73,7 @@ for category_dir in source_path.iterdir():
     for file in svg_files:
         if skip_file(file.name):
             continue
-        new_name = fix_file_name(file.name)
+        new_name = normalize_file_name(file.name)
         dst_file = dst_dir / new_name
         dst_file.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(file, dst_file)
