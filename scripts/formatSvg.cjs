@@ -5,7 +5,14 @@ const { optimize } = require('svgo');
 
 const SVGR_OPTIONS = {
   plugins: [
-    'preset-default',
+    {
+      name: 'preset-default',
+      params: {
+        overrides: {
+          convertPathData: false,
+        },
+      },
+    },
     'removeDimensions',
     'prefixIds',
     {
@@ -59,8 +66,13 @@ const SOURCE_DIR = 'public/icons';
 
   async function format(svg, path) {
     const conf = { ...SVGR_OPTIONS, path };
-    const { data } = await optimize(svg, conf);
-    return data;
+    try {
+      const { data } = await optimize(svg, conf);
+      return data;
+    } catch (error) {
+      console.error(`SVGO failed for ${path}`);
+      throw error;
+    }
   }
 
   function convertToCamelCase(string) {

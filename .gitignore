@@ -22,5 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-package-lock.json
 bun.lockb
+
+inputZIP/**/*.zip
+commitMessages.txt
