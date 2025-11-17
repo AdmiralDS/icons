@@ -1,33 +1,28 @@
-<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<desc>
-			Created with Pixso.
-	</desc>
-	<defs/>
-	<rect id="Cabo Verde" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
-	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
-	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	<mask id="mask17_5911" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
-		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
-		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+<svg viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.000000" height="28.000000" fill="none" customFrame="#000000">
+	<defs>
+		<filter id="pixso_custom_mask_type_alpha">
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
+		</filter>
+	</defs>
+	<mask id="mask_372" width="28.000000" height="20.000000" x="0.000000" y="4.000000" maskUnits="userSpaceOnUse">
+		<g filter="url(#pixso_custom_mask_type_alpha)">
+			<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(255,255,255)" />
+			<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		</g>
 	</mask>
-	<g mask="url(#mask17_5911)">
-		<path id="Rectangle 2" d="M0 14.66L28 14.66L28 4L0 4L0 14.66Z" fill="#0C49AE" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M28 14.66L28 4L0 4L0 14.66L28 14.66Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5911)">
-		<path id="Rectangle 2" d="M0 24L28 24L28 18.66L0 18.66L0 24Z" fill="#0C49AE" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M28 24L28 18.66L0 18.66L0 24L28 24Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5911)">
-		<path id="Rectangle 2" d="M0 18.66L28 18.66L28 14.66L0 14.66L0 18.66Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M28 18.66L28 14.66L0 14.66L0 18.66L28 18.66Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5911)">
-		<path id="Rectangle 2 Copy 4" d="M0 17.33L28 17.33L28 16L0 16L0 17.33Z" fill="#CD232E" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2 Copy 4" d="M28 17.33L28 16L0 16L0 17.33L28 17.33Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5911)">
-		<path id="Oval 73" d="" fill="#D8D8D8" fill-opacity="0" fill-rule="nonzero"/>
-		<path id="Oval 73" d="M14.66 16.66C14.66 14.45 12.87 12.66 10.66 12.66C8.45 12.66 6.66 14.45 6.66 16.66C6.66 18.87 8.45 20.66 10.66 20.66C12.87 20.66 14.66 18.87 14.66 16.66Z" stroke="#F7D035" stroke-opacity="1.000000" stroke-width="1.333333" stroke-dasharray="0.666667 2"/>
+	<rect id="Cabo Verde" width="28.000000" height="28.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+	<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(255,255,255)" />
+	<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+	<g mask="url(#mask_372)">
+		<path id="Rectangle 2" d="M0 14.6667L28 14.6667L28 4L0 4L0 14.6667Z" fill="rgb(12,73,174)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M28 14.6667L28 4L0 4L0 14.6667L28 14.6667Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2" d="M0 24L28 24L28 18.6667L0 18.6667L0 24Z" fill="rgb(12,73,174)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M28 24L28 18.6667L0 18.6667L0 24L28 24Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2" d="M0 18.6667L28 18.6667L28 14.6667L0 14.6667L0 18.6667Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M28 18.6667L28 14.6667L0 14.6667L0 18.6667L28 18.6667Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2 Copy 4" d="M0 17.3333L28 17.3333L28 16L0 16L0 17.3333Z" fill="rgb(205,35,46)" fill-rule="evenodd" />
+		<path id="Rectangle 2 Copy 4" d="M28 17.3333L28 16L0 16L0 17.3333L28 17.3333Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Oval 73" d="M10.6667 20.6667C12.8758 20.6667 14.6667 18.8758 14.6667 16.6667C14.6667 14.4575 12.8758 12.6667 10.6667 12.6667C8.45755 12.6667 6.66669 14.4575 6.66669 16.6667C6.66669 18.8758 8.45755 20.6667 10.6667 20.6667Z" fill="rgb(215.985,215.985,215.985)" fill-opacity="0" fill-rule="evenodd" />
+		<path id="Oval 73" d="M14.6667 16.6667C14.6667 14.4575 12.8758 12.6667 10.6667 12.6667C8.45755 12.6667 6.66669 14.4575 6.66669 16.6667C6.66669 18.8758 8.45755 20.6667 10.6667 20.6667C12.8758 20.6667 14.6667 18.8758 14.6667 16.6667Z" fill-rule="evenodd" stroke="rgb(247,208,53)" stroke-dasharray="0.666667 2 " stroke-width="1.33333337" />
 	</g>
 </svg>

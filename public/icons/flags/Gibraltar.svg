@@ -1,61 +1,42 @@
-<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<desc>
-			Created with Pixso.
-	</desc>
-	<defs/>
-	<rect id="Gibraltar" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
-	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
-	<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#D6D8DD" stroke-opacity="1.000000" stroke-width="0.500000"/>
-	<mask id="mask17_5643" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
-		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
-		<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#F5F5F5" stroke-opacity="1.000000" stroke-width="0.500000"/>
+<svg viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.000000" height="28.000000" fill="none" customFrame="#000000">
+	<defs>
+		<filter id="pixso_custom_mask_type_alpha">
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
+		</filter>
+	</defs>
+	<mask id="mask_403" width="28.000000" height="20.000000" x="0.000000" y="4.000000" maskUnits="userSpaceOnUse">
+		<g filter="url(#pixso_custom_mask_type_alpha)">
+			<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(255,255,255)" />
+			<rect id="Mask" width="27.500000" height="19.500000" x="0.250000" y="4.250000" rx="2.750000" stroke="rgb(245,245,245)" stroke-width="0.5" />
+		</g>
 	</mask>
-	<g mask="url(#mask17_5643)">
-		<path id="Rectangle 2" d="M0 24L28 24L28 17.33L0 17.33L0 24Z" fill="#E34F4F" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M28 24L28 17.33L0 17.33L0 24L28 24Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5643)">
-		<path id="Rectangle 2" d="M9.33 17.33L17.33 17.33L17.33 12L9.33 12L9.33 17.33Z" fill="#E34F4F" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M17.33 17.33L17.33 12L9.33 12L9.33 17.33L17.33 17.33Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5643)">
-		<path id="Rectangle 2" d="M10.66 17.33L12 17.33L12 16L10.66 16L10.66 17.33Z" fill="#181A1A" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M12 17.33L12 16L10.66 16L10.66 17.33L12 17.33Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5643)">
-		<path id="Rectangle 2" d="M14.66 17.33L16 17.33L16 16L14.66 16L14.66 17.33Z" fill="#181A1A" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M16 17.33L16 16L14.66 16L14.66 17.33L16 17.33Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5643)">
-		<path id="Rectangle 2" d="M9.33 11.99L10.66 11.99L10.66 10.66L9.33 10.66L9.33 11.99Z" fill="#181A1A" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M10.66 11.99L10.66 10.66L9.33 10.66L9.33 11.99L10.66 11.99Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5643)">
-		<path id="Rectangle 2" d="M13.33 11.99L14.66 11.99L14.66 10.66L13.33 10.66L13.33 11.99Z" fill="#181A1A" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M14.66 11.99L14.66 10.66L13.33 10.66L13.33 11.99L14.66 11.99Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5643)">
-		<path id="Rectangle 2" d="M12 11.99L13.33 11.99L13.33 10.66L12 10.66L12 11.99Z" fill="#181A1A" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M13.33 11.99L13.33 10.66L12 10.66L12 11.99L13.33 11.99Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5643)">
-		<path id="Rectangle 2" d="M16 11.99L17.33 11.99L17.33 10.66L16 10.66L16 11.99Z" fill="#181A1A" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M17.33 11.99L17.33 10.66L16 10.66L16 11.99L17.33 11.99Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5643)">
-		<path id="Rectangle 2" d="M9.33 10.66L10.66 10.66L10.66 9.33L9.33 9.33L9.33 10.66Z" fill="#E34F4F" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M10.66 10.66L10.66 9.33L9.33 9.33L9.33 10.66L10.66 10.66Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5643)">
-		<path id="Rectangle 2" d="M13.33 10.66L14.66 10.66L14.66 9.33L13.33 9.33L13.33 10.66Z" fill="#E34F4F" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M14.66 10.66L14.66 9.33L13.33 9.33L13.33 10.66L14.66 10.66Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5643)">
-		<path id="Rectangle 2" d="M12 10.66L13.33 10.66L13.33 9.33L12 9.33L12 10.66Z" fill="#E34F4F" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M13.33 10.66L13.33 9.33L12 9.33L12 10.66L13.33 10.66Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5643)">
-		<path id="Rectangle 2" d="M16 10.66L17.33 10.66L17.33 9.33L16 9.33L16 10.66Z" fill="#E34F4F" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M17.33 10.66L17.33 9.33L16 9.33L16 10.66L17.33 10.66Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	<rect id="Gibraltar" width="28.000000" height="28.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+	<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(255,255,255)" />
+	<rect id="Mask" width="27.500000" height="19.500000" x="0.250000" y="4.250000" rx="2.750000" stroke="rgb(214,216,221)" stroke-width="0.5" />
+	<g mask="url(#mask_403)">
+		<path id="Rectangle 2" d="M0 24L28 24L28 17.3334L0 17.3334L0 24Z" fill="rgb(227,79,79)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M28 24L28 17.3334L0 17.3334L0 24L28 24Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2" d="M9.33331 17.3333L17.3333 17.3333L17.3333 12L9.33331 12L9.33331 17.3333Z" fill="rgb(227,79,79)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M17.3333 17.3333L17.3333 12L9.33331 12L9.33331 17.3333L17.3333 17.3333Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2" d="M10.6667 17.3333L12 17.3333L12 16L10.6667 16L10.6667 17.3333Z" fill="rgb(24,26,26)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M12 17.3333L12 16L10.6667 16L10.6667 17.3333L12 17.3333Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2" d="M14.6667 17.3333L16 17.3333L16 16L14.6667 16L14.6667 17.3333Z" fill="rgb(24,26,26)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M16 17.3333L16 16L14.6667 16L14.6667 17.3333L16 17.3333Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2" d="M9.33331 12L10.6666 12L10.6666 10.6666L9.33331 10.6666L9.33331 12Z" fill="rgb(24,26,26)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M10.6666 12L10.6666 10.6666L9.33331 10.6666L9.33331 12L10.6666 12Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2" d="M13.3333 12L14.6666 12L14.6666 10.6666L13.3333 10.6666L13.3333 12Z" fill="rgb(24,26,26)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M14.6666 12L14.6666 10.6666L13.3333 10.6666L13.3333 12L14.6666 12Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2" d="M12 12L13.3333 12L13.3333 10.6666L12 10.6666L12 12Z" fill="rgb(24,26,26)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M13.3333 12L13.3333 10.6666L12 10.6666L12 12L13.3333 12Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2" d="M16 12L17.3333 12L17.3333 10.6666L16 10.6666L16 12Z" fill="rgb(24,26,26)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M17.3333 12L17.3333 10.6666L16 10.6666L16 12L17.3333 12Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2" d="M9.33331 10.6667L10.6666 10.6667L10.6666 9.33337L9.33331 9.33337L9.33331 10.6667Z" fill="rgb(227,79,79)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M10.6666 10.6667L10.6666 9.33337L9.33331 9.33337L9.33331 10.6667L10.6666 10.6667Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2" d="M13.3333 10.6667L14.6666 10.6667L14.6666 9.33337L13.3333 9.33337L13.3333 10.6667Z" fill="rgb(227,79,79)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M14.6666 10.6667L14.6666 9.33337L13.3333 9.33337L13.3333 10.6667L14.6666 10.6667Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2" d="M12 10.6667L13.3333 10.6667L13.3333 9.33337L12 9.33337L12 10.6667Z" fill="rgb(227,79,79)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M13.3333 10.6667L13.3333 9.33337L12 9.33337L12 10.6667L13.3333 10.6667Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2" d="M16 10.6667L17.3333 10.6667L17.3333 9.33337L16 9.33337L16 10.6667Z" fill="rgb(227,79,79)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M17.3333 10.6667L17.3333 9.33337L16 9.33337L16 10.6667L17.3333 10.6667Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
 	</g>
 </svg>

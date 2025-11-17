@@ -1,44 +1,32 @@
-<svg width="36.000000" height="28.000000" viewBox="0 0 36 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<desc>
-			Created with Pixso.
-	</desc>
-	<defs/>
-	<rect id="United Kingdom of Great Britain and Northern Ireland" width="28.000000" height="28.000000" transform="translate(4.000000 0.000000)" fill="#FFFFFF" fill-opacity="0"/>
-	<rect id="Mask" x="4.000000" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
-	<rect id="Mask" x="4.000000" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	<mask id="mask17_5540" mask-type="alpha" maskUnits="userSpaceOnUse" x="4.000000" y="4.000000" width="28.000000" height="20.000000">
-		<rect id="Mask" x="4.000000" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
-		<rect id="Mask" x="4.000000" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+<svg viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.000000" height="28.000000" fill="none" customFrame="#000000">
+	<defs>
+		<filter id="pixso_custom_mask_type_alpha">
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
+		</filter>
+	</defs>
+	<mask id="mask_414" width="28.000000" height="20.000000" x="0.000000" y="4.000000" maskUnits="userSpaceOnUse">
+		<g filter="url(#pixso_custom_mask_type_alpha)">
+			<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(255,255,255)" />
+			<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		</g>
 	</mask>
-	<g mask="url(#mask17_5540)">
-		<rect id="Mask Copy" x="4.000000" y="4.000000" width="28.000000" height="20.000000" fill="#0A17A7" fill-opacity="1.000000"/>
-		<rect id="Mask Copy" x="4.000000" y="4.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5540)">
-		<mask id="mask_17_5542" fill="white">
-			<path id="Rectangle 2" d="M2.71753 2.08356L14.6666 10.1434L14.6666 2.66669L21.3333 2.66669L21.3333 10.1434L33.2824 2.08356L34.7736 4.29431L25.3262 10.6667L32 10.6667L32 17.3333L25.3262 17.3333L34.7736 23.7057L33.2824 25.9164L21.3333 17.8566L21.3333 25.3333L14.6666 25.3333L14.6666 17.8566L2.71753 25.9164L1.22632 23.7057L10.6737 17.3333L3.99994 17.3333L3.99994 10.6667L10.6737 10.6667L1.22632 4.29431L2.71753 2.08356Z" clip-rule="evenodd" fill="" fill-opacity="1.000000" fill-rule="evenodd"/>
-		</mask>
-		<path id="Rectangle 2" d="M2.71753 2.08356L14.6666 10.1434L14.6666 2.66669L21.3333 2.66669L21.3333 10.1434L33.2824 2.08356L34.7736 4.29431L25.3262 10.6667L32 10.6667L32 17.3333L25.3262 17.3333L34.7736 23.7057L33.2824 25.9164L21.3333 17.8566L21.3333 25.3333L14.6666 25.3333L14.6666 17.8566L2.71753 25.9164L1.22632 23.7057L10.6737 17.3333L3.99994 17.3333L3.99994 10.6667L10.6737 10.6667L1.22632 4.29431L2.71753 2.08356Z" clip-rule="evenodd" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd" mask="url(#mask_17_5542)"/>
-		<path id="Rectangle 2" d="" fill="#979797" fill-opacity="0.000000" fill-rule="nonzero"/>
-	</g>
-	<g mask="url(#mask17_5540)">
-		<path id="Line" d="M22.85 10.58L22.85 10.61C22.69 10.71 22.49 10.67 22.38 10.51C22.28 10.35 22.32 10.15 22.48 10.05L22.51 10.05L22.85 10.58ZM35.14 1.74L35.15 1.72C35.3 1.61 35.5 1.66 35.61 1.81C35.71 1.97 35.67 2.17 35.51 2.27L35.48 2.27L35.14 1.74Z" fill="#D8D8D8" fill-opacity="0" fill-rule="nonzero"/>
-		<path id="Line" d="M22.66 10.33L35.33 2" stroke="#DB1F35" stroke-opacity="1.000000" stroke-width="0.666667" stroke-linecap="round"/>
-	</g>
-	<g mask="url(#mask17_5540)">
-		<path id="Line Copy 2" d="M24.2 17.44L24.19 17.42C24.04 17.31 23.84 17.35 23.73 17.51C23.63 17.66 23.67 17.86 23.82 17.97L23.85 17.96L24.2 17.44ZM35.17 25.59L35.18 25.62C35.33 25.73 35.53 25.69 35.64 25.53C35.74 25.38 35.7 25.17 35.55 25.07L35.52 25.07L35.17 25.59Z" fill="#D8D8D8" fill-opacity="0" fill-rule="nonzero"/>
-		<path id="Line Copy 2" d="M24.01 17.69L35.36 25.35" stroke="#DB1F35" stroke-opacity="1.000000" stroke-width="0.666667" stroke-linecap="round"/>
-	</g>
-	<g mask="url(#mask17_5540)">
-		<path id="Line Copy" d="M12.16 10.03L12.19 10.03C12.34 10.13 12.38 10.34 12.28 10.49C12.17 10.65 11.97 10.69 11.81 10.58L11.81 10.55L12.16 10.03ZM0 2.59L-0.03 2.6C-0.18 2.5 -0.22 2.29 -0.12 2.14C-0.01 1.98 0.19 1.94 0.34 2.05L0.35 2.08L0 2.59Z" fill="#D8D8D8" fill-opacity="0" fill-rule="nonzero"/>
-		<path id="Line Copy" d="M12 10.31L0.16 2.32" stroke="#DB1F35" stroke-opacity="1.000000" stroke-width="0.666667" stroke-linecap="round"/>
-	</g>
-	<g mask="url(#mask17_5540)">
-		<path id="Line Copy 3" d="M13.44 17.87L13.47 17.88C13.62 17.77 13.67 17.57 13.56 17.42C13.46 17.26 13.26 17.22 13.1 17.32L13.1 17.35L13.44 17.87ZM0 26.03L-0.03 26.03C-0.18 26.13 -0.22 26.33 -0.12 26.49C-0.02 26.65 0.19 26.69 0.34 26.58L0.35 26.56L0 26.03Z" fill="#D8D8D8" fill-opacity="0" fill-rule="nonzero"/>
-		<path id="Line Copy 3" d="M13.29 17.6L0.16 26.31" stroke="#DB1F35" stroke-opacity="1.000000" stroke-width="0.666667" stroke-linecap="round"/>
-	</g>
-	<g mask="url(#mask17_5540)">
-		<path id="Rectangle 2 Copy 3" d="M4 16L16 16L16 24L20 24L20 16L32 16L32 12L20 12L20 4L16 4L16 12L4 12L4 16Z" fill="#E6273E" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2 Copy 3" d="M16 16L16 24L20 24L20 16L32 16L32 12L20 12L20 4L16 4L16 12L4 12L4 16L16 16Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	<rect id="United Kingdom of Great Britain and Northern Ireland" width="28.000000" height="28.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+	<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(255,255,255)" />
+	<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+	<g mask="url(#mask_414)">
+		<rect id="Mask Copy" width="28.000000" height="20.000000" x="0.000000" y="4.000000" fill="rgb(10,23,167)" />
+		<rect id="Mask Copy" width="28.000000" height="20.000000" x="0.000000" y="4.000000" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2" d="M30.7737 23.7057L29.2825 25.9165L17.3334 17.8567L17.3334 25.3333L10.6667 25.3333L10.6667 17.8567L-1.28244 25.9165L-2.77362 23.7057L6.67377 17.3333L2.95639e-05 17.3333L2.95639e-05 10.6667L6.67377 10.6667L-2.77362 4.29432L-1.28244 2.08356L10.6667 10.1434L10.6667 2.66667L17.3334 2.66667L17.3334 10.1434L29.2825 2.08356L30.7737 4.29432L21.3263 10.6667L28 10.6667L28 17.3333L21.3263 17.3333L30.7737 23.7057Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M30.7737 23.7057L29.2825 25.9165L17.3334 17.8567L17.3334 25.3333L10.6667 25.3333L10.6667 17.8567L-1.28244 25.9165L-2.77362 23.7057L6.67377 17.3333L2.95639e-05 17.3333L2.95639e-05 10.6667L6.67377 10.6667L-2.77362 4.29432L-1.28244 2.08356L10.6667 10.1434L10.6667 2.66667L17.3334 2.66667L17.3334 10.1434L29.2825 2.08356L30.7737 4.29432L21.3263 10.6667L28 10.6667L28 17.3333L21.3263 17.3333L30.7737 23.7057Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Line" d="M18.668 10.3322L31.3333 2" fill="rgb(215.985,215.985,215.985)" fill-opacity="0" fill-rule="evenodd" />
+		<path id="Line" d="M18.668 10.3322L31.3333 2" fill-rule="evenodd" stroke="rgb(219,31,53)" stroke-linecap="round" stroke-width="0.666666687" />
+		<path id="Line Copy 2" d="M0 7.65283L11.3538 0" fill="rgb(215.985,215.985,215.985)" fill-opacity="0" fill-rule="evenodd" transform="matrix(1,0,0,-1,20.0128,25.3503)" />
+		<path id="Line Copy 2" d="M0 7.65283L11.3538 0" fill-rule="evenodd" stroke="rgb(219,31,53)" stroke-linecap="round" stroke-width="0.666666687" transform="matrix(1,0,0,-1,20.0128,25.3503)" />
+		<path id="Line Copy" d="M8.00555 10.3104L-3.83746 2.32898" fill="rgb(215.985,215.985,215.985)" fill-opacity="0" fill-rule="evenodd" />
+		<path id="Line Copy" d="M8.00555 10.3104L-3.83746 2.32898" fill-rule="evenodd" stroke="rgb(219,31,53)" stroke-linecap="round" stroke-width="0.666666687" />
+		<path id="Line Copy 3" d="M13.1275 8.70557L0 0" fill="rgb(215.985,215.985,215.985)" fill-opacity="0" fill-rule="evenodd" transform="matrix(1,0,0,-1,-3.83746,26.3104)" />
+		<path id="Line Copy 3" d="M13.1275 8.70557L0 0" fill-rule="evenodd" stroke="rgb(219,31,53)" stroke-linecap="round" stroke-width="0.666666687" transform="matrix(1,0,0,-1,-3.83746,26.3104)" />
+		<path id="Rectangle 2 Copy 3" d="M0 16L12 16L12 24L16 24L16 16L28 16L28 12L16 12L16 4L12 4L12 12L0 12L0 16Z" fill="rgb(230,39,62)" fill-rule="evenodd" />
+		<path id="Rectangle 2 Copy 3" d="M12 16L12 24L16 24L16 16L28 16L28 12L16 12L16 4L12 4L12 12L0 12L0 16L12 16Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
 	</g>
 </svg>
