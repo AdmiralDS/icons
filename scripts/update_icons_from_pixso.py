@@ -27,7 +27,7 @@ def format_list(items, prefix):
 
 def normalize_file_name(fileName):
     ret = fileName.strip()
-    ret = re.sub(r'\s+', ' ', fileName)
+    ret = re.sub(r'\s+', ' ', ret)
     ret = re.sub(r' \.svg$','.svg', ret)
     return ret
 
