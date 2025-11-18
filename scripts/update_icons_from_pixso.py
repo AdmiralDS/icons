@@ -27,7 +27,7 @@ def format_list(items, prefix):
 
 def normalize_file_name(fileName):
     ret = fileName.strip()
-    ret = re.sub(r'\s+', ' ', fileName)
+    ret = re.sub(r'\s+', ' ', ret)
     ret = re.sub(r' \.svg$','.svg', ret)
     return ret
 
@@ -50,7 +50,7 @@ for category_dir in source_path.iterdir():
         try:
             with zipfile.ZipFile(zip_file, 'r') as zip_ref:
                 zip_ref.extractall(category_dir)
-            print("Unpacked ZIP (archive kept)")
+            print("Unpacked ZIP")
         except Exception as e:
             print(f"Failed to extract {zip_file.name}: {e}")
             continue

@@ -1,22 +1,10 @@
-<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<desc>
-			Created with Pixso.
-	</desc>
-	<defs>
-		<clipPath id="clip136805_1045">
-			<rect id="Saint-Martin" width="28.000000" height="28.000000" transform="translate(28.000000 28.000000) rotate(180.000000)" fill="white" fill-opacity="0"/>
-		</clipPath>
-	</defs>
-	<rect id="Saint-Martin" width="28.000000" height="28.000000" transform="translate(28.000000 28.000000) rotate(180.000000)" fill="#FFFFFF" fill-opacity="0"/>
-	<g>
-		<rect id="Mask Copy" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
-		<rect id="Mask Copy" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#F5F5F5" stroke-opacity="1.000000" stroke-width="0.500000"/>
-		<mask id="mask_136805_1040" fill="white">
-			<path id="Subtract" d="M27.9787 6.64083L16 16.9931L16 24L25 24C26.6569 24 28 22.6569 28 21L28 7C28 6.87845 27.9928 6.75859 27.9787 6.64083ZM0.0213013 6.64083L12 16.9931L12 24L3 24C1.34314 24 0 22.6569 0 21L0 7C0 6.87845 0.00720215 6.75859 0.0213013 6.64083Z" clip-rule="evenodd" fill="" fill-opacity="1.000000" fill-rule="evenodd"/>
-		</mask>
-		<path id="Subtract" d="M27.9787 6.64083L16 16.9931L16 24L25 24C26.6569 24 28 22.6569 28 21L28 7C28 6.87845 27.9928 6.75859 27.9787 6.64083ZM0.0213013 6.64083L12 16.9931L12 24L3 24C1.34314 24 0 22.6569 0 21L0 7C0 6.87845 0.00720215 6.75859 0.0213013 6.64083Z" clip-rule="evenodd" fill="#003787" fill-opacity="1.000000" fill-rule="evenodd" mask="url(#mask_136805_1040)"/>
-		<path id="Subtract" d="" clip-rule="evenodd" fill="#F5F5F5" fill-opacity="0.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 240649382" d="M8 12L20 12L14 17L8 12Z" fill="#CF142B" fill-opacity="1.000000" fill-rule="nonzero"/>
-		<path id="Ellipse 2977" d="M11 11C11 9.34 12.34 8 14 8C15.65 8 17 9.34 17 11L11 11Z" fill="#F9D90F" fill-opacity="1.000000" fill-rule="evenodd"/>
-	</g>
+<svg viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.000000" height="28.000000" fill="none">
+	<rect id="Saint-Martin" width="28.000000" height="28.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" transform="matrix(-1,-6.12324e-17,6.12324e-17,-1,28,28)" />
+	<path id="Vector" d="M23.3333 0L0 0L0 23.3333L23.3333 23.3333L23.3333 0Z" opacity="0" fill="rgb(96,96,96)" fill-rule="evenodd" transform="matrix(-1,-6.12324e-17,6.12324e-17,-1,25.6666,25.6666)" />
+	<rect id="Mask Copy" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(255,255,255)" />
+	<rect id="Mask Copy" width="27.500000" height="19.500000" x="0.250000" y="4.250000" rx="2.750000" stroke="rgb(245,245,245)" stroke-width="0.5" />
+	<path id="Subtract" d="M0.0212793 17.3592C0.00722856 17.2414 0 17.1215 0 17L0 3C0 1.34315 1.34315 0 3 0L12 0L12 7.00692L0.0212793 17.3592ZM16 0L25 0C26.6569 0 28 1.34315 28 3L28 17C28 17.1215 27.9928 17.2414 27.9787 17.3592L16 7.00692L16 0Z" fill="rgb(0,55,135)" fill-rule="evenodd" transform="matrix(-1,-6.12324e-17,6.12324e-17,-1,28,24)" />
+	<path id="Subtract" d="M0.0212793 17.3592C0.00722856 17.2414 0 17.1215 0 17L0 3C0 1.34315 1.34315 0 3 0L12 0L12 7.00692L0.0212793 17.3592ZM16 0L25 0C26.6569 0 28 1.34315 28 3L28 17C28 17.1215 27.9928 17.2414 27.9787 17.3592L16 7.00692L16 0ZM0.5 16.2846L11.5 6.77819L11.5 0.5L3 0.5Q2.71276 0.5 2.43984 0.562511L2.43984 0.562511Q2.22917 0.610762 2.02704 0.696257Q1.81941 0.784076 1.6337 0.905434L1.63361 0.905494L1.63357 0.905518Q1.41816 1.04631 1.23223 1.23223Q1.0463 1.41817 0.905499 1.6336L0.905495 1.63361Q0.784098 1.81936 0.696257 2.02704Q0.610767 2.22916 0.562517 2.43981L0.562514 2.43982L0.562511 2.43984Q0.5 2.71276 0.5 3L0.5 16.2846ZM16.5 0.5L16.5 6.77819L27.5 16.2846L27.5 3C27.5 2.66069 27.4346 2.33637 27.3037 2.02704C27.1773 1.728 26.9986 1.46307 26.7678 1.23223C26.5369 1.0014 26.272 0.822738 25.973 0.696257Q25.7708 0.610769 25.5602 0.562519Q25.2873 0.5 25 0.5L16.5 0.5Z" fill="rgb(245,245,245)" fill-opacity="0" fill-rule="evenodd" transform="matrix(-1,-6.12324e-17,6.12324e-17,-1,28,24)" />
+	<path id="Rectangle 240649382" d="M8 12L20 12L14 17L8 12Z" fill="rgb(207,20,43)" fill-rule="nonzero" />
+	<path id="Ellipse 2977" d="M14 8C12.3431 8 11 9.34315 11 11L17 11C17 9.34315 15.6569 8 14 8Z" fill="rgb(249,217,15)" fill-rule="evenodd" />
 </svg>

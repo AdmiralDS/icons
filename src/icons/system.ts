@@ -239,6 +239,7 @@ export { default as SystemTuneSolid } from '@admiral-ds/icons/build/system/TuneS
 export { default as SystemUndoOutline } from '@admiral-ds/icons/build/system/UndoOutline.svg?react';
 export { default as SystemUndoSolid } from '@admiral-ds/icons/build/system/UndoSolid.svg?react';
 export { default as SystemUnlinkOutline } from '@admiral-ds/icons/build/system/UnlinkOutline.svg?react';
+export { default as SystemUnlinkSolid } from '@admiral-ds/icons/build/system/UnlinkSolid.svg?react';
 export { default as SystemUpdateOutline } from '@admiral-ds/icons/build/system/UpdateOutline.svg?react';
 export { default as SystemUpdateSolid } from '@admiral-ds/icons/build/system/UpdateSolid.svg?react';
 export { default as SystemUploadOutline } from '@admiral-ds/icons/build/system/UploadOutline.svg?react';

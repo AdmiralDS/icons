@@ -1,25 +1,24 @@
-<svg width="29.000000" height="33.000000" viewBox="0 0 29 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<desc>
-			Created with Pixso.
-	</desc>
-	<defs/>
-	<rect id="Trinidad and Tobago" width="28.000000" height="28.000000" transform="translate(0.000000 2.000000)" fill="#FFFFFF" fill-opacity="0"/>
-	<rect id="Mask" y="6.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
-	<rect id="Mask" y="6.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	<mask id="mask17_4358" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="6.000000" width="28.000000" height="20.000000">
-		<rect id="Mask" y="6.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
-		<rect id="Mask" y="6.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+<svg viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.000000" height="28.000000" fill="none" customFrame="#000000">
+	<defs>
+		<filter id="pixso_custom_mask_type_alpha">
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
+		</filter>
+	</defs>
+	<mask id="mask_538" width="28.000000" height="20.000000" x="0.000000" y="4.000000" maskUnits="userSpaceOnUse">
+		<g filter="url(#pixso_custom_mask_type_alpha)">
+			<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(255,255,255)" />
+			<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		</g>
 	</mask>
-	<g mask="url(#mask17_4358)">
-		<rect id="Mask Copy" y="6.000000" width="28.000000" height="20.000000" fill="#ED233C" fill-opacity="1.000000"/>
-		<rect id="Mask Copy" y="6.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_4358)">
-		<path id="Rectangle 2" d="M20.46 31.42L-0.07 6.95L7.53 0.57L28.06 25.04L20.46 31.42Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M-0.07 6.95L7.53 0.57L28.06 25.04L20.46 31.42L-0.07 6.95Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_4358)">
-		<path id="Rectangle 2" d="M23.87 32.95L-0.99 3.33L4.12 -0.96L28.98 28.66L23.87 32.95Z" fill="#262626" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M-0.99 3.33L4.12 -0.96L28.98 28.66L23.87 32.95L-0.99 3.33Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	<rect id="Trinidad and Tobago" width="28.000000" height="28.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+	<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(255,255,255)" />
+	<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+	<g mask="url(#mask_538)">
+		<rect id="Mask Copy" width="28.000000" height="20.000000" x="0.000000" y="4.000000" fill="rgb(237,35,60)" />
+		<rect id="Mask Copy" width="28.000000" height="20.000000" x="0.000000" y="4.000000" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2" d="M7.59382 30.8409L28.1257 6.37197L20.5319 0L0 24.469L7.59382 30.8409Z" fill="rgb(255,255,255)" fill-rule="evenodd" transform="matrix(-1,0,0,1,28.0629,-1.42041)" />
+		<path id="Rectangle 2" d="M28.1257 6.37197L20.5319 0L0 24.469L7.59382 30.8409L28.1257 6.37197Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" transform="matrix(-1,0,0,1,28.0629,-1.42041)" />
+		<path id="Rectangle 2" d="M5.10696 33.9056L29.9614 4.28525L24.8545 0L0 29.6204L5.10696 33.9056Z" fill="rgb(38,38,38)" fill-rule="evenodd" transform="matrix(-1,0,0,1,28.9807,-2.95288)" />
+		<path id="Rectangle 2" d="M29.9614 4.28525L24.8545 0L0 29.6204L5.10696 33.9056L29.9614 4.28525Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" transform="matrix(-1,0,0,1,28.9807,-2.95288)" />
 	</g>
 </svg>

@@ -58,10 +58,14 @@ export { default as DocumentsFileCurrencyOutline } from '@admiral-ds/icons/build
 export { default as DocumentsFileCurrencySolid } from '@admiral-ds/icons/build/documents/FileCurrencySolid.svg?react';
 export { default as DocumentsFileDOCOutline } from '@admiral-ds/icons/build/documents/FileDOCOutline.svg?react';
 export { default as DocumentsFileDOCSolid } from '@admiral-ds/icons/build/documents/FileDOCSolid.svg?react';
+export { default as DocumentsFileDOCXOutline } from '@admiral-ds/icons/build/documents/FileDOCXOutline.svg?react';
+export { default as DocumentsFileDOCXSolid } from '@admiral-ds/icons/build/documents/FileDOCXSolid.svg?react';
 export { default as DocumentsFileJPGOutline } from '@admiral-ds/icons/build/documents/FileJPGOutline.svg?react';
 export { default as DocumentsFileJPGSolid } from '@admiral-ds/icons/build/documents/FileJPGSolid.svg?react';
 export { default as DocumentsFilePDFOutline } from '@admiral-ds/icons/build/documents/FilePDFOutline.svg?react';
 export { default as DocumentsFilePDFSolid } from '@admiral-ds/icons/build/documents/FilePDFSolid.svg?react';
+export { default as DocumentsFilePNGOutline } from '@admiral-ds/icons/build/documents/FilePNGOutline.svg?react';
+export { default as DocumentsFilePNGSolid } from '@admiral-ds/icons/build/documents/FilePNGSolid.svg?react';
 export { default as DocumentsFilePPTOutline } from '@admiral-ds/icons/build/documents/FilePPTOutline.svg?react';
 export { default as DocumentsFilePPTSolid } from '@admiral-ds/icons/build/documents/FilePPTSolid.svg?react';
 export { default as DocumentsFileRubleOutline } from '@admiral-ds/icons/build/documents/FileRubleOutline.svg?react';
@@ -78,6 +82,8 @@ export { default as DocumentsFileWordOutline } from '@admiral-ds/icons/build/doc
 export { default as DocumentsFileWordSolid } from '@admiral-ds/icons/build/documents/FileWordSolid.svg?react';
 export { default as DocumentsFileXLSOutline } from '@admiral-ds/icons/build/documents/FileXLSOutline.svg?react';
 export { default as DocumentsFileXLSSolid } from '@admiral-ds/icons/build/documents/FileXLSSolid.svg?react';
+export { default as DocumentsFileXLSXOutline } from '@admiral-ds/icons/build/documents/FileXLSXOutline.svg?react';
+export { default as DocumentsFileXLSXSolid } from '@admiral-ds/icons/build/documents/FileXLSXSolid.svg?react';
 export { default as DocumentsFileXMLOutline } from '@admiral-ds/icons/build/documents/FileXMLOutline.svg?react';
 export { default as DocumentsFileXMLSolid } from '@admiral-ds/icons/build/documents/FileXMLSolid.svg?react';
 export { default as DocumentsFolderDeleteOutline } from '@admiral-ds/icons/build/documents/FolderDeleteOutline.svg?react';

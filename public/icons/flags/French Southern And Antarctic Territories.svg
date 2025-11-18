@@ -1,38 +1,33 @@
-<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<desc>
-			Created with Pixso.
-	</desc>
-	<defs/>
-	<rect id="French Southern And Antarctic Territories" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
-	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
-	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	<mask id="mask107628_1539" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
-		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
-		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+<svg viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.000000" height="28.000000" fill="none" customFrame="#000000">
+	<defs>
+		<filter id="pixso_custom_mask_type_alpha">
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
+		</filter>
+	</defs>
+	<mask id="mask_302" width="28.000000" height="20.000000" x="0.000000" y="4.000000" maskUnits="userSpaceOnUse">
+		<g filter="url(#pixso_custom_mask_type_alpha)">
+			<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(255,255,255)" />
+			<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		</g>
 	</mask>
-	<g mask="url(#mask107628_1539)">
-		<rect id="Mask Copy" y="4.000000" width="28.000000" height="20.000000" fill="#083B9A" fill-opacity="1.000000"/>
-		<rect id="Mask Copy" y="4.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask107628_1539)">
-		<path id="Rectangle 2" d="M0 15L15 15L15 4L0 4L0 15Z" fill="#083B9A" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M15 15L15 4L0 4L0 15L15 15Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000"/>
-	</g>
-	<g mask="url(#mask107628_1539)">
-		<path id="Rectangle 3" d="M0 15L5 15L5 4L0 4L0 15Z" fill="#083B9A" fill-opacity="1.000000" fill-rule="evenodd"/>
-	</g>
-	<g mask="url(#mask107628_1539)">
-		<path id="Rectangle 4" d="M5 15L10 15L10 4L5 4L5 15Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
-	</g>
-	<g mask="url(#mask107628_1539)">
-		<path id="Rectangle 5" d="M10 15L15 15L15 4L10 4L10 15Z" fill="#F44653" fill-opacity="1.000000" fill-rule="evenodd"/>
-	</g>
-	<g mask="url(#mask107628_1539)">
-		<path id="Star 121" d="M17.53 14.95L17.31 15.63L16.59 15.63L17.17 16.05L16.95 16.73L17.53 16.31L18.11 16.73L17.89 16.05L18.46 15.63L17.75 15.63L17.53 14.95Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
-		<path id="Star 122" d="M24.86 14.95L24.64 15.63L23.92 15.63L24.5 16.05L24.28 16.73L24.86 16.31L25.44 16.73L25.22 16.05L25.8 15.63L25.08 15.63L24.86 14.95Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
-		<path id="Star 123" d="M23.16 19.49L22.94 20.17L22.23 20.17L22.81 20.59L22.58 21.28L23.16 20.85L23.74 21.28L23.52 20.59L24.1 20.17L23.38 20.17L23.16 19.49Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
-		<path id="Star 124" d="M19.17 19.49L18.95 20.17L18.23 20.17L18.81 20.59L18.59 21.28L19.17 20.85L19.75 21.28L19.53 20.59L20.11 20.17L19.39 20.17L19.17 19.49Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
-		<path id="Star 125" d="M21.14 21.03L20.92 21.71L20.2 21.71L20.78 22.13L20.56 22.81L21.14 22.39L21.72 22.81L21.5 22.13L22.08 21.71L21.36 21.71L21.14 21.03Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
-		<path id="Union" d="M19.99 18.54L21.19 20.42L22.4 18.54L23.41 18.54L23.57 18.84L24.61 18.84L22.94 16.18L21.71 18.1L21.71 16.35L22.45 16.35L23 15.47L21.71 15.47L21.71 14.93L23.35 14.93L23.93 14L18.46 14L19.03 14.93L20.67 14.93L20.67 15.47L19.39 15.47L19.94 16.35L20.67 16.35L20.67 18.1L19.44 16.18L17.77 18.84L18.81 18.84L18.98 18.54L19.99 18.54ZM19.8 17.91L19.47 17.36L19.14 17.91L19.8 17.91ZM22.59 17.91L22.92 17.36L23.25 17.91L22.59 17.91Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<rect id="French Southern And Antarctic Territories" width="28.000000" height="28.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+	<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(255,255,255)" />
+	<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+	<g mask="url(#mask_302)">
+		<rect id="Mask Copy" width="28.000000" height="20.000000" x="0.000000" y="4.000000" fill="rgb(8,59,154)" />
+		<rect id="Mask Copy" width="28.000000" height="20.000000" x="0.000000" y="4.000000" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2" d="M0 15L15 15L15 4L0 4L0 15Z" fill="rgb(8,59,154)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M15 15L15 4L0 4L0 15L15 15Z" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-width="1" />
+		<path id="Rectangle 3" d="M0 15L5 15L5 4L0 4L0 15Z" fill="rgb(8,59,154)" fill-rule="evenodd" />
+		<path id="Rectangle 4" d="M5 15L10 15L10 4L5 4L5 15Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+		<path id="Rectangle 5" d="M10 15L15 15L15 4L10 4L10 15Z" fill="rgb(244,70,83)" fill-rule="evenodd" />
+		<g id="Group 22">
+			<path id="Star 121" d="M17.7542 15.6379L18.4697 15.6379L17.8909 16.0584L18.112 16.7389L17.5331 16.3184L16.9543 16.7389L17.1754 16.0584L16.5965 15.6379L17.312 15.6379L17.5331 14.9574L17.7542 15.6379Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+			<path id="Star 122" d="M25.0855 15.6379L25.801 15.6379L25.2221 16.0584L25.4432 16.7389L24.8644 16.3184L24.2855 16.7389L24.5066 16.0584L23.9278 15.6379L24.6433 15.6379L24.8644 14.9574L25.0855 15.6379Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+			<path id="Star 123" d="M23.3895 20.179L24.105 20.179L23.5261 20.5995L23.7472 21.28L23.1684 20.8594L22.5895 21.28L22.8106 20.5995L22.2318 20.179L22.9473 20.179L23.1684 19.4985L23.3895 20.179Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+			<path id="Star 124" d="M19.3955 20.179L20.111 20.179L19.5322 20.5995L19.7533 21.28L19.1744 20.8594L18.5956 21.28L18.8167 20.5995L18.2378 20.179L18.9533 20.179L19.1744 19.4985L19.3955 20.179Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+			<path id="Star 125" d="M21.3651 21.7109L22.0806 21.7109L21.5017 22.1314L21.7228 22.8119L21.144 22.3914L20.5651 22.8119L20.7862 22.1314L20.2074 21.7109L20.9229 21.7109L21.144 21.0304L21.3651 21.7109Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+			<path id="Union" d="M19.9951 18.541L21.1987 20.4286L22.4024 18.541L23.4145 18.541L23.5787 18.8419L24.6182 18.8419L22.9495 16.1884L21.7185 18.1033L21.7185 16.3526L22.4571 16.3526L23.0042 15.4772L21.7185 15.4772L21.7185 14.9301L23.3598 14.9301L23.9343 14L18.4632 14L19.0376 14.9301L20.679 14.9301L20.679 15.4772L19.3932 15.4772L19.9404 16.3526L20.679 16.3526L20.679 18.1033L19.448 16.1884L17.7793 18.8419L18.8188 18.8419L18.9829 18.541L19.9951 18.541ZM19.8036 17.9119L19.4753 17.3647L19.147 17.9119L19.8036 17.9119ZM22.5939 17.9119L22.9221 17.3647L23.2504 17.9119L22.5939 17.9119Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+		</g>
 	</g>
 </svg>

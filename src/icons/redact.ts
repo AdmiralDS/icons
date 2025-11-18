@@ -1,3 +1,4 @@
+export { default as RedactAlignBottomOutline } from '@admiral-ds/icons/build/redact/AlignBottomOutline.svg?react';
 export { default as RedactAlignCenterOutline } from '@admiral-ds/icons/build/redact/AlignCenterOutline.svg?react';
 export { default as RedactAlignLeftOutline } from '@admiral-ds/icons/build/redact/AlignLeftOutline.svg?react';
 export { default as RedactAlignMiddleOutline } from '@admiral-ds/icons/build/redact/AlignMiddleOutline.svg?react';
