@@ -1,45 +1,41 @@
-<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<desc>
-			Created with Pixso.
-	</desc>
+<svg viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.000000" height="28.000000" fill="none" customFrame="#000000">
 	<defs>
-		<filter id="filter_17_4750_dd" x="1.496460" y="10.666626" width="6.340378" height="7.030060" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-			<feOffset dx="0" dy="1"/>
-			<feGaussianBlur stdDeviation="0"/>
-			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
-			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.059 0"/>
-			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
-			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		<filter id="pixso_custom_mask_type_alpha">
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
 		</filter>
-		<linearGradient id="paint_linear_17_4750_0" x1="1.333313" y1="10.666626" x2="1.333313" y2="17.333292" gradientUnits="userSpaceOnUse">
-			<stop stop-color="#FFFFFF"/>
-			<stop offset="1.000000" stop-color="#F0F0F0"/>
+		<g id="pixso_custom_effect_43">
+			<effect x="0.000000" y="1.000000" visibility="visible" fill="rgb(0,0,0)" fill-opacity="0.0599999987" effectType="dropShadow" showShadowBehind="1" stdDeviation="0" radius="0" />
+			<effect x="0.000000" y="1.000000" visibility="hidden" fill="rgb(255,216.88,100.278)" fill-opacity="1" effectType="innerShadow" showShadowBehind="1" stdDeviation="0" radius="0" />
+		</g>
+		<filter id="filter_43" width="6.666672" height="7.030060" x="1.333328" y="10.666656" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_43)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feOffset dx="0.000000" dy="1.000000" in="SourceAlpha" />
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0 " />
+			<feBlend result="effect_dropShadow_1" in2="BackgroundImageFix" mode="normal" />
+			<feBlend result="shape" in="SourceGraphic" in2="effect_dropShadow_1" mode="normal" />
+		</filter>
+		<linearGradient id="paint_linear_166" x1="1.33331299" x2="1.33331299" y1="10.666626" y2="17.333292" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(255,255,255)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(239.7,239.7,239.7)" offset="1" stop-opacity="1" />
 		</linearGradient>
 	</defs>
-	<rect id="Puerto Rico" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
-	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
-	<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#F5F5F5" stroke-opacity="1.000000" stroke-width="0.500000"/>
-	<mask id="mask17_4744" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
-		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
-		<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#F5F5F5" stroke-opacity="1.000000" stroke-width="0.500000"/>
-	</mask>
-	<g mask="url(#mask17_4744)">
-		<mask id="mask_17_4745" fill="white">
-			<path id="Combined Shape" d="M0 4L28 4L28 8L0 8L0 4ZM0 12L28 12L28 16L0 16L0 12ZM0 20L0 24L28 24L28 20L0 20Z" clip-rule="evenodd" fill="" fill-opacity="1.000000" fill-rule="evenodd"/>
-		</mask>
-		<path id="Combined Shape" d="M0 4L28 4L28 8L0 8L0 4ZM0 12L28 12L28 16L0 16L0 12ZM0 20L0 24L28 24L28 20L0 20Z" clip-rule="evenodd" fill="#FA2222" fill-opacity="1.000000" fill-rule="evenodd" mask="url(#mask_17_4745)"/>
-		<path id="Combined Shape" d="" fill="#979797" fill-opacity="0.000000" fill-rule="nonzero"/>
-	</g>
-	<g mask="url(#mask17_4744)">
-		<path id="Rectangle 83" d="M0 4L13.33 14L0 24L0 4Z" fill="#1D63F9" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 83" d="M13.33 14L0 24L0 4L13.33 14Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_4744)">
-		<g filter="url(#filter_17_4750_dd)">
-			<path id="Star 27" d="M4.66 15.27L2.7 16.69L3.45 14.39L1.49 12.96L3.91 12.96L4.66 10.66L5.41 12.96L7.83 12.96L5.87 14.39L6.62 16.69L4.66 15.27Z" fill="url(#paint_linear_17_4750_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<mask id="mask_485" width="28.000000" height="20.000000" x="0.000000" y="4.000000" maskUnits="userSpaceOnUse">
+		<g filter="url(#pixso_custom_mask_type_alpha)">
+			<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(255,255,255)" />
+			<rect id="Mask" width="27.500000" height="19.500000" x="0.250000" y="4.250000" rx="2.750000" stroke="rgb(245,245,245)" stroke-width="0.5" />
 		</g>
-		<path id="Star 27" d="M2.7 16.69L3.45 14.39L1.49 12.96L3.91 12.96L4.66 10.66L5.41 12.96L7.83 12.96L5.87 14.39L6.62 16.69L4.66 15.27L2.7 16.69Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</mask>
+	<rect id="Puerto Rico" width="28.000000" height="28.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+	<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(255,255,255)" />
+	<rect id="Mask" width="27.500000" height="19.500000" x="0.250000" y="4.250000" rx="2.750000" stroke="rgb(245,245,245)" stroke-width="0.5" />
+	<g mask="url(#mask_485)">
+		<path id="Combined Shape" d="M28 4L28 8L0 8L0 4L28 4ZM0 12L28 12L28 16L0 16L0 12ZM0 20L0 24L28 24L28 20L0 20Z" fill="rgb(250,34,34)" fill-rule="evenodd" />
+		<path id="Combined Shape" d="M28 4L28 8L0 8L0 4L28 4ZM0 12L28 12L28 16L0 16L0 12ZM0 20L0 24L28 24L28 20L0 20Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 83" d="M0 4L13.3333 14L0 24L0 4Z" fill="rgb(29,99,249)" fill-rule="evenodd" />
+		<path id="Rectangle 83" d="M13.3333 14L0 24L0 4L13.3333 14Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<g filter="url(#filter_43)">
+			<path id="Star 27" d="M4.66665 15.274L2.70736 16.6967L3.45492 14.3937L1.49646 12.9699L3.91776 12.9692L4.66665 10.6666L5.41553 12.9692L7.83683 12.9699L5.87837 14.3937L6.62593 16.6967L4.66665 15.274Z" fill="url(#paint_linear_166)" fill-rule="evenodd" />
+			<path id="Star 27" d="M2.70736 16.6967L3.45492 14.3937L1.49646 12.9699L3.91776 12.9692L4.66665 10.6666L5.41553 12.9692L7.83683 12.9699L5.87837 14.3937L6.62593 16.6967L4.66665 15.274L2.70736 16.6967Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		</g>
 	</g>
 </svg>

@@ -1,38 +1,32 @@
-<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<desc>
-			Created with Pixso.
-	</desc>
+<svg viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.000000" height="28.000000" fill="none" customFrame="#000000">
 	<defs>
-		<linearGradient id="paint_linear_17_5877_0" x1="13.333344" y1="4.000000" x2="13.333344" y2="24.000000" gradientUnits="userSpaceOnUse">
-			<stop stop-color="#FFDC44"/>
-			<stop offset="1.000000" stop-color="#FDD216"/>
+		<filter id="pixso_custom_mask_type_alpha">
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
+		</filter>
+		<linearGradient id="paint_linear_148" x1="13.3333435" x2="13.3333435" y1="4" y2="24" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(255,220.098,67.503)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(253,210,22)" offset="1" stop-opacity="1" />
 		</linearGradient>
 	</defs>
-	<rect id="Cameroon" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
-	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
-	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	<mask id="mask17_5876" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
-		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
-		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	<mask id="mask_376" width="28.000000" height="20.000000" x="0.000000" y="4.000000" maskUnits="userSpaceOnUse">
+		<g filter="url(#pixso_custom_mask_type_alpha)">
+			<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(255,255,255)" />
+			<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		</g>
 	</mask>
-	<g mask="url(#mask17_5876)">
-		<rect id="Mask" x="13.333344" y="4.000000" width="14.666667" height="20.000000" fill="url(#paint_linear_17_5877_0)" fill-opacity="1.000000"/>
-		<rect id="Mask" x="13.333344" y="4.000000" width="14.666667" height="20.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5876)">
-		<path id="Rectangle 2" d="M0 24L9.33 24L9.33 4L0 4L0 24Z" fill="#059170" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M9.33 24L9.33 4L0 4L0 24L9.33 24Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5876)">
-		<path id="Rectangle 2 Copy" d="M9.33 24L18.66 24L18.66 4L9.33 4L9.33 24Z" fill="#E21A30" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2 Copy" d="M18.66 24L18.66 4L9.33 4L9.33 24L18.66 24Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5876)">
-		<path id="Rectangle 2 Copy 2" d="M18.66 24L28 24L28 4L18.66 4L18.66 24Z" fill="#FFDC44" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2 Copy 2" d="M28 24L28 4L18.66 4L18.66 24L28 24Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5876)">
-		<path id="Star 8" d="M14 15.3L12.04 16.69L12.76 14.4L10.82 12.97L13.23 12.94L14 10.66L14.76 12.94L17.17 12.97L15.23 14.4L15.95 16.69L14 15.3Z" fill="#FFDC42" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Star 8" d="M12.04 16.69L12.76 14.4L10.82 12.97L13.23 12.94L14 10.66L14.76 12.94L17.17 12.97L15.23 14.4L15.95 16.69L14 15.3L12.04 16.69Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	<rect id="Cameroon" width="28.000000" height="28.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+	<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(255,255,255)" />
+	<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+	<g mask="url(#mask_376)">
+		<rect id="Mask" width="14.666667" height="20.000000" x="13.333344" y="4.000000" fill="url(#paint_linear_148)" />
+		<rect id="Mask" width="14.666667" height="20.000000" x="13.333344" y="4.000000" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2" d="M0 24L9.33333 24L9.33333 4L0 4L0 24Z" fill="rgb(5,145,112)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M9.33333 24L9.33333 4L0 4L0 24L9.33333 24Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2 Copy" d="M9.33334 24L18.6667 24L18.6667 4L9.33334 4L9.33334 24Z" fill="rgb(226,26,48)" fill-rule="evenodd" />
+		<path id="Rectangle 2 Copy" d="M18.6667 24L18.6667 4L9.33334 4L9.33334 24L18.6667 24Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2 Copy 2" d="M18.6667 24L28 24L28 4L18.6667 4L18.6667 24Z" fill="rgb(255,220,68)" fill-rule="evenodd" />
+		<path id="Rectangle 2 Copy 2" d="M28 24L28 4L18.6667 4L18.6667 24L28 24Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Star 8" d="M14 15.3L12.0407 16.6967L12.7636 14.4017L10.8298 12.97L13.2359 12.9483L14 10.6667L14.7641 12.9483L17.1702 12.97L15.2364 14.4017L15.9593 16.6967L14 15.3Z" fill="rgb(255,220,66)" fill-rule="evenodd" />
+		<path id="Star 8" d="M12.0407 16.6967L12.7636 14.4017L10.8298 12.97L13.2359 12.9483L14 10.6667L14.7641 12.9483L17.1702 12.97L15.2364 14.4017L15.9593 16.6967L14 15.3L12.0407 16.6967Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
 	</g>
 </svg>

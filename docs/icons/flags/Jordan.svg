@@ -1,29 +1,26 @@
-<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<desc>
-			Created with Pixso.
-	</desc>
-	<defs/>
-	<rect id="Jordan" width="28.000000" height="28.000000" fill="#FFFFFF" fill-opacity="0"/>
-	<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
-	<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#D6D8DD" stroke-opacity="1.000000" stroke-width="0.500000"/>
-	<mask id="mask17_5234" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="4.000000" width="28.000000" height="20.000000">
-		<rect id="Mask" y="4.000000" rx="3.000000" width="28.000000" height="20.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
-		<rect id="Mask" x="0.250000" y="4.250000" rx="3.000000" width="27.500000" height="19.500000" stroke="#F5F5F5" stroke-opacity="1.000000" stroke-width="0.500000"/>
+<svg viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.000000" height="28.000000" fill="none" customFrame="#000000">
+	<defs>
+		<filter id="pixso_custom_mask_type_alpha">
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
+		</filter>
+	</defs>
+	<mask id="mask_431" width="28.000000" height="20.000000" x="0.000000" y="4.000000" maskUnits="userSpaceOnUse">
+		<g filter="url(#pixso_custom_mask_type_alpha)">
+			<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(255,255,255)" />
+			<rect id="Mask" width="27.500000" height="19.500000" x="0.250000" y="4.250000" rx="2.750000" stroke="rgb(245,245,245)" stroke-width="0.5" />
+		</g>
 	</mask>
-	<g mask="url(#mask17_5234)">
-		<path id="Rectangle 2" d="M0 24L28 24L28 17.33L0 17.33L0 24Z" fill="#199E56" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M28 24L28 17.33L0 17.33L0 24L28 24Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5234)">
-		<path id="Rectangle 2" d="M0 10.66L28 10.66L28 4L0 4L0 10.66Z" fill="#262626" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 2" d="M28 10.66L28 4L0 4L0 10.66L28 10.66Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5234)">
-		<path id="Rectangle 83" d="M0 4L13.33 14L0 24L0 4Z" fill="#E6223A" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Rectangle 83" d="M13.33 14L0 24L0 4L13.33 14Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
-	</g>
-	<g mask="url(#mask17_5234)">
-		<path id="Star 27" d="M4.66 15L3.79 15.8L3.88 14.62L2.71 14.44L3.69 13.77L3.1 12.75L4.23 13.09L4.66 12L5.1 13.09L6.23 12.75L5.64 13.77L6.61 14.44L5.44 14.62L5.53 15.8L4.66 15Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Star 27" d="M3.79 15.8L3.88 14.62L2.71 14.44L3.69 13.77L3.1 12.75L4.23 13.09L4.66 12L5.1 13.09L6.23 12.75L5.64 13.77L6.61 14.44L5.44 14.62L5.53 15.8L4.66 15L3.79 15.8Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	<rect id="Jordan" width="28.000000" height="28.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+	<rect id="Mask" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(255,255,255)" />
+	<rect id="Mask" width="27.500000" height="19.500000" x="0.250000" y="4.250000" rx="2.750000" stroke="rgb(214,216,221)" stroke-width="0.5" />
+	<g mask="url(#mask_431)">
+		<path id="Rectangle 2" d="M0 24L28 24L28 17.3333L0 17.3333L0 24Z" fill="rgb(25,158,86)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M28 24L28 17.3333L0 17.3333L0 24L28 24Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 2" d="M0 10.6667L28 10.6667L28 4L0 4L0 10.6667Z" fill="rgb(38,38,38)" fill-rule="evenodd" />
+		<path id="Rectangle 2" d="M28 10.6667L28 4L0 4L0 10.6667L28 10.6667Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Rectangle 83" d="M0 4L13.3333 14L0 24L0 4Z" fill="rgb(230,34,58)" fill-rule="evenodd" />
+		<path id="Rectangle 83" d="M13.3333 14L0 24L0 4L13.3333 14Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
+		<path id="Star 27" d="M4.66669 15L3.79892 15.8019L3.88486 14.6235L2.71683 14.445L3.69176 13.7775L3.10302 12.753L4.2328 13.099L4.66669 12L5.10057 13.099L6.23035 12.753L5.64161 13.7775L6.61654 14.445L5.44852 14.6235L5.53445 15.8019L4.66669 15Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+		<path id="Star 27" d="M3.79892 15.8019L3.88486 14.6235L2.71683 14.445L3.69176 13.7775L3.10302 12.753L4.2328 13.099L4.66669 12L5.10057 13.099L6.23035 12.753L5.64161 13.7775L6.61654 14.445L5.44852 14.6235L5.53445 15.8019L4.66669 15L3.79892 15.8019Z" fill-rule="evenodd" stroke="rgb(150.96,150.96,150.96)" stroke-opacity="0" stroke-width="0" />
 	</g>
 </svg>
