@@ -179,11 +179,16 @@ npm run build-storybook
 или  
 yarn build-storybook
 
+И далее
+npm run preview-storybook
+
 ### Проверяем:
 
 - все ли иконки видны  
 - корректно ли отображение  
 - нет ли битых путей  
+
+Если всё хорошо, то откатить все изменения в каталогах build, docs, src/icons, metadata.json (которые были сформированы командой `build-storybook`)
 
 ---
 
@@ -210,6 +215,12 @@ npm run release
 - Release Message со списоком добавленных и удалённых иконок  
 
 Проверить корректность.
+
+Обновляем storybook:
+
+npm run build-storybook
+
+Сформировать релиз на github и выложить его в npm.
 
 ---
 
