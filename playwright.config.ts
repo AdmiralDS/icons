@@ -12,7 +12,8 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: './tests',
+  testDir: './tests/visual',
+  snapshotPathTemplate: 'tests/visual/{testFilePath}-snapshots/{arg}{ext}',
   /* Run tests in files in parallel */
   fullyParallel: false,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -22,7 +23,7 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: 1,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+  reporter: [['html', { open: 'never' }], ['list']],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
@@ -32,10 +33,13 @@ export default defineConfig({
     trace: 'on-first-retry',
   },
   // чтобы сторибук успел запуститься
-  timeout: 120000,
+  //timeout: 120000,
   expect: {
     // чтобы сторибук успел запуститься
-    timeout: 10000, // глобальный таймаут для всех expect
+    //timeout: 10000, // глобальный таймаут для всех expect
+    toHaveScreenshot: {
+      threshold: 0.02, // чуть больше threshold
+    },
   },
 
   /* Configure projects for major browsers */
@@ -43,16 +47,6 @@ export default defineConfig({
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
-    },
-
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
-
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
     },
 
     /* Test against mobile viewports. */
@@ -76,10 +70,9 @@ export default defineConfig({
     // },
   ],
 
-  /* Run your local dev server before starting the tests */
   webServer: {
-    command: 'npm run storybook',
-    url: 'http://localhost:6006',
+    command: 'npx http-server . -p 3000',
+    url: 'http://localhost:3000',
     reuseExistingServer: !process.env.CI,
   },
 });

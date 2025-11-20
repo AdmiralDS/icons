@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+        padding: 20px;
+        background: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .container {
+        width: 80px;
+        height: 80px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+        border-radius: 12px;
+        background: #f0f2f5;
+      }
+      #icon-container {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      svg {
+        display: block;
+        width: 40px;
+        height: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="icon-container"></div>
+    </div>
+
+    <script>
+      const params = new URLSearchParams(location.search);
+      const icon = params.get("icon");
+      fetch(`../../build/${icon}`)
+        .then(r => r.text())
+        .then(svg => {
+          document.getElementById("icon-container").innerHTML = svg;
+        });
+    </script>
+  </body>
+</html>
