@@ -1,4 +1,4 @@
-import { useState, forwardRef } from 'react';
+import React, { useState, forwardRef } from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import styled from 'styled-components';
 import { ThemeProvider } from 'styled-components';
@@ -20,6 +20,7 @@ import * as RedactIcons from './icons/redact';
 import * as SecurityIcons from './icons/security';
 import * as ServiceIcons from './icons/service';
 import * as SystemIcons from './icons/system';
+import { ICON_CATEGORY_CONFIG } from './iconCategoryConfig';
 
 function capitalizeFirstLetter(str: string) {
   return str.charAt(0).toUpperCase() + str.slice(1);
@@ -153,22 +154,28 @@ interface Category {
     path: string;
   }>;
 }
-const CATEGORIES: Array<Category> = [
-  { label: 'Cards', value: 'cards', icons: getIcons('cards', CardsIcons) },
-  { label: 'Category', value: 'category', icons: getIcons('category', CategoryIcons) },
-  { label: 'Communication', value: 'communication', icons: getIcons('communication', CommunicationIcons) },
-  { label: 'Documents', value: 'documents', icons: getIcons('documents', DocumentsIcons) },
-  { label: 'Finance', value: 'finance', icons: getIcons('finance', FinanceIcons) },
-  { label: 'Flags', value: 'flags', icons: getIcons('flags', FlagsIcons) },
-  { label: 'Payment', value: 'payment', icons: getIcons('payment', PaymentIcons) },
-  { label: 'Redact', value: 'redact', icons: getIcons('redact', RedactIcons) },
-  { label: 'Location', value: 'location', icons: getIcons('location', LocationIcons) },
-  { label: 'Logo', value: 'logo', icons: getIcons('logo', LogoIcons) },
-  { label: 'Security', value: 'security', icons: getIcons('security', SecurityIcons) },
-  { label: 'Service', value: 'service', icons: getIcons('service', ServiceIcons) },
-  { label: 'System', value: 'system', icons: getIcons('system', SystemIcons) },
-  { label: 'Bank', value: 'bank', icons: getIcons('bank', BankIcons) },
-];
+const iconPackMap = {
+  cards: CardsIcons,
+  category: CategoryIcons,
+  communication: CommunicationIcons,
+  documents: DocumentsIcons,
+  finance: FinanceIcons,
+  flags: FlagsIcons,
+  payment: PaymentIcons,
+  redact: RedactIcons,
+  location: LocationIcons,
+  logo: LogoIcons,
+  security: SecurityIcons,
+  service: ServiceIcons,
+  system: SystemIcons,
+  bank: BankIcons,
+} satisfies Record<string, Record<string, React.FunctionComponent<React.SVGProps<SVGSVGElement>>>>;
+
+const CATEGORIES: Array<Category> = ICON_CATEGORY_CONFIG.map(({ label, value }) => ({
+  label,
+  value,
+  icons: getIcons(value, iconPackMap[value]),
+}));
 
 const meta: Meta = {
   title: 'Icons/Icons',
