@@ -103,7 +103,7 @@ CATEGORIES.forEach(({ label, value, icons }) => {
            * maxDiffPixelRatio = 0.01 означает,
            * что тест падает, если 1% пикселей или больше изменились.
            */
-          await expect(iconLocator).toHaveScreenshot([value, `${name}.png`], {
+          await expect.soft(iconLocator).toHaveScreenshot([value, `${name}.png`], {
             maxDiffPixelRatio: 0.01, // чувствительность к "крупным изменениям"
           });
         });
