@@ -223,6 +223,7 @@ import ${name} from '@admiral-ds/icons/${path}?react';
 // Импорт компонента (лоадер не требуется)
 import { ${capitalizeFirstLetter(value)}${name} } from '@admiral-ds/icons';
 `;
+
           return (
             <IconCardContainer key={name + index}>
               <IconWithHint
@@ -232,7 +233,7 @@ import { ${capitalizeFirstLetter(value)}${name} } from '@admiral-ds/icons';
                   </div>
                 )}
               >
-                <Component width={24} height={24} />
+                <Component width={24} height={24} data-testid={`${value}${name}`} />
               </IconWithHint>
               <IconName>
                 {name} <CopyButton renderContent={() => 'Копировать пример использования'} text={exampleText} />
@@ -297,7 +298,7 @@ const user2Exm = `
   declare module '*.svg' {
     const ReactComponent: React.FC<React.SVGProps<SVGSVGElement>>;
     const content: string;
-  
+
     export { ReactComponent };
     export default content;
   }
@@ -305,7 +306,7 @@ const user2Exm = `
 const user3Exm = `
   declare module '*.svg' {
     import * as React from 'react';
-  
+
     export const ReactComponent: React.FunctionComponent<React.SVGProps<SVGSVGElement> & { title?: string }>;
     export default ReactComponent;
   }

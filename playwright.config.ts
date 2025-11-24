@@ -71,8 +71,9 @@ export default defineConfig({
   ],
 
   webServer: {
-    command: 'npx http-server . -p 3000',
-    url: 'http://localhost:3000',
+    // Для тестов нужен живой сторибук, т.к. data-testid доступны только в Canvas iframe
+    command: 'npm run storybook',
+    url: 'http://localhost:6006',
     reuseExistingServer: !process.env.CI,
   },
 });
