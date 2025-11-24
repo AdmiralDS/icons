@@ -25,6 +25,29 @@ const SVGR_OPTIONS = {
         ],
       },
     },
+    {
+      name: 'removeSpecificPath',
+      fn: () => ({
+        element: {
+          enter: (node, parentNode) => {
+            if (node.name === 'path' && node.attributes?.d) {
+              const normalizedD = node.attributes.d.replace(/\s+/g, '').toLowerCase();
+              if (normalizedD === 'm00h24v24h0z' || normalizedD === 'M0 0H40V40H0z') {
+                // Удаляем узел из родительского элемента
+                if (parentNode && parentNode.children) {
+                  const index = parentNode.children.indexOf(node);
+                  if (index !== -1) {
+                    parentNode.children.splice(index, 1);
+                  }
+                }
+
+                return null; // Помечаем узел для удаления
+              }
+            }
+          },
+        },
+      }),
+    },
   ],
 };
 
