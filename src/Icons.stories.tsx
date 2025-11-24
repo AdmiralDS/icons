@@ -372,6 +372,61 @@ const Template2 = () => {
   );
 };
 
+const ColoredIconsWrapper = styled(IconsWrapper)`
+  && svg {
+    *[fill^='#'] {
+      fill: ${({ theme }) => theme.color['Primary/Primary 60 Main']};
+    }
+  }
+`;
+
+const ColoredCategory = ({ label, children }: { label: string; children: React.ReactNode }) => {
+  return (
+    <CategoryWrapper>
+      <Title>{label}</Title>
+      <ColoredIconsWrapper>{children}</ColoredIconsWrapper>
+    </CategoryWrapper>
+  );
+};
+
+const Template3 = () => (
+  <>
+    <Title style={{ fontWeight: 400 }}>
+      Список иконок с цветовой заливкой для наглядного просмотра альтернативных вариантов стилизации.
+    </Title>
+    {CATEGORIES.map(({ value, label, icons }) => (
+      <ColoredCategory key={label} label={label}>
+        {icons.map(({ Component, name, path }, index: number) => {
+          const exampleText = `
+// Импорт через лоадер (настроен в vitejs по умолчанию)
+import ${name} from '@admiral-ds/icons/${path}?react';
+
+// Импорт компонента (лоадер не требуется)
+import { ${capitalizeFirstLetter(value)}${name} } from '@admiral-ds/icons';
+`;
+
+          return (
+            <IconCardContainer key={name + index}>
+              <IconWithHint
+                renderContent={() => (
+                  <div style={{ whiteSpace: 'pre-wrap' }}>
+                    <code>{exampleText}</code>
+                  </div>
+                )}
+              >
+                <Component width={24} height={24} data-testid={`${value}${name}`} />
+              </IconWithHint>
+              <IconName>
+                {name} <CopyButton renderContent={() => 'Копировать пример использования'} text={exampleText} />
+              </IconName>
+            </IconCardContainer>
+          );
+        })}
+      </ColoredCategory>
+    ))}
+  </>
+);
+
 export const Icons: Story = {
   render: Template,
   args: {},
@@ -382,4 +437,10 @@ export const Loaders: Story = {
   render: Template2,
   args: {},
   name: 'Использование иконок',
+};
+
+export const Colored: Story = {
+  render: Template3,
+  args: {},
+  name: 'Заливка иконок',
 };
