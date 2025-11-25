@@ -28,11 +28,13 @@
     "build": "npm run build-meta && vite build",
     "build-meta": "node scripts/formatSvg.cjs && node scripts/createMetadata && node scripts/generate-svg-icon-exports.cjs",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "storybook": "npm run build-meta && storybook dev -p 6006",
+    "storybook": "npm run build-meta && storybook dev -p 6006 --no-open",
     "build-storybook": "npm run build-meta && storybook build --disable-telemetry --output-dir docs",
     "preview-storybook": "npx http-server ./docs",
     "prepublishOnly": "npm run build",
-    "release": "standard-version"
+    "release": "standard-version",
+    "test:e2e": "playwright test",
+    "test:e2e-ui": "playwright test --ui"
   },
   "peerDependencies": {
     "react": ">=16",
@@ -40,6 +42,7 @@
   },
   "devDependencies": {
     "@admiral-ds/react-ui": "^7.15.0",
+    "@playwright/test": "^1.56.1",
     "@rollup/plugin-typescript": "^11.1.6",
     "@storybook/addon-essentials": "^7.6.19",
     "@storybook/addon-interactions": "^7.6.19",
@@ -50,6 +53,7 @@
     "@storybook/react-vite": "^7.6.19",
     "@storybook/testing-library": "^0.2.2",
     "@svgr/core": "^8.1.0",
+    "@types/node": "^24.10.1",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.12.0",

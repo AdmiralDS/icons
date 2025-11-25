@@ -26,3 +26,10 @@ bun.lockb
 
 inputZIP/**/*.zip
 commitMessages.txt
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/

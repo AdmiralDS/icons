@@ -1,4 +1,4 @@
-import { useState, forwardRef } from 'react';
+import React, { useState, forwardRef } from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import styled from 'styled-components';
 import { ThemeProvider } from 'styled-components';
@@ -20,6 +20,7 @@ import * as RedactIcons from './icons/redact';
 import * as SecurityIcons from './icons/security';
 import * as ServiceIcons from './icons/service';
 import * as SystemIcons from './icons/system';
+import { ICON_CATEGORY_CONFIG } from './iconCategoryConfig';
 
 function capitalizeFirstLetter(str: string) {
   return str.charAt(0).toUpperCase() + str.slice(1);
@@ -153,22 +154,28 @@ interface Category {
     path: string;
   }>;
 }
-const CATEGORIES: Array<Category> = [
-  { label: 'Cards', value: 'cards', icons: getIcons('cards', CardsIcons) },
-  { label: 'Category', value: 'category', icons: getIcons('category', CategoryIcons) },
-  { label: 'Communication', value: 'communication', icons: getIcons('communication', CommunicationIcons) },
-  { label: 'Documents', value: 'documents', icons: getIcons('documents', DocumentsIcons) },
-  { label: 'Finance', value: 'finance', icons: getIcons('finance', FinanceIcons) },
-  { label: 'Flags', value: 'flags', icons: getIcons('flags', FlagsIcons) },
-  { label: 'Payment', value: 'payment', icons: getIcons('payment', PaymentIcons) },
-  { label: 'Redact', value: 'redact', icons: getIcons('redact', RedactIcons) },
-  { label: 'Location', value: 'location', icons: getIcons('location', LocationIcons) },
-  { label: 'Logo', value: 'logo', icons: getIcons('logo', LogoIcons) },
-  { label: 'Security', value: 'security', icons: getIcons('security', SecurityIcons) },
-  { label: 'Service', value: 'service', icons: getIcons('service', ServiceIcons) },
-  { label: 'System', value: 'system', icons: getIcons('system', SystemIcons) },
-  { label: 'Bank', value: 'bank', icons: getIcons('bank', BankIcons) },
-];
+const iconPackMap = {
+  cards: CardsIcons,
+  category: CategoryIcons,
+  communication: CommunicationIcons,
+  documents: DocumentsIcons,
+  finance: FinanceIcons,
+  flags: FlagsIcons,
+  payment: PaymentIcons,
+  redact: RedactIcons,
+  location: LocationIcons,
+  logo: LogoIcons,
+  security: SecurityIcons,
+  service: ServiceIcons,
+  system: SystemIcons,
+  bank: BankIcons,
+} satisfies Record<string, Record<string, React.FunctionComponent<React.SVGProps<SVGSVGElement>>>>;
+
+const CATEGORIES: Array<Category> = ICON_CATEGORY_CONFIG.map(({ label, value }) => ({
+  label,
+  value,
+  icons: getIcons(value, iconPackMap[value]),
+}));
 
 const meta: Meta = {
   title: 'Icons/Icons',
@@ -216,6 +223,7 @@ import ${name} from '@admiral-ds/icons/${path}?react';
 // Импорт компонента (лоадер не требуется)
 import { ${capitalizeFirstLetter(value)}${name} } from '@admiral-ds/icons';
 `;
+
           return (
             <IconCardContainer key={name + index}>
               <IconWithHint
@@ -225,7 +233,7 @@ import { ${capitalizeFirstLetter(value)}${name} } from '@admiral-ds/icons';
                   </div>
                 )}
               >
-                <Component width={24} height={24} />
+                <Component width={24} height={24} data-testid={`${value}${name}`} />
               </IconWithHint>
               <IconName>
                 {name} <CopyButton renderContent={() => 'Копировать пример использования'} text={exampleText} />
@@ -290,7 +298,7 @@ const user2Exm = `
   declare module '*.svg' {
     const ReactComponent: React.FC<React.SVGProps<SVGSVGElement>>;
     const content: string;
-  
+
     export { ReactComponent };
     export default content;
   }
@@ -298,7 +306,7 @@ const user2Exm = `
 const user3Exm = `
   declare module '*.svg' {
     import * as React from 'react';
-  
+
     export const ReactComponent: React.FunctionComponent<React.SVGProps<SVGSVGElement> & { title?: string }>;
     export default ReactComponent;
   }
@@ -364,6 +372,63 @@ const Template2 = () => {
   );
 };
 
+const ColoredIconsWrapper = styled(IconsWrapper)`
+  && svg {
+    *[fill^='#'] {
+      fill: ${({ theme }) => theme.color['Primary/Primary 60 Main']};
+    }
+  }
+`;
+
+const ColoredCategory = ({ label, children }: { label: string; children: React.ReactNode }) => {
+  return (
+    <CategoryWrapper>
+      <Title>{label}</Title>
+      <ColoredIconsWrapper>{children}</ColoredIconsWrapper>
+    </CategoryWrapper>
+  );
+};
+
+const CATEGORIES_COLORED: Array<Category> = CATEGORIES.filter(({ label }) => label !== 'Cards' && label !== 'Flags' && label !== 'Payment' && label !== 'Bank');
+
+const Template3 = () => (
+  <>
+    <Title style={{ fontWeight: 400 }}>
+      Список иконок с цветовой заливкой для наглядного просмотра альтернативных вариантов стилизации.
+    </Title>
+    {CATEGORIES_COLORED.map(({ value, label, icons }) => (
+      <ColoredCategory key={label} label={label}>
+        {icons.map(({ Component, name, path }, index: number) => {
+          const exampleText = `
+// Импорт через лоадер (настроен в vitejs по умолчанию)
+import ${name} from '@admiral-ds/icons/${path}?react';
+
+// Импорт компонента (лоадер не требуется)
+import { ${capitalizeFirstLetter(value)}${name} } from '@admiral-ds/icons';
+`;
+
+          return (
+            <IconCardContainer key={name + index}>
+              <IconWithHint
+                renderContent={() => (
+                  <div style={{ whiteSpace: 'pre-wrap' }}>
+                    <code>{exampleText}</code>
+                  </div>
+                )}
+              >
+                <Component width={24} height={24} data-testid={`${value}${name}`} />
+              </IconWithHint>
+              <IconName>
+                {name} <CopyButton renderContent={() => 'Копировать пример использования'} text={exampleText} />
+              </IconName>
+            </IconCardContainer>
+          );
+        })}
+      </ColoredCategory>
+    ))}
+  </>
+);
+
 export const Icons: Story = {
   render: Template,
   args: {},
@@ -374,4 +439,10 @@ export const Loaders: Story = {
   render: Template2,
   args: {},
   name: 'Использование иконок',
+};
+
+export const Colored: Story = {
+  render: Template3,
+  args: {},
+  name: 'Заливка иконок',
 };
