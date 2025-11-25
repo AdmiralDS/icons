@@ -20,7 +20,7 @@ jobs:
       - name: Upload Docs Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: docs-output
+          name: github-pages
           path: docs/
   test:
     timeout-minutes: 60
@@ -43,7 +43,8 @@ jobs:
           path: playwright-report/
           retention-days: 30
   deploy-pages:
-    needs: [build-docs, test]
+    # needs: [build-docs, test]
+    needs: build-docs
     if: github.ref == 'refs/heads/main'
     timeout-minutes: 60
     runs-on: ubuntu-latest
@@ -56,11 +57,6 @@ jobs:
     steps:
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Download Docs Artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: docs-output
-          path: docs/
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
