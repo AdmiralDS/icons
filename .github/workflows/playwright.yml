@@ -43,3 +43,23 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 30
+  deploy-pages:
+    needs: test
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Download Docs Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: docs-output
+          path: docs/
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+
