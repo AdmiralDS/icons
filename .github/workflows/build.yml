@@ -42,8 +42,7 @@ jobs:
           path: playwright-report/
           retention-days: 30
   deploy-pages:
-    # needs: [build-docs, test]
-    needs: build-docs
+    needs: [build-docs, test]
     if: github.ref == 'refs/heads/main'
     timeout-minutes: 60
     runs-on: ubuntu-latest
