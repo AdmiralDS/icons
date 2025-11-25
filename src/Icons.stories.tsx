@@ -389,12 +389,14 @@ const ColoredCategory = ({ label, children }: { label: string; children: React.R
   );
 };
 
+const CATEGORIES_COLORED: Array<Category> = CATEGORIES.filter(({ label }) => label !== 'Cards' && label !== 'Flags' && label !== 'Payment' && label !== 'Bank');
+
 const Template3 = () => (
   <>
     <Title style={{ fontWeight: 400 }}>
       Список иконок с цветовой заливкой для наглядного просмотра альтернативных вариантов стилизации.
     </Title>
-    {CATEGORIES.map(({ value, label, icons }) => (
+    {CATEGORIES_COLORED.map(({ value, label, icons }) => (
       <ColoredCategory key={label} label={label}>
         {icons.map(({ Component, name, path }, index: number) => {
           const exampleText = `
