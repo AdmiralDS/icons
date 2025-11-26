@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.4.2](https://github.com/AdmiralDS/icons/compare/v4.4.1...v4.4.2) (2025-11-26)
+
+
+### Bug Fixes
+
+* убран лишний path ([0cfd342](https://github.com/AdmiralDS/icons/commit/0cfd34205c516672f4446f8b7dac1ea5c7110900))
+
 ### [4.4.1](https://github.com/AdmiralDS/icons/compare/v4.4.0...v4.4.1) (2025-11-24)
 
 
