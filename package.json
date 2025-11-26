@@ -24,7 +24,6 @@
   },
   "scripts": {
     "dev": "vite",
-    "prepare": "npm run build",
     "build": "npm run build-meta && vite build",
     "build-meta": "node scripts/formatSvg.cjs && node scripts/createMetadata && node scripts/generate-svg-icon-exports.cjs",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
