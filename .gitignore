@@ -16,6 +16,7 @@ dist-ssr
 src/icons
 src/index.ts
 metadata.json
+flags-metadata.json
 
 # Editor directories and files
 .vscode/*
