@@ -1,9 +1,7 @@
 import React, { useState, forwardRef } from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
-import styled from 'styled-components';
-import { ThemeProvider } from 'styled-components';
-import { LIGHT_THEME, FontsVTBGroup, DropdownProvider, Hint } from '@admiral-ds/react-ui';
-import { TooltipHoc, typography } from '@admiral-ds/react-ui';
+import styled, { ThemeProvider } from 'styled-components';
+import { LIGHT_THEME, FontsVTBGroup, DropdownProvider, Hint, TooltipHoc, typography } from '@admiral-ds/react-ui';
 import CopyOutline from '@admiral-ds/icons/build/documents/CopyOutline.svg?react';
 import metadata from '../metadata.json';
 import * as BankIcons from './icons/bank';
@@ -389,7 +387,9 @@ const ColoredCategory = ({ label, children }: { label: string; children: React.R
   );
 };
 
-const CATEGORIES_COLORED: Array<Category> = CATEGORIES.filter(({ label }) => label !== 'Cards' && label !== 'Flags' && label !== 'Payment' && label !== 'Bank');
+const CATEGORIES_COLORED: Array<Category> = CATEGORIES.filter(
+  ({ label }) => label !== 'Cards' && label !== 'Flags' && label !== 'Payment' && label !== 'Bank',
+);
 
 const Template3 = () => (
   <>
