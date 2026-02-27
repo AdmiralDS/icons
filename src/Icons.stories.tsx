@@ -1,4 +1,4 @@
-import React, { useState, forwardRef } from 'react';
+import { useState, forwardRef } from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import styled, { ThemeProvider } from 'styled-components';
 import { LIGHT_THEME, FontsVTBGroup, DropdownProvider, Hint, TooltipHoc, typography } from '@admiral-ds/react-ui';
