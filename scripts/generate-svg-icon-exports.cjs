@@ -8,13 +8,19 @@ function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
+const CATEGORIES = Object.keys(metadata);
+
+const ensureFileExists = (filePath) => {
+  if (!fse.existsSync(filePath)) {
+    fse.createFileSync(filePath);
+  }
+};
+
 const generateReactExportFile = () => {
-  Object.keys(metadata).forEach((category) => {
+  CATEGORIES.forEach((category) => {
     const exportFileName = path.resolve('src/icons', `${category}.ts`);
 
-    if (!fse.existsSync(exportFileName)) {
-      fse.createFileSync(exportFileName);
-    }
+    ensureFileExists(exportFileName);
 
     const exportFileContent = metadata[category]
       .map(
@@ -28,4 +34,17 @@ const generateReactExportFile = () => {
   });
 };
 
+const generateRootIndexFile = () => {
+  const indexFilePath = path.resolve('src', 'index.ts');
+
+  ensureFileExists(indexFilePath);
+
+  const exportFileContent = CATEGORIES.map((category) => `export * from './icons/${category}';`)
+    .concat([''])
+    .join('\n');
+
+  fse.writeFileSync(indexFilePath, exportFileContent);
+};
+
 generateReactExportFile();
+generateRootIndexFile();

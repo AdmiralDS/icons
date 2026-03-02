@@ -1,236 +1,74 @@
-# icons
+# AdmiralDS Icons
 
-# 📦 Обновление иконок в icons ADMIRAL DS
+**AdmiralDS Icons** — официальная библиотека SVG-иконок для продуктов Admiral Design System.  
+Все иконки доступны в двух стилях: **Outline** и **Solid**, сгруппированы по категориям (bank, documents, finance, cards, redact и др.).
 
-Этот документ описывает полный рабочий процесс обновления иконок из макета PIXO до релиза библиотеки. Подходит как для новых участников команды, так и для тех, кто делает обновление нечасто.
-
-> ⚠️ Важно: визуальная проверка всех иконок — обязательный этап. Автоматизировать его пока невозможно.
-
----
-
-## 📁 Структура исходных данных в PIXO
-
-Ссылка на макет PIXSO:
-[макет иконок](https://pixso.t1-pixso.ru/app/design/NG_MwAvYmhfvg8GZ3B2LeA?icon_type=1&page-id=0%3A1)
+SVG-иконки поставляются как исходные файлы и в виде готовых React-компонентов.  
+SVG-файлы совместимы с современными сборщиками, поддерживающими импорт статических ресурсов.
 
 ---
 
-### Page Icons
+## 📁 Каталог иконок
 
-Содержит фреймы:
-
-- System
-- Service
-- Category
-- Documents
-- Security
-- Finance
-- Communication
-- Location
-- Redact
-- Logo Icons
-
-### Page Cards, Banks
-
-Содержит фреймы:
-
-- Bank Icons
-- Payment System
-- Other Cards
-
-### Page Flags
-
-Содержит фреймы:
-
-- Flags
+Полный перечень иконок, сгруппированный по категориям:  
+**https://admiralds.github.io/icons**
 
 ---
 
-## 🗂 Соответствие фреймов папкам в репозитории
+## 📘 Документация
 
-ZIP-архивы складываются в корневой каталог:
-
-inputZIP/
-
-### Page Icons:
-
-System → inputZIP/system  
-Service → inputZIP/service  
-Category → inputZIP/category  
-Documents → inputZIP/documents  
-Security → inputZIP/security  
-Finance → inputZIP/finance  
-Communication → inputZIP/communication  
-Location → inputZIP/location  
-Redact → inputZIP/redact  
-Logo icons → inputZIP/logo
-
-### Page Cards, Banks:
-
-Bank Icons → inputZIP/bank  
-Payment System → inputZIP/payment  
-Other Cards → inputZIP/cards
-
-### Page Flags:
-
-Flags → inputZIP/flags
+Подробная информация по использованию, настройке и примеры:  
+**https://admiralds.github.io/icons/?path=/story/icons-icons--loaders**
 
 ---
 
-## 📤 Экспорт иконок из PIXO
+## 📦 Установка
 
-1. Открыть макет и перейти на вкладку.
-2. Выбрать нужный фрейм (например System).
-3. Выделить все SVG в этом фрейме.
-4. Справа открыть раздел Export.
-5. Нажать "+", выбрать формат SVG.
-6. Нажать Export Layers.
-7. Сохранить ZIP (имя архива неважно) в inputZIP/<категория> (например inputZIP/system).
-
-Повторить для всех фреймов.
+    npm install @admiral-ds/icons
 
 ---
 
-## 🐍 Скрипт обновления иконок
+## 🚀 Использование
 
-### Что делает скрипт:
+Иконки можно подключать двумя способами.
 
-1. Находит ZIP в inputZIP.
-2. Распаковывает их по категориям.
-3. Нормализует имена файлов:
-   - обрезает пробелы в начале и конце
-   - заменяет подряд идущие пробелы на одиночный
-   - убирает пробел перед ".svg"
-4. Кладёт SVG в public/icons/<категория>.
-5. Генерирует commit-messages в файл commitMessages.txt:
-   - добавленные иконки (если есть)
-   - удалённые иконки (если есть)
+### **1. Импорт SVG через лоадер**
 
-### Команда запуска
+(Vite поддерживает такой импорт по умолчанию)
 
-python3 scripts/update_icons_from_pixso.py
+    import Broker from '@admiral-ds/icons/build/cards/Broker.svg?react';
+
+    export function Example() {
+      return <Broker width={24} height={24} />;
+    }
 
 ---
 
-## 🔀 Стратегия коммитов
+### **2. Импорт готового React-компонента**
 
-После работы скрипта будут изменения:
+(лоадер не требуется)
 
-1. Новые SVG-иконки (если были)  
-2. Удалённые SVG-иконки (если были)  
-3. Изменения в существующих иконках
+    import { CardsBroker } from '@admiral-ds/icons';
 
-Используем **три отдельных коммита**.
+    export function Example() {
+      return <CardsBroker width={24} height={24} />;
+    }
 
----
-
-### 1️⃣ Коммит: новые иконки
-
-Если нет удалённых — шаг пропускается.
-
-Включаем:
-
-- только новые SVG-файлы
-
-Проверить:  
-в PIXO → Changelog → проверить, что все иконки, указанные там, добавились в проект.
-
-Коммит-месседж:  
-использовать текст, сгенерированный скриптом.
+React-компоненты поддерживают все стандартные SVG-props (`width`, `height`, `fill` и др.)
 
 ---
 
-### 2️⃣ Коммит: удалённые иконки
+## 🧩 Форматы
 
-Если нет удалённых — шаг пропускается.
-
-Включаем:
-
-- только удалённые файлы
-
-Коммит-месседж:  
-использовать текст скрипта.
+- **Outline** — контурные иконки, подходят для интерфейсных элементов.
+- **Solid** — залитые иконки, хорошо читаются в маленьких размерах.
 
 ---
 
-### 3️⃣ Коммит: остальные изменения
+## 🛠 Обратная связь и новости
 
-Все остальные изменения.
+Если вы нашли ошибку в иконке или хотите предложить новую, создайте issue или PR в репозитории:  
+https://github.com/AdmiralDS/icons
 
----
-
-## 👀 Ручная визуальная проверка
-
-Проверить:
-
-1. каждую изменённую иконку  
-2. сравнить до/после  
-3. проверить целостность, отсутствие артефактов  
-
-Это самый долгий, но необходимый этап.
-
----
-
-## 📚 Проверка через Storybook
-
-### Сборка:
-
-npm run build-storybook  
-или  
-yarn build-storybook
-
-И далее
-npm run preview-storybook
-
-### Проверяем:
-
-- все ли иконки видны  
-- корректно ли отображение  
-- нет ли битых путей  
-
-Если всё хорошо, то откатить все изменения в каталогах build, docs, src/icons, metadata.json (которые были сформированы командой `build-storybook`)
-
----
-
-## 🔧 Pull Request и сборка
-
-1. Сделать три коммита.  
-2. Создать PR.
-
-### Сборка библиотеки:
-
-npm run build
-
----
-
-## 🚀 Релиз
-
-Для релиза выполнить:
-
-npm run release
-
-Скрипт сформирует:
-
-- Change Log  
-- Release Message со списоком добавленных и удалённых иконок  
-
-Проверить корректность.
-
-Обновляем storybook:
-
-npm run build-storybook
-
-Сформировать релиз на github и выложить его в npm.
-
----
-
-## 🧾 Шпаргалка
-
-1. Экспортировать ZIP → inputZIP/<категория>  
-2. Запустить скрипт update-icons-from-pixo  
-3. Проверить иконки вручную  
-4. Сделать три коммита  
-5. Собрать Storybook, проверить визуально  
-6. Создать PR  
-7. Запустить build / build:meta  
-8. Выполнить release  
+Следить за обновлениями Admiral Design System можно в Telegram:  
+https://t.me/admiral_dev
