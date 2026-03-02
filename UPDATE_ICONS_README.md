@@ -89,6 +89,30 @@ Flags → inputZIP/flags
 
 ---
 
+## 🐍 Загрузка иконок через Python-скрипт
+
+Если нужно выгрузить иконки напрямую по ссылке на страницу в Pixso, используйте `scripts/download_icons.py`.
+
+### Подготовка
+
+```bash
+cd .../icons
+python3 -m pip install --user requests
+```
+
+### Запуск
+
+```bash
+python3 scripts/download_icons.py "https://pixso.t1-pixso.ru/app/design/NG_MwAvYmhfvg8GZ3B2LeA?icon_type=1&page-id=1%3A93&item-id=2023%3A703" -o tmp-icons
+```
+
+### Параметры запроса
+
+- `https://pixso.t1-pixso.ru/app/design/NG_MwAvYmhfvg8GZ3B2LeA?icon_type=1&page-id=1%3A93&item-id=2023%3A703` — ссылка на страницу в Pixso, откуда нужно выгрузить иконки.
+- `-o tmp-icons` — папка для сохранения выгруженных иконок.
+
+---
+
 ## 🐍 Скрипт обновления иконок
 
 ### Что делает скрипт:
