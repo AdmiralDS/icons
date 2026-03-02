@@ -26,7 +26,7 @@
     "dev": "vite",
     "build": "npm run build-meta && vite build",
     "build-meta": "node scripts/formatSvg.cjs && node scripts/createMetadata && node scripts/generate-svg-icon-exports.cjs",
-    "lint": "prettier --check . && eslint src .storybook --ext ts,tsx",
+    "lint": "npm run build-meta && prettier --check . && eslint src .storybook --ext ts,tsx",
     "storybook": "npm run build-meta && storybook dev -p 6006 --no-open",
     "build-storybook": "npm run build-meta && storybook build --disable-telemetry --output-dir docs",
     "preview-storybook": "npx http-server ./docs",
@@ -34,7 +34,7 @@
     "release": "standard-version",
     "test:e2e": "playwright test",
     "test:e2e-ui": "playwright test --ui",
-    "lint:fix": "prettier --write . && eslint src .storybook --ext ts,tsx --fix"
+    "lint:fix": "npm run build-meta && prettier --write . && eslint src .storybook --ext ts,tsx --fix"
   },
   "peerDependencies": {
     "react": ">=16",
