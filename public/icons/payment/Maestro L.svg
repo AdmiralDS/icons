@@ -1,11 +1,11 @@
 <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.000000" height="40.000000" fill="none">
 	<defs>
-		<clipPath id="clipPath_14">
+		<clipPath id="clipPath_13">
 			<rect width="28.000000" height="20.000000" x="6.000000" y="10.000000" fill="rgb(255,255,255)" />
 		</clipPath>
 	</defs>
 	<rect id="Maestro L" width="40.000000" height="40.000000" x="0.000000" y="0.000000" />
-	<g id="Maestro M" customFrame="url(#clipPath_14)">
+	<g id="Maestro M" customFrame="url(#clipPath_13)">
 		<rect id="Maestro M" width="28.000000" height="20.000000" x="6.000000" y="10.000000" fill="rgb(255,255,255)" fill-opacity="0" />
 		<rect id="BG" width="28.000000" height="20.000000" x="6.000000" y="10.000000" rx="2.000000" fill="rgb(245,245,246)" />
 		<path id="Shape" d="M17.6113 24.4012L22.3638 24.4012L22.3638 15.6853L17.6113 15.6853L17.6113 24.4012Z" fill="rgb(108,107,189)" fill-rule="evenodd" />
