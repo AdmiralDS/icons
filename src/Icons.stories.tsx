@@ -76,7 +76,7 @@ const IconCardContainer = styled.div`
   flex-direction: column;
   align-items: center;
   width: 200px;
-  height: 100px;
+  min-height: 100px;
   row-gap: 16px;
 `;
 
@@ -95,8 +95,28 @@ const IconName = styled.div`
   ${typography['Caption/Caption 1']}
   color: ${({ theme }) => theme.color['Neutral/Neutral 50']};
   display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
   gap: 8px;
+  text-align: center;
 `;
+
+const IconNameText = styled.span`
+  min-width: 0;
+  overflow-wrap: break-word;
+`;
+
+const IconNameLabel = ({ name }: { name: string }) => (
+  <IconNameText>
+    {name.split(/(?<=[a-z])(?=[A-Z])/).map((part, index) => (
+      <span key={`${part}${index}`}>
+        {part}
+        <wbr />
+      </span>
+    ))}
+  </IconNameText>
+);
 
 const CopyOutlineWrapper = styled.div`
   display: inline-flex;
@@ -234,7 +254,8 @@ import { ${capitalizeFirstLetter(value)}${name} } from '@admiral-ds/icons';
                 <Component width={24} height={24} data-testid={`${value}${name}`} />
               </IconWithHint>
               <IconName>
-                {name} <CopyButton renderContent={() => 'Копировать пример использования'} text={exampleText} />
+                <IconNameLabel name={name} />
+                <CopyButton renderContent={() => 'Копировать пример использования'} text={exampleText} />
               </IconName>
             </IconCardContainer>
           );
@@ -419,7 +440,8 @@ import { ${capitalizeFirstLetter(value)}${name} } from '@admiral-ds/icons';
                 <Component width={24} height={24} data-testid={`${value}${name}`} />
               </IconWithHint>
               <IconName>
-                {name} <CopyButton renderContent={() => 'Копировать пример использования'} text={exampleText} />
+                <IconNameLabel name={name} />
+                <CopyButton renderContent={() => 'Копировать пример использования'} text={exampleText} />
               </IconName>
             </IconCardContainer>
           );
