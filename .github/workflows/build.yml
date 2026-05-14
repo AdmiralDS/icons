@@ -33,6 +33,8 @@ jobs:
         run: npm ci
       - name: Check lint and format
         run: npm run lint
+      - name: Check package exports
+        run: npm run test:exports
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
       - name: Run Playwright tests

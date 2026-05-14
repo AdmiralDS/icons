@@ -16,7 +16,7 @@
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.es.js",
-      "require": "./dist/index.cjs.js"
+      "require": "./dist/index.cjs"
     },
     "./build/*": "./build/*",
     "./public/*": "./public/*",
@@ -32,6 +32,7 @@
     "preview-storybook": "npx http-server ./docs",
     "prepublishOnly": "npm run build",
     "release": "standard-version",
+    "test:exports": "npm run build && node scripts/test-package-exports.cjs",
     "test:e2e": "playwright test",
     "test:e2e-ui": "playwright test --ui",
     "lint:fix": "npm run build-meta && prettier --write . && eslint src .storybook --ext ts,tsx --fix"
@@ -80,7 +81,7 @@
     "vite-plugin-svgr": "^4.2.0",
     "vite-tsconfig-paths": "^4.3.2"
   },
-  "main": "./dist/index.cjs.js",
+  "main": "./dist/index.cjs",
   "types": "./dist/index.d.ts",
   "repository": "https://github.com/AdmiralDS/icons",
   "bugs": {
