@@ -4,21 +4,21 @@
 			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
 		</filter>
 	</defs>
-	<mask id="mask_5" width="28.000000" height="20.000000" x="0.000000" y="4.000000" maskUnits="userSpaceOnUse">
+	<mask id="mask_277" width="28.000000" height="20.000000" x="0.000000" y="4.000000" maskUnits="userSpaceOnUse">
 		<g filter="url(#pixso_custom_mask_type_alpha)">
 			<rect id="Mask Copy" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(254,221,0)" />
-			<rect id="Mask Copy" width="27.500000" height="19.500000" x="0.250000" y="4.250000" rx="2.750000" stroke="rgb(245,245,245)" stroke-opacity="0" stroke-width="0.5" />
+			<rect id="Mask Copy" width="27.500000" height="19.500000" x="0.250000" y="4.250000" rx="2.750000" stroke="rgb(245,245,245)" stroke-opacity="0" stroke-width="0.500000" />
 		</g>
 	</mask>
 	<rect id="Niue" width="28.000000" height="28.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" transform="matrix(-1,-6.12324e-17,6.12324e-17,-1,28,28)" />
 	<path id="Vector" d="M23.3333 0L0 0L0 23.3333L23.3333 23.3333L23.3333 0Z" opacity="0" fill="rgb(96,96,96)" fill-rule="evenodd" transform="matrix(-1,-6.12324e-17,6.12324e-17,-1,25.6667,25.6667)" />
 	<rect id="Mask Copy" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(255,255,255)" />
-	<rect id="Mask Copy" width="27.500000" height="19.500000" x="0.250000" y="4.250000" rx="2.750000" stroke="rgb(245,245,245)" stroke-width="0.5" />
-	<g id="Mask group" mask="url(#mask_5)">
+	<rect id="Mask Copy" width="27.500000" height="19.500000" x="0.250000" y="4.250000" rx="2.750000" stroke="rgb(245,245,245)" stroke-width="0.500000" />
+	<g id="Mask group" mask="url(#mask_277)">
 		<rect id="Mask Copy" width="28.000000" height="20.000000" x="0.000000" y="4.000000" rx="3.000000" fill="rgb(254,221,0)" />
-		<rect id="Mask Copy" width="27.500000" height="19.500000" x="0.250000" y="4.250000" rx="2.750000" stroke="rgb(245,245,245)" stroke-opacity="0" stroke-width="0.5" />
+		<rect id="Mask Copy" width="27.500000" height="19.500000" x="0.250000" y="4.250000" rx="2.750000" stroke="rgb(245,245,245)" stroke-opacity="0" stroke-width="0.500000" />
 		<rect id="Mask Copy" width="12.662109" height="10.000000" x="0.000000" y="4.000000" fill="rgb(1,33,105)" />
-		<rect id="Mask Copy" width="12.162109" height="9.500000" x="0.250000" y="4.250000" stroke="rgb(245,245,245)" stroke-opacity="0" stroke-width="0.5" />
+		<rect id="Mask Copy" width="12.162109" height="9.500000" x="0.250000" y="4.250000" stroke="rgb(245,245,245)" stroke-opacity="0" stroke-width="0.500000" />
 		<g id="Group 1321316401">
 			<path id="Rectangle 240649359" d="M4.88942 0L4.88942 1.13512L0.994651 5.30269L0.000215953 5.30269L4.88942 0Z" fill="rgb(200,16,46)" fill-rule="nonzero" transform="matrix(-4.37114e-08,-1,-1,4.37114e-08,12.6646,8.88922)" />
 			<path id="Rectangle 240649362" d="M4.88942 0L4.88942 1.13512L0.994651 5.30269L0.000215953 5.30269L4.88942 0Z" fill="rgb(200,16,46)" fill-rule="nonzero" transform="matrix(4.37114e-08,1,1,-4.37114e-08,0,9.11188)" />
