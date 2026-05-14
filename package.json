@@ -23,19 +23,23 @@
     "./*.json": "./*.json"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "npm run build-meta && vite build",
-    "build-meta": "node scripts/formatSvg.cjs && node scripts/createMetadata && node scripts/generate-svg-icon-exports.cjs",
-    "lint": "npm run build-meta && prettier --check . && eslint src .storybook --ext ts,tsx",
+    "check:fix": "npm run prettier:fix && npm run lint:fix",
+    "check:full": "npm run prettier && npm run lint && npm run test:exports && npm run test:e2e",
     "storybook": "npm run build-meta && storybook dev -p 6006 --no-open",
-    "build-storybook": "npm run build-meta && storybook build --disable-telemetry --output-dir docs",
-    "preview-storybook": "npx http-server ./docs",
-    "prepublishOnly": "npm run build",
     "release": "standard-version",
     "test:exports": "npm run build && node scripts/test-package-exports.cjs",
     "test:e2e": "playwright test",
     "test:e2e-ui": "playwright test --ui",
-    "lint:fix": "npm run build-meta && prettier --write . && eslint src .storybook --ext ts,tsx --fix"
+    "storybook:build": "npm run build-meta && storybook build --disable-telemetry --output-dir docs",
+    "storybook:preview": "npx http-server ./docs",
+    "dev": "vite",
+    "build": "npm run build-meta && vite build",
+    "build-meta": "node scripts/formatSvg.cjs && node scripts/createMetadata && node scripts/generate-svg-icon-exports.cjs",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "lint": "npm run build-meta && eslint src .storybook --ext ts,tsx",
+    "lint:fix": "npm run build-meta && eslint src .storybook --ext ts,tsx --fix",
+    "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
     "react": ">=16",
