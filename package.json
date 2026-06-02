@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "@admiral-ds/react-ui": "^7.15.0",
-    "@playwright/test": "^1.56.1",
+    "@playwright/test": "^1.60.0",
     "@rollup/plugin-typescript": "^11.1.6",
     "@storybook/addon-essentials": "^7.6.19",
     "@storybook/addon-interactions": "^7.6.19",
