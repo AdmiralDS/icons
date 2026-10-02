@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.7.0](https://github.com/AdmiralDS/icons/compare/v4.6.0...v4.7.0) (2026-10-02)
+
+
+### Features
+
+* **icons:** add new icons ([704a43e](https://github.com/AdmiralDS/icons/commit/704a43e66bb1c433ea8e4be21eaf11da3c4174c0))
+
 ## [4.6.0](https://github.com/AdmiralDS/icons/compare/v4.5.0...v4.6.0) (2026-05-14)
 
 
